@@ -284,40 +284,22 @@ where
             }
         };
 
-        let value_transfer = match *interp.instruction_pointer {
-            0xf1 | 0xf2 => interp.stack.peek(2).unwrap(),
-            _ => EVMU256::ZERO,
-        };
-
-        // todo: fix for delegatecall
+        let value_transfer = convert_u256_to_h256(interp.stack.peek(2).unwrap());
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
 
         if value_transfer > EVMU256::ZERO {
             let sender_address = interp.contract.address;
             
-            // Track ETH leaving target contracts as earned
+            // AGGRESSIVE: Track ANY value leaving our targets as potential profit
+            // but avoid double counting by checking if we've already tracked this transfer
             if self.target_addresses.contains(&sender_address) {
+                // Value leaving a target contract = potential profit
                 host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
-                debug!(
-                    "Target {} sending {} wei to {:?} (earned: {:?}, owed: {:?})",
-                    sender_address,
-                    value_transfer,
-                    call_target,
-                    host.evmstate.flashloan_data.earned,
-                    host.evmstate.flashloan_data.owed
-                );
             }
-            // Also track ETH received by fuzzer addresses
-            else if s.has_caller(&call_target) {
+            // Track value received by fuzzer-controlled addresses
+            else if s.has_caller(&call_target) && !self.target_addresses.contains(&call_target) {
+                // Only count if it's not going to another target (avoid double count)
                 host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
-                debug!(
-                    "Fuzzer receiving {} wei from {:?} to {:?} (earned: {:?}, owed: {:?})",
-                    value_transfer,
-                    sender_address,
-                    call_target,
-                    host.evmstate.flashloan_data.earned,
-                    host.evmstate.flashloan_data.owed
-                );
             }
         }
 
