@@ -403,6 +403,7 @@ enum OracleType {
     TypedBug,
     SelfDestruct,
     Invariant,
+    BalanceDrain,
 }
 
 impl OracleType {
@@ -418,6 +419,7 @@ impl OracleType {
             OracleType::TypedBug => "typed_bug",
             OracleType::SelfDestruct => "selfdestruct",
             OracleType::Invariant => "invariant",
+            OracleType::BalanceDrain => "balance_drain",
         }
     }
 
@@ -433,6 +435,7 @@ impl OracleType {
             "typed_bug" => OracleType::TypedBug,
             "selfdestruct" => OracleType::SelfDestruct,
             "invariant" => OracleType::Invariant,
+            "balance_drain" => OracleType::BalanceDrain,
             _ => panic!("Invalid detector type: {}", s),
         }
     }
@@ -604,6 +607,11 @@ pub fn evm_main(mut args: EvmArgs) {
     if oracle_types.contains(&OracleType::ERC20) {
         oracles.push(flashloan_oracle.clone());
         producers.push(erc20_producer);
+    }
+    
+    if oracle_types.contains(&OracleType::BalanceDrain) {
+        use crate::evm::oracles::balance_drain::BalanceDrainOracle;
+        oracles.push(Rc::new(RefCell::new(BalanceDrainOracle::new())));
     }
 
     let is_onchain = onchain.is_some();

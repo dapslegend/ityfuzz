@@ -191,7 +191,16 @@ pub fn evm_fuzzer(
                 None
             };
 
-            fuzz_host.add_flashloan_middleware(Flashloan::new(true, chain_cfg, config.flashloan_oracle));
+            let mut flashloan = Flashloan::new(true, chain_cfg, config.flashloan_oracle);
+            
+            // Add target contracts to flashloan middleware
+            debug!("Adding {} contracts to flashloan middleware", config.contract_loader.contracts.len());
+            for contract_info in &config.contract_loader.contracts {
+                debug!("Adding target: {:?} ({})", contract_info.deployed_address, contract_info.name);
+                flashloan.add_target(contract_info.deployed_address);
+            }
+            
+            fuzz_host.add_flashloan_middleware(flashloan);
         }
     }
     let sha3_taint = Rc::new(RefCell::new(Sha3TaintAnalysis::new()));
@@ -229,6 +238,17 @@ pub fn evm_fuzzer(
     );
 
     let mut artifacts = corpus_initializer.initialize(&mut config.contract_loader.clone());
+    
+    // Update flashloan middleware with actual target addresses after initialization
+    if let Some(flashloan_ref) = &evm_executor.host.flashloan_middleware {
+        let mut flashloan = flashloan_ref.borrow_mut();
+        for (addr, _) in &artifacts.address_to_abi_object {
+            debug!("Adding initialized target to flashloan: {:?}", addr);
+            flashloan.add_target(*addr);
+        }
+    }
+    
+    // Note: Balance drain oracle will track all deployed contracts automatically
 
     let mut instance_map = ABIAddressToInstanceMap::new();
     artifacts.address_to_abi_object.iter().for_each(|(addr, abi)| {

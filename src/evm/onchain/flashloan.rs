@@ -60,6 +60,7 @@ pub struct Flashloan {
     pub unbound_tracker: HashMap<usize, HashSet<EVMAddress>>, // pc -> [address called]
     pub flashloan_oracle: Rc<RefCell<IERC20OracleFlashloan>>,
     pub token_context_cache: HashMap<EVMAddress, TokenContext>,
+    pub target_addresses: HashSet<EVMAddress>, // Track target contracts
 }
 
 impl Debug for Flashloan {
@@ -130,11 +131,17 @@ impl Flashloan {
             unbound_tracker: Default::default(),
             token_context_cache: Default::default(),
             flashloan_oracle,
+            target_addresses: Default::default(),
         }
     }
 
     fn get_token_context(&mut self, addr: EVMAddress) -> Option<TokenContext> {
         self.chain_cfg.as_mut().map(|config| fetch_uniswap_path(config, addr))
+    }
+
+    pub fn add_target(&mut self, addr: EVMAddress) {
+        self.target_addresses.insert(addr);
+        debug!("Added target address to flashloan middleware: {:?}", addr);
     }
 
     pub fn on_contract_insertion(
@@ -286,9 +293,32 @@ where
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
 
         if value_transfer > EVMU256::ZERO {
-            // Always track ANY ETH transfer as earned
-            // This catches all fund movements including reentrancy withdrawals
-            host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+            let sender_address = interp.contract.address;
+            
+            // Track ETH leaving target contracts as earned
+            if self.target_addresses.contains(&sender_address) {
+                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+                debug!(
+                    "Target {} sending {} wei to {:?} (earned: {:?}, owed: {:?})",
+                    sender_address,
+                    value_transfer,
+                    call_target,
+                    host.evmstate.flashloan_data.earned,
+                    host.evmstate.flashloan_data.owed
+                );
+            }
+            // Also track ETH received by fuzzer addresses
+            else if s.has_caller(&call_target) {
+                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+                debug!(
+                    "Fuzzer receiving {} wei from {:?} to {:?} (earned: {:?}, owed: {:?})",
+                    value_transfer,
+                    sender_address,
+                    call_target,
+                    host.evmstate.flashloan_data.earned,
+                    host.evmstate.flashloan_data.owed
+                );
+            }
         }
 
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
