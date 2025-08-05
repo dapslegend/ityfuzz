@@ -65,6 +65,9 @@ class ForgeMEVExecutor:
         
         # Extract block number
         block_match = re.search(r'block.*?(\d{8,})', content, re.IGNORECASE)
+        if not block_match:
+            # Try to find in the command line or test name
+            block_match = re.search(r'(\d{8,})', content)
         block_number = int(block_match.group(1)) if block_match else 0
         
         # Determine chain
@@ -167,15 +170,28 @@ class ForgeMEVExecutor:
             cmd.extend(["--fork-block-number", str(block_number)])
         
         print(f"Starting Anvil fork of {chain} at block {block_number or 'latest'}...")
-        self.anvil_process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        time.sleep(3)
+        self.anvil_process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         
-        # Verify
-        try:
-            result = self.cast_rpc("eth_blockNumber")
-            print(f"✅ Anvil started at block {int(result, 16)}")
-        except:
-            raise Exception("Failed to start Anvil")
+        # Wait for Anvil to start
+        max_retries = 10
+        for i in range(max_retries):
+            time.sleep(2)
+            try:
+                result = self.cast_rpc("eth_blockNumber")
+                print(f"✅ Anvil started at block {int(result, 16)}")
+                return
+            except Exception as e:
+                if i < max_retries - 1:
+                    print(f"  Waiting for Anvil to start... ({i+1}/{max_retries})")
+                else:
+                    # Get Anvil output for debugging
+                    try:
+                        stdout, stderr = self.anvil_process.communicate(timeout=0.1)
+                        print(f"Anvil stdout: {stdout.decode()[:500]}")
+                        print(f"Anvil stderr: {stderr.decode()[:500]}")
+                    except:
+                        print("Could not get Anvil output")
+                    raise Exception(f"Failed to start Anvil: {e}")
     
     def stop_anvil(self):
         """Stop Anvil"""
