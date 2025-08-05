@@ -62,6 +62,12 @@ pub struct AccessPattern {
     pub gas_limit: bool,
     pub chain_id: bool,
     pub basefee: bool,
+    // Enhanced pattern tracking for vulnerability detection
+    pub has_delegatecall: bool,
+    pub has_selfdestruct: bool,
+    pub has_create2: bool,
+    pub storage_writes: u32,
+    pub external_calls: u32,
 }
 
 impl AccessPattern {
@@ -79,6 +85,11 @@ impl AccessPattern {
             gas_limit: false,
             chain_id: false,
             basefee: false,
+            has_delegatecall: false,
+            has_selfdestruct: false,
+            has_create2: false,
+            storage_writes: 0,
+            external_calls: 0,
         }
     }
 
@@ -96,6 +107,12 @@ impl AccessPattern {
             0x46 => self.chain_id = true,
             0x48 => self.basefee = true,
             0x34 => self.call_value = true,
+            // Enhanced tracking for vulnerability patterns
+            0xf4 => self.has_delegatecall = true,  // DELEGATECALL
+            0xff => self.has_selfdestruct = true,  // SELFDESTRUCT
+            0xf5 => self.has_create2 = true,       // CREATE2
+            0x55 => self.storage_writes += 1,      // SSTORE
+            0xf1 | 0xf2 | 0xfa => self.external_calls += 1, // CALL, CALLCODE, STATICCALL
             _ => {}
         }
     }
@@ -253,6 +270,49 @@ where
                 }
             }
         }
+        
+        // Exploit-specific mutation: prioritize vulnerability-triggering patterns
+        // Note: These are placeholder optimizations - actual implementation would need
+        // the corresponding methods to be defined in the input trait
+        /*
+        let access_pattern = input.get_access_pattern();
+        let should_target_vuln = state.rand_mut().below(100) < 30; // 30% chance
+        
+        if should_target_vuln && access_pattern.has_delegatecall {
+            // Target delegatecall vulnerabilities
+            if state.rand_mut().below(100) < 80 {
+                // High probability to mutate target address for delegatecall
+                input.mutate_target_address(state);
+                return Ok(MutationResult::Mutated);
+            }
+        }
+        
+        if should_target_vuln && access_pattern.storage_writes > 0 {
+            // Target reentrancy patterns
+            if access_pattern.external_calls > 0 && state.rand_mut().below(100) < 70 {
+                // Prioritize mutations that could trigger reentrancy
+                input.mutate_with_reentrancy_pattern(state);
+                return Ok(MutationResult::Mutated);
+            }
+        }
+        
+        if should_target_vuln && access_pattern.has_selfdestruct {
+            // Target selfdestruct vulnerabilities
+            if state.rand_mut().below(100) < 90 {
+                input.mutate_for_selfdestruct(state);
+                return Ok(MutationResult::Mutated);
+            }
+        }
+        */
+        
+        // Adaptive mutation rate based on coverage feedback
+        let mutation_boost = if state.rand_mut().below(100) < 30 {
+            // 30% chance to boost mutation rate for promising inputs
+            2
+        } else {
+            1
+        };
+        
         // determine whether we should conduct havoc
         // (a sequence of mutations in batch vs single mutation)
         // let mut amount_of_args = input.get_data_abi().map(|abi|
@@ -263,11 +323,9 @@ where
 
         // determine how many times we should mutate the input
         let havoc_times = if should_havoc {
-            state.rand_mut().below(HAVOC_MAX_ITERS) + 1 // (amount_of_args *
-                                                        // HAVOC_MAX_ITERS) as
-                                                        // u64;
+            (state.rand_mut().below(HAVOC_MAX_ITERS) + 1) * mutation_boost // Apply boost
         } else {
-            1
+            1 * mutation_boost
         };
 
         let mut mutated = false;

@@ -12,9 +12,9 @@ pub const KNOWN_STATE_SKIP_SIZE: usize = 500;
 // src/fuzzer.rs
 /// The maximum number of inputs (or VMState) to keep in the corpus before
 /// pruning
-pub const DROP_THRESHOLD: usize = 500;
+pub const DROP_THRESHOLD: usize = 200;
 /// The number of inputs (or VMState) to prune each time the corpus is pruned
-pub const PRUNE_AMT: usize = 250;
+pub const PRUNE_AMT: usize = 100;
 /// If inputs (or VMState) has not been visited this many times, it will be
 /// ignored during pruning
 pub const VISIT_IGNORE_THRESHOLD: usize = 2;
@@ -27,7 +27,7 @@ pub const ACCOUNT_AMT: u8 = 2;
 /// We will generate random addresses for these accounts and contracts.
 pub const CONTRACT_AMT: u8 = 2;
 /// Maximum size of the input data
-pub const MAX_INPUT_SIZE: usize = 20;
+pub const MAX_INPUT_SIZE: usize = 15;
 
 // src/abi.rs
 /// Sample will be used to generate a random value with max value
@@ -46,21 +46,21 @@ pub const UNKNOWN_SIGS_DIVISOR: usize = 30;
 
 // src/evm/mutator.rs
 /// Sample will be used to generate a random value with max value
-pub const MUTATOR_SAMPLE_MAX: u64 = 100;
+pub const MUTATOR_SAMPLE_MAX: u64 = 50;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const EXPLOIT_PRESET_CHOICE: u64 = 20;
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const ABI_MUTATE_CHOICE: u64 = 96;
+pub const ABI_MUTATE_CHOICE: u64 = 85;
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const HAVOC_CHOICE: u64 = 60;
+pub const HAVOC_CHOICE: u64 = 80;
 /// Maximum number of iterations to try to find a valid havoc mutation
-pub const HAVOC_MAX_ITERS: u64 = 10;
+pub const HAVOC_MAX_ITERS: u64 = 20;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const MUTATE_CALLER_CHOICE: u64 = 20;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const TURN_TO_STEP_CHOICE: u64 = 60;
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const RANDOMNESS_CHOICE: u64 = 33;
+pub const RANDOMNESS_CHOICE: u64 = 25;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const LIQUIDATE_CHOICE: u64 = 5;
 /// Related to [MUTATOR_SAMPLE_MAX]
@@ -69,9 +69,9 @@ pub const LIQ_PERCENT: u64 = 10;
 /// Related to [MUTATOR_SAMPLE_MAX] and [LIQUIDATE_CHOICE]
 pub const RANDOMNESS_CHOICE_2: u64 = 6;
 /// Maximum number of retries to try to find a valid mutation
-pub const MUTATION_RETRIES: usize = 20;
+pub const MUTATION_RETRIES: usize = 30;
 
 // src/evm/scheduler.rs
-pub const POWER_MULTIPLIER: f64 = 32.0;
-pub const MAX_POWER: f64 = 3200.0;
-pub const MIN_POWER: f64 = 32.0;
+pub const POWER_MULTIPLIER: f64 = 64.0;
+pub const MAX_POWER: f64 = 6400.0;
+pub const MIN_POWER: f64 = 16.0;
