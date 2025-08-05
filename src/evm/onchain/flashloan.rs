@@ -258,8 +258,8 @@ where
         // }
 
         match *interp.instruction_pointer {
-            // detect whether it mutates token balance
-            0xf1 | 0xfa => {}
+            // detect whether it mutates token balance or transfers ETH
+            0xf1 | 0xf2 | 0xfa => {}
             0x55 => {
                 if self.pair_address.contains(&interp.contract.address) {
                     let key = interp.stack.peek(0).unwrap();
@@ -285,7 +285,9 @@ where
         // todo: fix for delegatecall
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
 
-        if value_transfer > EVMU256::ZERO && s.has_caller(&call_target) {
+        if value_transfer > EVMU256::ZERO {
+            // Always track ANY ETH transfer as earned
+            // This catches all fund movements including reentrancy withdrawals
             host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
         }
 
