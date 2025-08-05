@@ -4,15 +4,16 @@ ItyFuzz Transaction Simulator using Anvil Fork
 
 This simulator:
 1. Forks the blockchain at the vulnerability block
-2. Simulates the exact transaction sequence
-3. Verifies profitability before execution
+2. Finds the maximum extractable amount through optimization
+3. Simulates the exact transaction sequence
+4. Verifies profitability before execution
 """
 
 import subprocess
 import json
 import time
 import re
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from web3 import Web3
 from eth_account import Account
 import requests
@@ -51,7 +52,7 @@ class AnvilSimulator:
             "--port", "8545",
             "--chain-id", str(self._get_chain_id()),
             "--accounts", "10",
-            "--balance", "10000",
+            "--balance", "100000",  # Give test accounts lots of ETH
             "--block-time", "0",
             "--no-mining"
         ]
@@ -88,16 +89,143 @@ class AnvilSimulator:
         }
         return chain_ids.get(self.chain, 1)
     
-    def simulate_exploit(self, transactions: List[Dict]) -> Dict:
+    def find_maximum_exploit(self, transactions: List[Dict], test_account: str) -> Dict:
+        """Find the maximum amount that can be exploited"""
+        print("\n=== Finding Maximum Extractable Value ===")
+        
+        # First, run the original exploit to get baseline
+        baseline_result = self.simulate_exploit(transactions, test_account)
+        baseline_profit = baseline_result.get('net_profit_eth', 0)
+        
+        print(f"Baseline profit: {baseline_profit} ETH")
+        
+        # Now optimize each transaction
+        optimized_txs = transactions.copy()
+        max_profit = baseline_profit
+        best_txs = transactions.copy()
+        
+        # Try to optimize swap amounts
+        for i, tx in enumerate(transactions):
+            if 'swap' in tx.get('description', '').lower():
+                print(f"\nOptimizing transaction {i+1}: {tx.get('description', '')}")
+                
+                # Try different amounts
+                original_value = tx['value']
+                
+                # Test exponentially increasing amounts
+                test_multipliers = [0.1, 0.5, 1, 2, 5, 10, 50, 100, 1000]
+                
+                for multiplier in test_multipliers:
+                    test_value = int(original_value * multiplier)
+                    
+                    # Create test transaction set
+                    test_txs = optimized_txs.copy()
+                    test_txs[i] = tx.copy()
+                    test_txs[i]['value'] = test_value
+                    
+                    # Reset blockchain state
+                    snapshot_id = self.w3.provider.make_request("evm_snapshot", [])['result']
+                    
+                    # Test this configuration
+                    try:
+                        result = self.simulate_exploit(test_txs, test_account)
+                        profit = result.get('net_profit_eth', 0)
+                        
+                        print(f"  Multiplier {multiplier}x: {profit} ETH profit")
+                        
+                        if profit > max_profit:
+                            max_profit = profit
+                            best_txs = test_txs.copy()
+                            optimized_txs = test_txs.copy()
+                            print(f"  ✅ New maximum found!")
+                    except Exception as e:
+                        print(f"  ❌ Failed with {multiplier}x: {str(e)}")
+                    
+                    # Revert to snapshot
+                    self.w3.provider.make_request("evm_revert", [snapshot_id])
+        
+        # Binary search for even more precise optimization
+        print("\n=== Fine-tuning with binary search ===")
+        for i, tx in enumerate(best_txs):
+            if 'swap' in tx.get('description', '').lower() and tx['value'] > 0:
+                optimal_value = self._binary_search_optimal_amount(
+                    best_txs, i, test_account, max_profit
+                )
+                if optimal_value:
+                    best_txs[i]['value'] = optimal_value
+        
+        # Final simulation with optimized parameters
+        print("\n=== Final Optimized Simulation ===")
+        final_result = self.simulate_exploit(best_txs, test_account)
+        
+        return {
+            'baseline_profit': baseline_profit,
+            'optimized_profit': final_result.get('net_profit_eth', 0),
+            'improvement': final_result.get('net_profit_eth', 0) - baseline_profit,
+            'optimized_transactions': best_txs,
+            'final_result': final_result
+        }
+    
+    def _binary_search_optimal_amount(self, txs: List[Dict], tx_index: int, 
+                                    test_account: str, current_best: float) -> Optional[int]:
+        """Binary search for optimal transaction amount"""
+        tx = txs[tx_index]
+        original_value = tx['value']
+        
+        # Search range: 0.1x to 1000x original
+        min_value = int(original_value * 0.1)
+        max_value = int(original_value * 1000)
+        
+        best_value = original_value
+        best_profit = current_best
+        
+        print(f"Binary search for transaction {tx_index + 1}...")
+        
+        while max_value - min_value > Web3.to_wei(1, 'ether'):
+            mid_value = (min_value + max_value) // 2
+            
+            # Create test set
+            test_txs = txs.copy()
+            test_txs[tx_index] = tx.copy()
+            test_txs[tx_index]['value'] = mid_value
+            
+            # Take snapshot
+            snapshot_id = self.w3.provider.make_request("evm_snapshot", [])['result']
+            
+            try:
+                result = self.simulate_exploit(test_txs, test_account)
+                profit = result.get('net_profit_eth', 0)
+                
+                if profit > best_profit:
+                    best_profit = profit
+                    best_value = mid_value
+                    min_value = mid_value  # Try higher
+                else:
+                    max_value = mid_value  # Try lower
+            except:
+                max_value = mid_value  # Failed, try lower
+            
+            # Revert
+            self.w3.provider.make_request("evm_revert", [snapshot_id])
+        
+        if best_value != original_value:
+            print(f"  Optimized from {Web3.from_wei(original_value, 'ether')} to {Web3.from_wei(best_value, 'ether')} ETH")
+            return best_value
+        
+        return None
+    
+    def simulate_exploit(self, transactions: List[Dict], test_account: str = None) -> Dict:
         """Simulate exploit transactions"""
         if not self.w3:
             raise Exception("Fork not started. Call start_fork() first")
         
         # Get test account with balance
-        test_account = self.w3.eth.accounts[0]
+        if not test_account:
+            test_account = self.w3.eth.accounts[0]
+        
         initial_balance = self.w3.eth.get_balance(test_account)
         
-        print(f"Simulating with account: {test_account}")
+        print(f"\nSimulating with account: {test_account}")
         print(f"Initial balance: {Web3.from_wei(initial_balance, 'ether')} ETH")
         
         results = []
@@ -108,6 +236,8 @@ class AnvilSimulator:
             print(f"  To: {tx['to']}")
             print(f"  Value: {Web3.from_wei(tx.get('value', 0), 'ether')} ETH")
             print(f"  Data: {tx.get('data', '0x')[:10]}...")
+            if 'description' in tx:
+                print(f"  Description: {tx['description']}")
             
             # Build transaction
             transaction = {
@@ -201,6 +331,67 @@ class ItyFuzzTransactionBuilder:
             "polygon": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"  # WMATIC
         }
     
+    def parse_ityfuzz_trace_for_maximum(self, trace_text: str, content: str) -> List[Dict]:
+        """Parse ItyFuzz trace and find maximum profitable transaction sequence"""
+        
+        # First parse the reported vulnerability
+        transactions = self.parse_ityfuzz_trace(trace_text)
+        
+        # Look for other transaction sequences in the full content
+        # that might yield higher profits
+        all_sequences = self._extract_all_transaction_sequences(content)
+        
+        # Find the most valuable sequence
+        max_value = self._calculate_sequence_value(transactions)
+        best_sequence = transactions
+        
+        for seq in all_sequences:
+            value = self._calculate_sequence_value(seq)
+            if value > max_value:
+                max_value = value
+                best_sequence = seq
+        
+        print(f"Found {len(all_sequences)} transaction sequences")
+        print(f"Maximum sequence value: {max_value} ETH")
+        
+        return best_sequence
+    
+    def _extract_all_transaction_sequences(self, content: str) -> List[List[Dict]]:
+        """Extract all transaction sequences from the log"""
+        sequences = []
+        
+        # Find all Router.swapExactETHForTokens patterns
+        swap_pattern = r'Router\.swapExactETHForTokens\{value: ([\d.]+) ether\}'
+        
+        # Find transaction blocks
+        tx_blocks = re.split(r'\[Sender\]', content)
+        
+        for block in tx_blocks[1:]:  # Skip first empty block
+            transactions = []
+            
+            for match in re.finditer(swap_pattern, block):
+                value_ether = float(match.group(1))
+                if value_ether > 0 or len(transactions) > 0:  # Include 0 ETH if part of sequence
+                    tx = self._build_swap_transaction(
+                        value_ether=value_ether,
+                        amount_out_min="0",
+                        path=[],
+                        to="0x" + "0" * 40
+                    )
+                    transactions.append(tx)
+            
+            if transactions:
+                sequences.append(transactions)
+        
+        return sequences
+    
+    def _calculate_sequence_value(self, sequence: List[Dict]) -> float:
+        """Calculate total value in a transaction sequence"""
+        total = 0
+        for tx in sequence:
+            total += Web3.from_wei(tx.get('value', 0), 'ether')
+        return total
+    
     def parse_ityfuzz_trace(self, trace_text: str) -> List[Dict]:
         """Parse ItyFuzz trace and build transactions"""
         transactions = []
@@ -258,7 +449,8 @@ class ItyFuzzTransactionBuilder:
                 transactions.append({
                     'to': to_address,
                     'value': value,
-                    'data': data
+                    'data': data,
+                    'description': f'Call to {to_address[:10]}...'
                 })
         
         return transactions
@@ -293,15 +485,15 @@ class ItyFuzzTransactionBuilder:
         # swapExactETHForTokens(uint amountOutMin, address[] path, address to, uint deadline)
         # Function selector: 0x7ff36ab5
         
-        # For now, use a simplified encoding
-        # In production, use eth_abi.encode_abi
+        # For maximum extraction, always use amount_out_min = 0
+        # This prevents reverts due to slippage
         function_selector = "0x7ff36ab5"
         
         # Set deadline to far future
         deadline = int(time.time()) + 3600  # 1 hour from now
         
         # Simplified data - in production use proper ABI encoding
-        data = function_selector
+        data = function_selector + "0" * 56  # Placeholder encoding
         
         return {
             'to': router,
@@ -313,7 +505,7 @@ class ItyFuzzTransactionBuilder:
 def simulate_vulnerability(log_file: str, chain: str = "bsc", block_number: int = None):
     """Main function to simulate vulnerability from log file"""
     
-    print(f"=== ItyFuzz Vulnerability Simulator ===")
+    print(f"=== ItyFuzz Maximum Value Extractor ===")
     print(f"Log file: {log_file}")
     print(f"Chain: {chain}")
     print(f"Block: {block_number}")
@@ -329,7 +521,7 @@ def simulate_vulnerability(log_file: str, chain: str = "bsc", block_number: int 
         return
     
     expected_profit = float(vuln_match.group(1))
-    print(f"\nExpected profit: {expected_profit} ETH")
+    print(f"\nReported profit: {expected_profit} ETH")
     
     # Extract trace
     trace_start = content.find("================ Trace ================")
@@ -340,11 +532,11 @@ def simulate_vulnerability(log_file: str, chain: str = "bsc", block_number: int 
     trace_end = content.find("\n\n", trace_start + 50)
     trace_section = content[trace_start:trace_end]
     
-    # Parse transactions
+    # Parse transactions with maximum extraction in mind
     builder = ItyFuzzTransactionBuilder(chain)
-    transactions = builder.parse_ityfuzz_trace(trace_section)
+    transactions = builder.parse_ityfuzz_trace_for_maximum(trace_section, content)
     
-    print(f"\nParsed {len(transactions)} transactions")
+    print(f"\nParsed {len(transactions)} transactions for maximum extraction")
     
     # Start simulation
     simulator = AnvilSimulator(chain, block_number)
@@ -352,16 +544,25 @@ def simulate_vulnerability(log_file: str, chain: str = "bsc", block_number: int 
     try:
         simulator.start_fork()
         
-        # Run simulation
-        result = simulator.simulate_exploit(transactions)
+        # Find maximum extractable value
+        optimization_result = simulator.find_maximum_exploit(transactions)
         
-        print(f"\n=== Final Result ===")
-        print(f"Simulation: {'SUCCESS' if result['success'] else 'FAILED'}")
-        print(f"Expected profit: {expected_profit} ETH")
-        print(f"Actual profit: {result['net_profit_eth']} ETH")
+        print(f"\n=== Maximum Extraction Results ===")
+        print(f"Reported profit: {expected_profit} ETH")
+        print(f"Baseline profit: {optimization_result['baseline_profit']} ETH")
+        print(f"Optimized profit: {optimization_result['optimized_profit']} ETH")
+        print(f"Improvement: {optimization_result['improvement']} ETH")
         
-        if result['net_profit_eth'] > 0:
-            print(f"\n✅ Vulnerability confirmed! Net profit: {result['net_profit_eth']} ETH")
+        if optimization_result['optimized_profit'] > expected_profit:
+            print(f"\n🚀 Found {optimization_result['optimized_profit'] - expected_profit} ETH more than reported!")
+        
+        if optimization_result['optimized_profit'] > 0:
+            print(f"\n✅ Maximum extractable value: {optimization_result['optimized_profit']} ETH")
+            
+            # Show optimized transaction details
+            print("\nOptimized transaction sequence:")
+            for i, tx in enumerate(optimization_result['optimized_transactions']):
+                print(f"{i+1}. {tx.get('description', 'Transaction')} - {Web3.from_wei(tx['value'], 'ether')} ETH")
         else:
             print(f"\n❌ Not profitable after gas costs")
             
@@ -371,7 +572,7 @@ def simulate_vulnerability(log_file: str, chain: str = "bsc", block_number: int 
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description='Simulate ItyFuzz vulnerabilities')
+    parser = argparse.ArgumentParser(description='Simulate ItyFuzz vulnerabilities with maximum extraction')
     parser.add_argument('log_file', help='Path to ItyFuzz log file')
     parser.add_argument('--chain', default='bsc', help='Blockchain (eth, bsc, polygon)')
     parser.add_argument('--block', type=int, help='Fork block number')
