@@ -97,4 +97,21 @@ Final stats:
    Timeout: 300s
 
 ⏳ Monitoring...
-[ 10s] Rate: 13.14k  [ 20s] Rate: 17.34k  [ 30s] Rate: 18.95k  [ 40s] Rate: 19.75k  [ 50s] Rate: 20.17k  [ 60s] Rate: 20.40k  [ 70s] Rate: 20.62k  [ 80s] Rate: 20.73k  [ 90s] Rate: 20.82k  [100s] Rate: 20.88k  [110s] Rate: 20.94k  [120s] Rate: 20.98k  [130s] Rate: 21.03k  [140s] Rate: 21.07k  [150s] Rate: 21.10k  [160s] Rate: 21.13k  [170s] Rate: 21.13k  [180s] Rate: 21.15k  [190s] Rate: 21.16k  [200s] Rate: 21.17k  [210s] Rate: 21.18k  [220s] Rate: 21.19k  [230s] Rate: 21.19k  [240s] Rate: 21.18k  [250s] Rate: 21.18k  [260s] Rate: 21.18k  [270s] Rate: 21.17k  [280s] Rate: 21.18k  
+[ 10s] Rate: 13.14k  [ 20s] Rate: 17.34k  [ 30s] Rate: 18.95k  [ 40s] Rate: 19.75k  [ 50s] Rate: 20.17k  [ 60s] Rate: 20.40k  [ 70s] Rate: 20.62k  [ 80s] Rate: 20.73k  [ 90s] Rate: 20.82k  [100s] Rate: 20.88k  [110s] Rate: 20.94k  [120s] Rate: 20.98k  [130s] Rate: 21.03k  [140s] Rate: 21.07k  [150s] Rate: 21.10k  [160s] Rate: 21.13k  [170s] Rate: 21.13k  [180s] Rate: 21.15k  [190s] Rate: 21.16k  [200s] Rate: 21.17k  [210s] Rate: 21.18k  [220s] Rate: 21.19k  [230s] Rate: 21.19k  [240s] Rate: 21.18k  [250s] Rate: 21.18k  [260s] Rate: 21.18k  [270s] Rate: 21.17k  [280s] Rate: 21.18k  [290s] Rate: 21.19k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 28, objectives: 0, executions: 6241264, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 28, objectives: 0, executions: 6262767, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 28, objectives: 0, executions: 6284271, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 28, objectives: 0, executions: 6306031, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 28, objectives: 0, executions: 6327535, exec/sec: 21.19k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing HEALTH
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x32B166e082993Af6598a89397E82e123ca44e74E,0xF375709DbdE84D800642168c2e8bA751368e8D32
+   Block: 18170716
+   Expected: Access Control
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 19.02k  [ 20s] Rate: 23.39k  [ 30s] Rate: 25.73k  [ 40s] Rate: 26.31k  [ 50s] Rate: 26.44k  [ 60s] Rate: 26.78k  [ 70s] Rate: 27.08k  [ 80s] Rate: 27.28k  [ 90s] Rate: 27.36k  [100s] Rate: 27.45k  [110s] Rate: 27.53k  [120s] Rate: 27.55k  [130s] Rate: 27.59k  [140s] Rate: 27.64k  [150s] Rate: 27.65k  [160s] Rate: 27.67k  [170s] Rate: 27.67k  [180s] Rate: 27.69k  [190s] Rate: 27.71k  [200s] Rate: 27.71k  [210s] Rate: 27.71k  

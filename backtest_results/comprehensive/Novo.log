@@ -645,3 +645,16 @@ Contract loaded: 0xb76a913e21ba068468215b0e35c892542b2fa9c2
 [32m INFO[0m [Stats #0] run time: 0h-4m-43s, clients: 1, corpus: 28, objectives: 0, executions: 6004978, exec/sec: 21.18k
 [32m INFO[0m [Stats #0] run time: 0h-4m-45s, clients: 1, corpus: 28, objectives: 0, executions: 6026482, exec/sec: 21.18k
 [32m INFO[0m [Stats #0] run time: 0h-4m-46s, clients: 1, corpus: 28, objectives: 0, executions: 6048242, exec/sec: 21.18k
+[32m INFO[0m [Stats #0] run time: 0h-4m-47s, clients: 1, corpus: 28, objectives: 0, executions: 6070258, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-48s, clients: 1, corpus: 28, objectives: 0, executions: 6092018, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-49s, clients: 1, corpus: 28, objectives: 0, executions: 6112754, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-50s, clients: 1, corpus: 28, objectives: 0, executions: 6133234, exec/sec: 21.18k
+[32m INFO[0m [Stats #0] run time: 0h-4m-51s, clients: 1, corpus: 28, objectives: 0, executions: 6154738, exec/sec: 21.18k
+[32m INFO[0m [Stats #0] run time: 0h-4m-52s, clients: 1, corpus: 28, objectives: 0, executions: 6176241, exec/sec: 21.18k
+[32m INFO[0m [Stats #0] run time: 0h-4m-53s, clients: 1, corpus: 28, objectives: 0, executions: 6197745, exec/sec: 21.18k
+[32m INFO[0m [Stats #0] run time: 0h-4m-54s, clients: 1, corpus: 28, objectives: 0, executions: 6219505, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 28, objectives: 0, executions: 6241264, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 28, objectives: 0, executions: 6262767, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 28, objectives: 0, executions: 6284271, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 28, objectives: 0, executions: 6306031, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 28, objectives: 0, executions: 6327535, exec/sec: 21.19k
