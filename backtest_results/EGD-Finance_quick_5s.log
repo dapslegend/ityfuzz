@@ -1,0 +1,23 @@
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xa361433e409adac1f87cdf133127585f8a93c67d&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from a361433e409adac1f87cdf133127585f8a93c67d
+Contract loaded: 0xa361433e409adac1f87cdf133127585f8a93c67d
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x34bd6dba456bc31c2b3393e499fa10bed32a9370&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 34bd6dba456bc31c2b3393e499fa10bed32a9370
+Contract loaded: 0x34bd6dba456bc31c2b3393e499fa10bed32a9370
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 16b9a82891338f9ba80e2d6970fdda79d1eb0dae
+Contract loaded: 0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xc30808d9373093fbfcec9e026457c6a9dab706a7&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from c30808d9373093fbfcec9e026457c6a9dab706a7
+Contract loaded: 0xc30808d9373093fbfcec9e026457c6a9dab706a7
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x93c175439726797dcee24d08e4ac9164e88e7aee&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 93c175439726797dcee24d08e4ac9164e88e7aee
+Contract loaded: 0x93c175439726797dcee24d08e4ac9164e88e7aee
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x55d398326f99059ff775485246999027b3197955&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 55d398326f99059ff775485246999027b3197955
+Contract loaded: 0x55d398326f99059ff775485246999027b3197955
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x202b233735bf743fa31abb8f71e641970161bf98&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 202b233735bf743fa31abb8f71e641970161bf98
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
