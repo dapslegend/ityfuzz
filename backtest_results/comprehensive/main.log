@@ -114,4 +114,87 @@ Final stats:
    Timeout: 300s
 
 ⏳ Monitoring...
-[ 10s] Rate: 19.02k  [ 20s] Rate: 23.39k  [ 30s] Rate: 25.73k  [ 40s] Rate: 26.31k  [ 50s] Rate: 26.44k  [ 60s] Rate: 26.78k  [ 70s] Rate: 27.08k  [ 80s] Rate: 27.28k  [ 90s] Rate: 27.36k  [100s] Rate: 27.45k  [110s] Rate: 27.53k  [120s] Rate: 27.55k  [130s] Rate: 27.59k  [140s] Rate: 27.64k  [150s] Rate: 27.65k  [160s] Rate: 27.67k  [170s] Rate: 27.67k  [180s] Rate: 27.69k  [190s] Rate: 27.71k  [200s] Rate: 27.71k  [210s] Rate: 27.71k  
+[ 10s] Rate: 19.02k  [ 20s] Rate: 23.39k  [ 30s] Rate: 25.73k  [ 40s] Rate: 26.31k  [ 50s] Rate: 26.44k  [ 60s] Rate: 26.78k  [ 70s] Rate: 27.08k  [ 80s] Rate: 27.28k  [ 90s] Rate: 27.36k  [100s] Rate: 27.45k  [110s] Rate: 27.53k  [120s] Rate: 27.55k  [130s] Rate: 27.59k  [140s] Rate: 27.64k  [150s] Rate: 27.65k  [160s] Rate: 27.67k  [170s] Rate: 27.67k  [180s] Rate: 27.69k  [190s] Rate: 27.71k  [200s] Rate: 27.71k  [210s] Rate: 27.71k  [220s] Rate: 27.73k  [230s] Rate: 27.74k  [240s] Rate: 27.77k  [250s] Rate: 27.78k  [260s] Rate: 27.78k  [270s] Rate: 27.79k  [280s] Rate: 27.81k  [290s] Rate: 27.80k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 56, objectives: 0, executions: 8165888, exec/sec: 27.80k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 56, objectives: 0, executions: 8194560, exec/sec: 27.81k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 56, objectives: 0, executions: 8222464, exec/sec: 27.81k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 56, objectives: 0, executions: 8249600, exec/sec: 27.80k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 56, objectives: 0, executions: 8278528, exec/sec: 27.81k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing Seaman
+   Target: 0x6bc9b4976ba6f8C9574326375204eE469993D038,0x7B86b0836f3454e50C6F6a190cd692bB17da1928
+   Block: 22142525
+   Expected: Access Control
+   Timeout: 600s
+
+⏳ Monitoring...
+[ 10s] Rate: 351.6   [ 20s] Rate: 13.61k  [ 30s] Rate: 24.24k  [ 40s] Rate: 28.45k  [ 50s] Rate: 30.65k  [ 60s] Rate: 32.02k  [ 70s] Rate: 32.90k  [ 80s] Rate: 33.49k  [ 90s] Rate: 34.01k  [100s] Rate: 34.50k  [110s] Rate: 34.78k  [120s] Rate: 34.99k  [130s] Rate: 35.18k  [140s] Rate: 35.34k  [150s] Rate: 35.49k  [160s] Rate: 35.70k  [170s] Rate: 35.83k  [180s] Rate: 35.92k  [190s] Rate: 36.00k  [200s] Rate: 36.10k  [210s] Rate: 36.22k  [220s] Rate: 36.28k  [230s] Rate: 36.33k  [240s] Rate: 36.37k  [250s] Rate: 36.42k  [260s] Rate: 36.45k  [270s] Rate: 36.52k  [280s] Rate: 36.55k  [290s] Rate: 36.61k  [300s] Rate: 36.66k  [310s] Rate: 36.68k  [320s] Rate: 36.70k  [330s] Rate: 36.72k  [340s] Rate: 36.75k  [350s] Rate: 36.78k  [360s] Rate: 36.82k  [370s] Rate: 36.84k  [380s] Rate: 36.87k  [390s] Rate: 36.89k  [400s] Rate: 36.93k  [410s] Rate: 36.95k  [420s] Rate: 36.95k  [430s] Rate: 36.98k  [440s] Rate: 37.02k  [450s] Rate: 37.05k  [460s] Rate: 37.07k  [470s] Rate: 37.11k  [480s] Rate: 37.14k  [490s] Rate: 37.15k  [500s] Rate: 37.17k  [510s] Rate: 37.21k  [520s] Rate: 37.21k  [530s] Rate: 37.24k  [540s] Rate: 37.27k  [550s] Rate: 37.28k  [560s] Rate: 37.31k  [570s] Rate: 37.32k  [580s] Rate: 37.32k  [590s] Rate: 37.33k  [600s] Rate: 37.34k  
+❌ No vulnerability found in 601s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-9m-54s, clients: 1, corpus: 207, objectives: 0, executions: 22028030, exec/sec: 37.33k
+[32m INFO[0m [Stats #0] run time: 0h-9m-55s, clients: 1, corpus: 207, objectives: 0, executions: 22070782, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-56s, clients: 1, corpus: 207, objectives: 0, executions: 22107902, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-57s, clients: 1, corpus: 207, objectives: 0, executions: 22143230, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-58s, clients: 1, corpus: 207, objectives: 0, executions: 22182654, exec/sec: 37.34k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing CFC
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x55d398326f99059fF775485246999027B3197955,0x4Ad2A83dF23e5F5e1C31C73bcbAD70a45f6C9479
+   Block: 27012846
+   Expected: Fund Loss
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 7.799k  [ 20s] Rate: 15.10k  [ 30s] Rate: 18.97k  [ 40s] Rate: 20.50k  [ 50s] Rate: 21.51k  [ 60s] Rate: 22.29k  [ 70s] Rate: 22.87k  [ 80s] Rate: 23.17k  [ 90s] Rate: 23.52k  [100s] Rate: 23.78k  [110s] Rate: 23.96k  [120s] Rate: 24.12k  [130s] Rate: 24.26k  [140s] Rate: 24.40k  [150s] Rate: 24.52k  [160s] Rate: 24.62k  [170s] Rate: 24.69k  [180s] Rate: 24.75k  [190s] Rate: 24.82k  [200s] Rate: 24.84k  [210s] Rate: 24.90k  [220s] Rate: 24.95k  [230s] Rate: 24.95k  [240s] Rate: 24.98k  [250s] Rate: 25.04k  [260s] Rate: 25.06k  [270s] Rate: 25.11k  [280s] Rate: 25.15k  [290s] Rate: 25.20k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 52, objectives: 0, executions: 7367680, exec/sec: 25.22k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 52, objectives: 0, executions: 7394816, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 52, objectives: 0, executions: 7421184, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 52, objectives: 0, executions: 7447040, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 52, objectives: 0, executions: 7473664, exec/sec: 25.23k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing ROI
+   Target: 0x4cbd19b3Db72E713cD32Ce1De5be01b3B4dCa0EA,0xF8c76eEa8cBb03A65F07ACD4027540B5059B8fC0
+   Block: 29135693
+   Expected: Incorrect Calculation
+   Timeout: 300s
+
+⏳ Monitoring...
+
+❌ No vulnerability found in 2s
+Final stats:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Final Summary
+
+❌ AES: Not found
+✅ BEGO: FOUND
+❌ CFC: Not found
+❌ HEALTH: Not found
+❌ LPC: Not found
+✅ main: FOUND
+❌ Novo: Not found
+❌ RES02: Not found
+❌ ROI: Not found
+❌ Seaman: Not found
+
+Total: 2/10 vulnerabilities detected
+
+Performance stats:
+  AES: 23.01k exec/sec
+  BEGO: 2.111k exec/sec
+  CFC: 25.23k exec/sec
+  HEALTH: 27.81k exec/sec
+  LPC: 26.65k exec/sec
+  main: 26.65k exec/sec
+  Novo: 21.19k exec/sec
+  RES02: 19.93k exec/sec
+  Seaman: 37.34k exec/sec
+
+✅ Comprehensive backtest complete!
+📝 Logs saved in: backtest_results/comprehensive/
