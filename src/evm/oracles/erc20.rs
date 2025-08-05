@@ -142,8 +142,8 @@ impl
 
         if exec_res.new_state.state.flashloan_data.earned > exec_res.new_state.state.flashloan_data.owed &&
             exec_res.new_state.state.flashloan_data.earned - exec_res.new_state.state.flashloan_data.owed >
-                EVMU512::from(100_000_000_000_000_000_000_u128)  // Lowered from 0.01 ETH to 0.0001 ETH
-        // > 0.0001ETH
+                EVMU512::from(1_000_000_000_000_000_u128)  // Lowered to 0.000001 ETH for max detection
+        // > 0.000001ETH - catch EVERYTHING
         {
             let net = exec_res.new_state.state.flashloan_data.earned - exec_res.new_state.state.flashloan_data.owed;
             // we scaled by 1e24, so divide by 1e24 to get ETH
