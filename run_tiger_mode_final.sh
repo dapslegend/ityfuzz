@@ -30,7 +30,7 @@ run_test() {
     echo -n "   Status: Running... "
     
     # Run with timeout
-    timeout $TIMEOUT ityfuzz evm \
+    timeout $TIMEOUT /workspace/target/release/ityfuzz evm \
         -t "$target" \
         -c bsc \
         --onchain-block-number "$block" \
