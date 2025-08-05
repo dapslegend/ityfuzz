@@ -12,9 +12,9 @@ pub const KNOWN_STATE_SKIP_SIZE: usize = 500;
 // src/fuzzer.rs
 /// The maximum number of inputs (or VMState) to keep in the corpus before
 /// pruning
-pub const DROP_THRESHOLD: usize = 300;  // Increased from 200 for better diversity
+pub const DROP_THRESHOLD: usize = 200;  // Reduced for faster processing in 60s window
 /// The number of inputs (or VMState) to prune each time the corpus is pruned
-pub const PRUNE_AMT: usize = 150;  // Increased from 100
+pub const PRUNE_AMT: usize = 100;  // Aggressive pruning
 /// If inputs (or VMState) has not been visited this many times, it will be
 /// ignored during pruning
 pub const VISIT_IGNORE_THRESHOLD: usize = 2;
@@ -27,7 +27,7 @@ pub const ACCOUNT_AMT: u8 = 2;
 /// We will generate random addresses for these accounts and contracts.
 pub const CONTRACT_AMT: u8 = 2;
 /// Maximum size of the input data
-pub const MAX_INPUT_SIZE: usize = 20;  // Back to original for better coverage
+pub const MAX_INPUT_SIZE: usize = 12;  // Smaller for faster execution
 
 // src/abi.rs
 /// Sample will be used to generate a random value with max value
@@ -46,21 +46,21 @@ pub const UNKNOWN_SIGS_DIVISOR: usize = 30;
 
 // src/evm/mutator.rs
 /// Sample will be used to generate a random value with max value
-pub const MUTATOR_SAMPLE_MAX: u64 = 75;  // Balanced between 50 and 100
+pub const MUTATOR_SAMPLE_MAX: u64 = 40;  // Very aggressive mutations
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const EXPLOIT_PRESET_CHOICE: u64 = 20;
+pub const EXPLOIT_PRESET_CHOICE: u64 = 15;  // 15% chance to use exploit presets
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const ABI_MUTATE_CHOICE: u64 = 90;  // Slightly less aggressive than 85
+pub const ABI_MUTATE_CHOICE: u64 = 80;  // Focus on ABI mutations
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const HAVOC_CHOICE: u64 = 70;  // Balanced between 60 and 80
+pub const HAVOC_CHOICE: u64 = 85;  // Very aggressive havoc
 /// Maximum number of iterations to try to find a valid havoc mutation
-pub const HAVOC_MAX_ITERS: u64 = 15;  // Balanced between 10 and 20
+pub const HAVOC_MAX_ITERS: u64 = 25;  // More havoc attempts
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const MUTATE_CALLER_CHOICE: u64 = 20;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const TURN_TO_STEP_CHOICE: u64 = 60;
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const RANDOMNESS_CHOICE: u64 = 30;  // Slightly more randomness than 25
+pub const RANDOMNESS_CHOICE: u64 = 20;  // Less randomness, more targeted
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const LIQUIDATE_CHOICE: u64 = 5;
 /// Related to [MUTATOR_SAMPLE_MAX]
@@ -69,15 +69,21 @@ pub const LIQ_PERCENT: u64 = 10;
 /// Related to [MUTATOR_SAMPLE_MAX] and [LIQUIDATE_CHOICE]
 pub const RANDOMNESS_CHOICE_2: u64 = 6;
 /// Maximum number of retries to try to find a valid mutation
-pub const MUTATION_RETRIES: u32 = 25;  // Balanced between 20 and 30
+pub const MUTATION_RETRIES: u64 = 40;  // More retries
 
 // src/evm/scheduler.rs
-pub const POWER_MULTIPLIER: f64 = 64.0;
-pub const MAX_POWER: f64 = 6400.0;
-pub const MIN_POWER: f64 = 16.0;
+/// Power
+pub const POWER_MULTIPLIER: f64 = 128.0;  // Much higher power for promising inputs
+/// Maximum power
+pub const MAX_POWER: f64 = 12800.0;  // Allow very high scheduling priority
+/// Minimum power
+pub const MIN_POWER: f64 = 8.0;  // Lower minimum for more variety
 
 /// The more state change, the more likely a state is interesting
 pub const STATE_CHANGE_MULTIPLIER: f64 = 20000.0;  // Back to original
 
 /// The more calls, the more likely a state is interesting
 pub const STATE_CHANGE_POWER_MULTIPLIER: f64 = 8.0;  // Back to original
+
+/// Related to [MUTATOR_SAMPLE_MAX], can we call borrow or not
+pub const CAN_BORROW: u64 = 35;  // Increased from 27

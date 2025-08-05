@@ -290,25 +290,67 @@ where
         if should_target_vuln && access_pattern.storage_writes > 0 {
             // Target reentrancy patterns
             if access_pattern.external_calls > 0 && state.rand_mut().below(100) < 70 {
-                // Prioritize mutations that could trigger reentrancy
-                input.mutate_with_reentrancy_pattern(state);
-                return Ok(MutationResult::Mutated);
-            }
-        }
-        
-        if should_target_vuln && access_pattern.has_selfdestruct {
-            // Target selfdestruct vulnerabilities
-            if state.rand_mut().below(100) < 90 {
-                input.mutate_for_selfdestruct(state);
+                // Mutate to create reentrancy conditions
+                input.mutate_call_sequence(state);
                 return Ok(MutationResult::Mutated);
             }
         }
         */
         
+        // Add exploit preset patterns
+        let use_exploit_preset = state.rand_mut().below(MUTATOR_SAMPLE_MAX) < EXPLOIT_PRESET_CHOICE;
+        if use_exploit_preset && input.get_data_abi().is_some() {
+            // Common exploit patterns - only mutate if we have ABI data
+            if let Some(abi) = input.get_data_abi_mut() {
+                let exploit_type = state.rand_mut().below(4);
+                match exploit_type {
+                    0 => {
+                        // Try max value for potential overflows
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: EVMU256::MAX.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    1 => {
+                        // Try zero address for access control bypass
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: vec![0; 32],
+                            is_address: true,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Address,
+                        }));
+                    },
+                    2 => {
+                        // Try small values for precision loss
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: EVMU256::from(1).to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    3 => {
+                        // Try boundary values
+                        let boundary_val = EVMU256::from(2).pow(EVMU256::from(128)) - EVMU256::from(1);
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: boundary_val.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    _ => {}
+                }
+                return Ok(MutationResult::Mutated);
+            }
+        }
+
         // Adaptive mutation rate based on coverage feedback
         let mutation_boost = if state.rand_mut().below(100) < 30 {
             // 30% chance to boost mutation rate for promising inputs
-            2
+            3
         } else {
             1
         };
