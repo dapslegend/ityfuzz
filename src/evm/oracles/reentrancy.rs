@@ -7,7 +7,7 @@ use bytes::Bytes;
 use itertools::Itertools;
 use revm_primitives::Bytecode;
 
-use super::REENTRANCY_BUG_IDX;
+use super::{REENTRANCY_BUG_IDX, u512_div_float};
 use crate::{
     evm::{
         input::{ConciseEVMInput, EVMInput},
@@ -86,6 +86,14 @@ impl
         // Fast-path: check if we've seen similar patterns before
         let mut results = Vec::with_capacity(reetrancy_metadata.found.len());
         
+        // Get flashloan data to check if reentrancy led to profit
+        let flashloan_data = unsafe {
+            &ctx.post_state
+                .as_any()
+                .downcast_ref_unchecked::<EVMState>()
+                .flashloan_data
+        };
+        
         for (addr, slot) in reetrancy_metadata.found.iter() {
             // Generate unique bug ID efficiently
             let mut hasher = DefaultHasher::new();
@@ -95,11 +103,25 @@ impl
 
             let name = self.address_to_name.get(addr).unwrap_or(&format!("{:?}", addr)).clone();
             
-            // Enhanced bug reporting with more context
+            // Check if this reentrancy led to profit
+            let profit_msg = if flashloan_data.earned > flashloan_data.owed {
+                let net = flashloan_data.earned - flashloan_data.owed;
+                // Only show profit if > 0.0001 ETH (scaled by 1e6)
+                if net > crate::evm::types::EVMU512::from(100_000_000_000_000_000_000_u128) {
+                    let net_eth = super::u512_div_float(net, crate::evm::types::EVMU512::from(1_000_000_000_000_000_000_000_000_u128), 6);
+                    format!(" PROFITABLE: Can earn {} ETH!", net_eth)
+                } else {
+                    String::new()
+                }
+            } else {
+                String::new()
+            };
+            
+            // Enhanced bug reporting with profit information
             EVMBugResult::new(
                 "Reentrancy".to_string(),
                 real_bug_idx,
-                format!("Reentrancy vulnerability detected on contract '{}' at storage slot {:?}. This could allow draining of funds.", name, slot),
+                format!("Reentrancy vulnerability detected on contract '{}' at storage slot {:?}. This could allow draining of funds.{}", name, slot, profit_msg),
                 ConciseEVMInput::from_input(ctx.input, ctx.fuzz_state.get_execution_result()),
                 None,
                 Some(name.clone()),
