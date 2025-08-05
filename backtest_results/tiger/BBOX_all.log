@@ -1,0 +1,5 @@
+[32m INFO[0m fetching abi from https://api.bscscan.com/api?module=contract&action=getabi&address=0x0fe261aee0d1c4dfddee4102e82dd425999065f4&format=json&apikey=TR24XDQF35QCNK9PZBV8XEH2XRSWTPWFWT
+[32m INFO[0m fetching code from 0fe261aee0d1c4dfddee4102e82dd425999065f4
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

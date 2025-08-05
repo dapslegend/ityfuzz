@@ -32,7 +32,7 @@ tiger_hunt() {
     echo -n "🐅 $name [$oracle]: "
     
     # Quick strike with timeout
-    timeout $TIMEOUT ./target/release/ityfuzz evm \
+    timeout $TIMEOUT ityfuzz evm \
         -t "$target" \
         -c bsc \
         --onchain-block-number "$block" \

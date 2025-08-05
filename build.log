@@ -1,0 +1,1268 @@
+   Compiling proc-macro2 v1.0.79
+   Compiling unicode-ident v1.0.12
+   Compiling version_check v0.9.4
+   Compiling libc v0.2.153
+   Compiling cfg-if v1.0.0
+   Compiling serde v1.0.197
+   Compiling autocfg v1.2.0
+   Compiling typenum v1.17.0
+   Compiling quote v1.0.35
+   Compiling syn v2.0.57
+   Compiling generic-array v0.14.7
+   Compiling once_cell v1.19.0
+   Compiling thiserror v1.0.58
+   Compiling zeroize v1.7.0
+   Compiling cc v1.0.90
+   Compiling getrandom v0.2.12
+   Compiling equivalent v1.0.1
+   Compiling hashbrown v0.14.3
+   Compiling syn v1.0.109
+   Compiling indexmap v2.2.6
+   Compiling rand_core v0.6.4
+   Compiling ahash v0.8.11
+   Compiling zerocopy v0.7.32
+   Compiling subtle v2.4.1
+   Compiling winnow v0.5.40
+   Compiling crypto-common v0.1.6
+   Compiling allocator-api2 v0.2.16
+   Compiling itoa v1.0.11
+   Compiling const-oid v0.9.6
+   Compiling crunchy v0.2.2
+   Compiling block-buffer v0.10.4
+   Compiling libm v0.2.8
+   Compiling digest v0.10.7
+   Compiling num-traits v0.2.18
+   Compiling ppv-lite86 v0.2.17
+   Compiling rand_chacha v0.3.1
+   Compiling serde_derive v1.0.197
+   Compiling thiserror-impl v1.0.58
+   Compiling arbitrary v1.3.2
+   Compiling rand v0.8.5
+   Compiling byteorder v1.5.0
+   Compiling spin v0.5.2
+   Compiling impl-trait-for-tuples v0.2.2
+   Compiling convert_case v0.4.0
+   Compiling rlp-derive v0.1.0
+   Compiling derive_more v0.99.17
+   Compiling log v0.4.21
+   Compiling bytes v1.6.0
+   Compiling toml_datetime v0.6.5
+   Compiling hex v0.4.3
+   Compiling toml_edit v0.20.7
+   Compiling bitflags v2.5.0
+   Compiling toml v0.5.11
+   Compiling cpufeatures v0.2.12
+   Compiling fnv v1.0.7
+   Compiling lazy_static v1.4.0
+   Compiling pin-project-lite v0.2.14
+   Compiling serde_json v1.0.115
+   Compiling ryu v1.0.17
+   Compiling proc-macro-crate v1.1.3
+   Compiling static_assertions v1.1.0
+   Compiling rustix v0.38.32
+   Compiling proc-macro-crate v2.0.0
+   Compiling regex-syntax v0.8.3
+   Compiling scale-info-derive v2.11.1
+   Compiling parity-scale-codec-derive v3.6.9
+   Compiling memchr v2.7.2
+   Compiling rustc-hex v2.1.0
+   Compiling linux-raw-sys v0.4.13
+   Compiling arrayvec v0.7.4
+   Compiling base64ct v1.6.0
+   Compiling pem-rfc7468 v0.7.0
+   Compiling byte-slice-cast v1.2.2
+   Compiling der v0.7.8
+   Compiling parity-scale-codec v3.6.9
+   Compiling rlp v0.5.2
+   Compiling fastrand v2.0.2
+   Compiling spki v0.7.3
+   Compiling sha2 v0.10.8
+   Compiling hmac v0.12.1
+   Compiling pkcs8 v0.10.2
+   Compiling impl-rlp v0.3.0
+   Compiling scale-info v2.11.1
+   Compiling impl-codec v0.6.0
+   Compiling fixed-hash v0.8.0
+   Compiling impl-serde v0.4.0
+   Compiling ff v0.13.0
+   Compiling base16ct v0.2.0
+   Compiling group v0.13.0
+   Compiling sec1 v0.7.3
+   Compiling uint v0.9.5
+   Compiling crypto-bigint v0.5.5
+   Compiling slab v0.4.9
+   Compiling primitive-types v0.12.2
+   Compiling tempfile v3.10.1
+   Compiling elliptic-curve v0.13.8
+   Compiling ring v0.17.8
+   Compiling rfc6979 v0.4.0
+   Compiling signature v2.2.0
+   Compiling futures-core v0.3.30
+   Compiling ecdsa v0.16.9
+   Compiling signal-hook-registry v1.4.1
+   Compiling tiny-keccak v2.0.2
+   Compiling k256 v0.13.3
+   Compiling tracing-core v0.1.32
+   Compiling futures-sink v0.3.30
+   Compiling semver v1.0.22
+   Compiling const-hex v1.11.3
+   Compiling futures-io v0.3.30
+   Compiling tokio-macros v2.4.0
+   Compiling tracing-attributes v0.1.27
+   Compiling socket2 v0.5.6
+   Compiling mio v1.0.1
+   Compiling httparse v1.8.0
+   Compiling ruint-macro v1.2.1
+   Compiling pin-utils v0.1.0
+   Compiling tracing v0.1.40
+   Compiling tokio v1.39.2
+   Compiling futures-channel v0.3.30
+   Compiling wait-timeout v0.2.0
+   Compiling quick-error v1.2.3
+   Compiling bit-vec v0.6.3
+   Compiling bit-set v0.5.3
+   Compiling rusty-fork v0.3.0
+   Compiling alloy-rlp-derive v0.3.4
+   Compiling rand_xorshift v0.3.0
+   Compiling pkg-config v0.3.30
+   Compiling futures-task v0.3.30
+   Compiling unarray v0.1.4
+   Compiling proptest v1.4.0
+   Compiling alloy-rlp v0.3.4
+   Compiling futures-macro v0.3.30
+   Compiling percent-encoding v2.3.1
+   Compiling futures-util v0.3.30
+   Compiling ruint v1.12.3
+   Compiling hex-literal v0.4.1
+   Compiling rustls v0.21.10
+   Compiling tinyvec_macros v0.1.1
+   Compiling untrusted v0.9.0
+   Compiling rustversion v1.0.14
+   Compiling spin v0.9.8
+   Compiling tinyvec v1.6.0
+   Compiling unicode-normalization v0.1.23
+   Compiling tokio-util v0.7.10
+   Compiling form_urlencoded v1.2.1
+   Compiling http v0.2.12
+   Compiling unicode-bidi v0.3.15
+   Compiling tower-service v0.3.2
+   Compiling heck v0.4.1
+   Compiling idna v0.5.0
+   Compiling proptest-derive v0.4.0
+   Compiling derive_arbitrary v1.3.2
+   Compiling url v2.5.0
+   Compiling sct v0.7.1
+   Compiling auto_impl v1.2.0
+   Compiling alloy-primitives v0.6.4
+   Compiling base64 v0.21.7
+   Compiling lock_api v0.4.11
+   Compiling try-lock v0.2.5
+   Compiling want v0.3.1
+   Compiling http-body v0.4.6
+   Compiling h2 v0.3.25
+   Compiling aho-corasick v1.1.3
+   Compiling vcpkg v0.2.15
+   Compiling httpdate v1.0.3
+   Compiling openssl-sys v0.9.102
+   Compiling openssl-probe v0.1.5
+   Compiling regex-automata v0.4.6
+   Compiling hyper v0.14.28
+   Compiling regex v1.10.4
+   Compiling toml_edit v0.21.1
+   Compiling keccak v0.1.5
+   Compiling parking_lot_core v0.9.9
+   Compiling proc-macro-crate v3.1.0
+   Compiling sha3 v0.10.8
+   Compiling rustls-webpki v0.101.7
+   Compiling num-integer v0.1.46
+   Compiling num_enum_derive v0.7.2
+   Compiling rustls-pemfile v1.0.4
+   Compiling openssl v0.10.64
+   Compiling foreign-types-shared v0.1.1
+   Compiling crossbeam-utils v0.8.19
+   Compiling foreign-types v0.3.2
+   Compiling rustls-native-certs v0.6.3
+   Compiling openssl-macros v0.1.1
+   Compiling native-tls v0.2.11
+   Compiling radium v0.7.0
+   Compiling camino v1.1.6
+   Compiling tokio-rustls v0.24.1
+   Compiling strum_macros v0.26.2
+   Compiling tap v1.0.1
+   Compiling wyz v0.5.1
+   Compiling num-bigint v0.4.4
+   Compiling webpki-roots v0.25.4
+   Compiling funty v2.0.0
+   Compiling winnow v0.6.5
+   Compiling bitvec v1.0.1
+   Compiling tokio-native-tls v0.3.1
+   Compiling rustc_version v0.4.0
+   Compiling either v1.10.0
+   Compiling num-conv v0.1.0
+   Compiling time-core v0.1.2
+   Compiling powerfmt v0.2.0
+   Compiling time-macros v0.2.17
+   Compiling deranged v0.3.11
+   Compiling hyper-tls v0.5.0
+   Compiling hyper-rustls v0.24.2
+   Compiling num_enum v0.7.2
+   Compiling serde_urlencoded v0.7.1
+   Compiling open-fastrlp-derive v0.1.1
+   Compiling pin-project-internal v1.1.5
+   Compiling ring v0.16.20
+   Compiling encoding_rs v0.8.33
+   Compiling mime v0.3.17
+   Compiling async-trait v0.1.79
+   Compiling ipnet v2.9.0
+   Compiling sync_wrapper v0.1.2
+   Compiling iana-time-zone v0.1.60
+   Compiling time v0.3.34
+   Compiling chrono v0.4.37
+   Compiling reqwest v0.11.27
+   Compiling pin-project v1.1.5
+   Compiling futures-executor v0.3.30
+   Compiling unicode-xid v0.2.4
+   Compiling siphasher v0.3.11
+   Compiling wasm-bindgen-shared v0.2.92
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling futures v0.3.30
+   Compiling strum v0.26.2
+   Compiling ethbloom v0.13.0
+   Compiling ripemd v0.1.3
+   Compiling bitflags v1.3.2
+   Compiling untrusted v0.7.1
+   Compiling scopeguard v1.2.0
+   Compiling ethereum-types v0.14.1
+   Compiling bumpalo v3.15.4
+   Compiling eyre v0.6.12
+   Compiling wasm-bindgen-backend v0.2.92
+   Compiling libusb1-sys v0.6.4
+   Compiling cargo-platform v0.1.8
+   Compiling enumn v0.1.13
+   Compiling dirs-sys-next v0.1.2
+   Compiling inout v0.1.3
+   Compiling smallvec v1.13.2
+   Compiling base64 v0.13.1
+   Compiling paste v1.0.14
+   Compiling dunce v1.0.4
+   Compiling prettyplease v0.2.17
+   Compiling cipher v0.4.4
+   Compiling dirs-next v2.0.0
+   Compiling cargo_metadata v0.18.1
+   Compiling wasm-bindgen-macro-support v0.2.92
+   Compiling ethabi v18.0.0
+   Compiling open-fastrlp v0.1.4
+   Compiling concurrent-queue v2.4.0
+   Compiling alloy-json-rpc v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling digest v0.9.0
+   Compiling memoffset v0.7.1
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling wasm-bindgen v0.2.92
+   Compiling rustls v0.20.9
+   Compiling parking v2.2.0
+   Compiling option-ext v0.2.0
+   Compiling dirs-sys v0.4.1
+   Compiling ethers-core v2.0.14
+   Compiling wasm-bindgen-macro v0.2.92
+   Compiling term v0.7.0
+   Compiling parking_lot v0.12.1
+   Compiling phf_shared v0.10.0
+   Compiling itertools v0.12.1
+   Compiling alloy-sol-type-parser v0.6.4
+   Compiling webpki v0.22.4
+   Compiling uuid v0.8.2
+   Compiling serde_spanned v0.6.5
+   Compiling block-buffer v0.9.0
+   Compiling proc-macro-error v1.0.4
+   Compiling precomputed-hash v0.1.1
+   Compiling opaque-debug v0.3.1
+   Compiling new_debug_unreachable v1.0.6
+   Compiling rusb v0.9.3
+   Compiling tower-layer v0.3.2
+   Compiling svm-rs v0.4.1
+   Compiling fixedbitset v0.4.2
+   Compiling tower v0.4.13
+   Compiling petgraph v0.6.4
+   Compiling string_cache v0.8.7
+   Compiling itertools v0.11.0
+   Compiling toml_edit v0.22.9
+   Compiling alloy-json-abi v0.6.4
+   Compiling ascii-canvas v3.0.0
+   Compiling dirs v5.0.1
+   Compiling phf_shared v0.11.2
+   Compiling fs4 v0.7.0
+   Compiling num-iter v0.1.44
+   Compiling ena v0.14.2
+   Compiling bs58 v0.5.1
+   Compiling sha1 v0.10.6
+   Compiling crypto-mac v0.11.1
+   Compiling num-rational v0.4.1
+   Compiling utf-8 v0.7.6
+   Compiling base64 v0.22.0
+   Compiling signal-hook v0.3.17
+   Compiling bech32 v0.9.1
+   Compiling shlex v1.3.0
+   Compiling crc32fast v1.4.0
+   Compiling unicode-width v0.1.11
+   Compiling data-encoding v2.5.0
+   Compiling lalrpop-util v0.20.2
+   Compiling lalrpop v0.20.2
+   Compiling tungstenite v0.20.1
+   Compiling rusoto_credential v0.48.0
+   Compiling coins-core v0.8.7
+   Compiling alloy-transport v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling hmac v0.11.0
+   Compiling phf_generator v0.11.2
+   Compiling nix v0.26.4
+   Compiling js-sys v0.3.69
+   Compiling tokio-rustls v0.23.4
+   Compiling toml v0.8.12
+   Compiling sha2 v0.9.9
+   Compiling md-5 v0.9.1
+   Compiling salsa20 v0.10.2
+   Compiling rusoto_core v0.48.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling hidapi-rusb v1.3.3
+   Compiling uuid v1.8.0
+   Compiling pbkdf2 v0.11.0
+   Compiling proc-macro2-diagnostics v0.10.1
+   Compiling indenter v0.3.3
+   Compiling rayon-core v1.12.1
+   Compiling protobuf v3.3.0
+   Compiling glob v0.3.1
+   Compiling home v0.5.9
+   Compiling dyn-clone v1.0.17
+   Compiling build_const v0.2.2
+   Compiling clang-sys v1.7.0
+   Compiling svm-rs-builds v0.4.1
+   Compiling revm-primitives v3.1.0
+   Compiling scrypt v0.10.0
+   Compiling crossbeam-deque v0.8.5
+   Compiling rusoto_signature v0.48.0
+   Compiling hyper-rustls v0.23.2
+   Compiling solang-parser v0.3.3
+   Compiling gloo-timers v0.2.6
+   Compiling phf_macros v0.11.2
+   Compiling coins-bip32 v0.8.7
+   Compiling tokio-tungstenite v0.20.1
+   Compiling syn-solidity v0.6.4
+   Compiling event-listener v4.0.3
+   Compiling event-listener v5.2.0
+   Compiling aes v0.8.4
+   Compiling ctr v0.9.2
+   Compiling pem v1.1.1
+   Compiling Inflector v0.11.4
+   Compiling simple_asn1 v0.6.2
+   Compiling tokio-stream v0.1.15
+   Compiling pbkdf2 v0.12.2
+   Compiling protobuf-support v3.3.0
+   Compiling mio v0.8.11
+   Compiling fxhash v0.2.1
+   Compiling num-complex v0.4.5
+   Compiling yansi v1.0.1
+   Compiling xml-rs v0.8.19
+   Compiling send_wrapper v0.4.0
+   Compiling semver-parser v0.7.0
+   Compiling futures-timer v3.0.3
+   Compiling semver v0.9.0
+   Compiling num v0.4.1
+   Compiling alloy-sol-macro v0.6.4
+   Compiling hashers v1.0.1
+   Compiling signal-hook-mio v0.2.3
+   Compiling coins-bip39 v0.8.7
+   Compiling jsonwebtoken v8.3.0
+   Compiling ethers-contract-abigen v2.0.14
+   Compiling eth-keystore v0.5.0
+   Compiling event-listener-strategy v0.5.0
+   Compiling event-listener-strategy v0.4.0
+   Compiling phf v0.11.2
+   Compiling alloy-rpc-types v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling tracing-futures v0.2.5
+   Compiling enr v0.10.0
+   Compiling strum_macros v0.25.3
+   Compiling unicase v2.7.0
+   Compiling uncased v0.9.10
+   Compiling instant v0.1.12
+   Compiling anstyle v1.0.6
+   Compiling colorchoice v1.0.0
+   Compiling minimal-lexical v0.2.1
+   Compiling strsim v0.10.0
+   Compiling ident_case v1.0.1
+   Compiling atomic-waker v1.1.2
+   Compiling utf8parse v0.2.1
+   Compiling anstyle-parse v0.2.3
+   Compiling piper v0.2.1
+   Compiling darling_core v0.20.8
+   Compiling strum v0.25.0
+   Compiling nom v7.1.3
+   Compiling ethers-providers v2.0.14
+   Compiling coins-ledger v0.10.1
+   Compiling rayon v1.10.0
+   Compiling async-lock v3.3.0
+   Compiling async-channel v2.2.0
+   Compiling ethers-contract-derive v2.0.14
+   Compiling alloy-sol-types v0.6.4
+   Compiling trezor-client v0.1.3
+   Compiling crossterm v0.27.0
+   Compiling rusoto_kms v0.48.0
+   Compiling pear_codegen v0.2.9
+   Compiling rustc_version v0.2.3
+   Compiling debugid v0.8.0
+   Compiling interprocess v1.2.1
+   Compiling alloy-eips v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling futures-lite v2.3.0
+   Compiling substrate-bn v0.6.0
+   Compiling md-5 v0.10.6
+   Compiling libloading v0.8.3
+   Compiling backtrace v0.3.71
+   Compiling memmap2 v0.9.4
+   Compiling figment v0.10.15
+   Compiling bimap v0.6.3
+   Compiling bindgen v0.66.1
+   Compiling anstyle-query v1.0.2
+   Compiling inlinable_string v0.1.15
+   Compiling yansi v0.5.1
+   Compiling gimli v0.28.1
+   Compiling path-slash v0.2.1
+   Compiling adler v1.0.2
+   Compiling async-task v4.7.0
+   Compiling blocking v1.5.1
+   Compiling miniz_oxide v0.7.2
+   Compiling foundry-compilers v0.3.13
+   Compiling addr2line v0.21.0
+   Compiling pear v0.2.9
+   Compiling anstream v0.6.13
+   Compiling alloy-pubsub v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling alloy-network v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling sentry-types v0.32.2
+   Compiling procinfo v0.4.2
+   Compiling ethers-signers v2.0.14
+   Compiling ethers-contract v2.0.14
+   Compiling darling_macro v0.20.8
+   Compiling cexpr v0.6.0
+   Compiling alloy-rpc-trace-types v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling alloy-transport-http v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling ethers-etherscan v2.0.14
+   Compiling spinning v0.1.0
+   Compiling alloy-chains v0.1.15
+   Compiling futures-locks v0.7.1
+   Compiling terminal_size v0.3.0
+   Compiling object v0.32.2
+   Compiling bstr v1.9.1
+   Compiling async-stream-impl v0.3.5
+   Compiling generic-array v0.13.3
+   Compiling generic-array v0.12.4
+   Compiling peeking_take_while v0.1.2
+   Compiling clap_lex v0.7.0
+   Compiling intmap v0.7.1
+   Compiling heck v0.5.0
+   Compiling rustc-hash v1.1.0
+   Compiling to_method v1.1.0
+   Compiling strsim v0.11.0
+   Compiling rustc-demangle v0.1.23
+   Compiling stable_deref_trait v1.2.0
+   Compiling nix v0.15.0
+   Compiling lazycell v1.3.0
+   Compiling heapless v0.5.6
+   Compiling as-slice v0.1.5
+   Compiling clap_builder v4.5.2
+   Compiling clap_derive v4.5.4
+   Compiling async-stream v0.3.5
+   Compiling globset v0.4.14
+   Compiling ethers-middleware v2.0.14
+   Compiling foundry-block-explorers v0.2.3
+   Compiling alloy-rpc-client v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling darling v0.20.8
+   Compiling sentry-core v0.32.2
+   Compiling aurora-engine-modexp v1.0.0
+   Compiling serde_regex v1.1.0
+   Compiling lru v0.12.3
+   Compiling hash32 v0.1.1
+   Compiling secp256k1-sys v0.8.1
+   Compiling cmake v0.1.50
+   Compiling num-bigint v0.2.6
+   Compiling number_prefix v0.4.0
+   Compiling void v1.0.2
+   Compiling build_id v0.2.1
+   Compiling nom v2.2.1
+   Compiling cfg-if v0.1.10
+   Compiling ucd-trie v0.1.6
+   Compiling match_cfg v0.1.0
+   Compiling hostname v0.3.1
+   Compiling pest v2.7.8
+   Compiling foundry-config v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling z3-sys v0.8.1
+   Compiling alloy-providers v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling revm-precompile v5.1.0
+   Compiling derive_builder_core v0.20.0
+   Compiling clap v4.5.4
+   Compiling alloy-transport-ipc v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling alloy-signer v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling alloy-transport-ws v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling comfy-table v7.1.0
+   Compiling alloy-dyn-abi v0.6.4
+   Compiling revm-interpreter v3.4.0
+   Compiling hashbrown v0.13.2
+   Compiling findshlibs v0.10.2
+   Compiling num-complex v0.2.4
+   Compiling num-rational v0.2.4
+   Compiling foundry-common v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling revm-primitives v1.1.2 (https://github.com/fuzzland/revm?rev=1dead51#1dead511)
+   Compiling revm v7.2.0
+   Compiling derive_builder_macro v0.20.0
+   Compiling palaver v0.2.8
+   Compiling pest_meta v2.7.8
+   Compiling foundry-macros v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling dashmap v5.5.3
+   Compiling sentry-contexts v0.32.2
+   Compiling libafl_bolts v0.11.2
+   Compiling twox-hash v1.6.3
+   Compiling erased-serde v0.3.31
+   Compiling serial_test_derive v2.0.0
+   Compiling rtoolbox v0.0.2
+   Compiling gcc v0.3.55
+   Compiling cobs v0.2.3
+   Compiling embedded-io v0.4.0
+   Compiling relative v0.2.2
+   Compiling postcard v1.0.8
+   Compiling rust-crypto v0.2.36
+   Compiling rpassword v7.3.1
+   Compiling serial_test v2.0.0
+   Compiling foundry-cheatcodes-spec v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling pest_generator v2.7.8
+   Compiling secp256k1 v0.27.0
+   Compiling derive_builder v0.20.0
+   Compiling revm-inspectors v0.1.0 (https://github.com/paradigmxyz/evm-inspectors?rev=ba0b6ab#ba0b6ab6)
+   Compiling sentry-backtrace v0.32.2
+   Compiling alloy-genesis v0.1.0 (https://github.com/alloy-rs/alloy?rev=9ac2c90#9ac2c90d)
+   Compiling console v0.15.8
+   Compiling libafl v0.11.2
+   Compiling primeorder v0.13.6
+   Compiling c2rust-bitfields-derive v0.18.0
+   Compiling ctor v0.2.7
+   Compiling libafl_derive v0.11.2
+   Compiling typed-builder-macro v0.16.2
+   Compiling uname v0.1.1
+   Compiling rand v0.4.6
+   Compiling uds v0.4.2
+   Compiling xxhash-rust v0.8.10
+   Compiling shell-words v1.1.0
+   Compiling cassowary v0.3.0
+   Compiling indoc v2.0.5
+   Compiling unicode-segmentation v1.11.0
+   Compiling overload v0.1.1
+   Compiling anyhow v1.0.81
+   Compiling tuple_list v0.1.3
+   Compiling ratatui v0.23.0
+   Compiling nu-ansi-term v0.46.0
+   Compiling dialoguer v0.11.0
+   Compiling rand v0.3.23
+   Compiling typed-builder v0.16.2
+   Compiling c2rust-bitfields v0.18.0
+   Compiling p256 v0.13.2
+   Compiling foundry-evm-core v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling sentry-panic v0.32.2
+   Compiling num v0.2.1
+   Compiling sentry-debug-images v0.32.2
+   Compiling foundry-wallets v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling revm-precompile v2.0.3 (https://github.com/fuzzland/revm?rev=1dead51#1dead511)
+   Compiling pest_derive v2.7.8
+   Compiling revm-interpreter v1.1.2 (https://github.com/fuzzland/revm?rev=1dead51#1dead511)
+   Compiling ethers-addressbook v2.0.14
+   Compiling tracing-log v0.2.0
+   Compiling jsonpath_lib v0.3.0
+   Compiling sharded-slab v0.1.7
+   Compiling erased-serde v0.4.4
+   Compiling meminterval v0.4.1
+   Compiling bincode v1.3.3
+   Compiling typetag-impl v0.2.16
+   Compiling time v0.1.43
+   Compiling thread_local v1.1.8
+   Compiling metatype v0.2.1
+   Compiling half v1.8.3
+   Compiling ityfuzz v0.1.0 (/workspace)
+   Compiling inventory v0.3.15
+   Compiling rustc-serialize v0.3.25
+   Compiling typetag v0.2.16
+   Compiling serde_cbor v0.11.2
+   Compiling serde_traitobject v0.2.8
+   Compiling tracing-subscriber v0.3.18
+   Compiling foundry-cheatcodes v0.2.0 (https://github.com/foundry-rs/foundry.git?rev=617dfc28#617dfc28)
+   Compiling ethers v2.0.14
+   Compiling revm v3.3.0 (https://github.com/fuzzland/revm?rev=1dead51#1dead511)
+   Compiling handlebars v4.5.0
+   Compiling sentry v0.32.2
+   Compiling permutator v0.4.3
+   Compiling itertools v0.10.5
+   Compiling evmole v0.3.8
+   Compiling colored v2.1.0
+   Compiling nix v0.27.1
+   Compiling retry v2.0.0
+   Compiling num_cpus v1.16.0
+error: failed to run custom build command for `z3-sys v0.8.1`
+
+Caused by:
+  process didn't exit successfully: `/workspace/target/release/build/z3-sys-d2a55e9bec32f0cf/build-script-build` (exit status: 101)
+  --- stdout
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+  CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-unknown-linux-gnu = None
+  CMAKE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE = None
+  CMAKE = None
+  running: cd "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3" "-DZ3_BUILD_LIBZ3_SHARED=false" "-DZ3_BUILD_EXECUTABLE=false" "-DZ3_BUILD_TEST_EXECUTABLES=false" "-DCMAKE_INSTALL_PREFIX=/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+  -- The CXX compiler identification is Clang 20.1.2
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: /usr/bin/c++ - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Z3 version 4.12.1.0
+  -- Failed to find git directory.
+  -- CMake generator: Unix Makefiles
+  -- Build type: Release
+  -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.13.3", minimum required is "3")
+  -- PYTHON_EXECUTABLE: /usr/bin/python3
+  -- Detected target architecture: x86_64
+  -- Not using libgmp
+  -- Not using Z3_API_LOG_SYNC
+  -- Thread-safe build
+  -- Performing Test HAS_SSE2
+  -- Performing Test HAS_SSE2 - Success
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+  -- Found Threads: TRUE
+  -- Performing Test HAS__Wall
+  -- Performing Test HAS__Wall - Success
+  -- C++ compiler supports -Wall
+  -- Treating only serious compiler warnings as errors
+  -- Performing Test HAS__Werror_odr
+  -- Performing Test HAS__Werror_odr - Success
+  -- C++ compiler supports -Werror=odr
+  -- Performing Test HAS__Werror_delete_non_virtual_dtor
+  -- Performing Test HAS__Werror_delete_non_virtual_dtor - Success
+  -- C++ compiler supports -Werror=delete-non-virtual-dtor
+  -- Performing Test HAS__Werror_overloaded_virtual
+  -- Performing Test HAS__Werror_overloaded_virtual - Success
+  -- C++ compiler supports -Werror=overloaded-virtual
+  -- Performing Test HAS__Werror_non_virtual_dtor
+  -- Performing Test HAS__Werror_non_virtual_dtor - Success
+  -- C++ compiler supports -Werror=non-virtual-dtor
+  -- Performing Test HAS__Werror_null_dereference
+  -- Performing Test HAS__Werror_null_dereference - Success
+  -- C++ compiler supports -Werror=null-dereference
+  -- Performing Test HAS__Werror_no_unreachable_code_return
+  -- Performing Test HAS__Werror_no_unreachable_code_return - Failed
+  -- C++ compiler does not support -Werror=no-unreachable-code-return
+  -- LTO disabled
+  -- Performing Test BUILTIN_ATOMIC
+  -- Performing Test BUILTIN_ATOMIC - Success
+  -- CMAKE_CXX_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu -Werror=odr  -Werror=delete-non-virtual-dtor  -Werror=overloaded-virtual  -Werror=non-virtual-dtor  -Werror=null-dereference "
+  -- CMAKE_EXE_LINKER_FLAGS: ""
+  -- CMAKE_STATIC_LINKER_FLAGS: ""
+  -- CMAKE_SHARED_LINKER_FLAGS: ""
+  -- CMAKE_CXX_FLAGS_RELEASE: "-O3 -DNDEBUG"
+  -- CMAKE_EXE_LINKER_FLAGS_RELEASE: ""
+  -- CMAKE_SHARED_LINKER_FLAGS_RELEASE: ""
+  -- CMAKE_STATIC_LINKER_FLAGS_RELEASE: ""
+  -- Z3_COMPONENT_CXX_DEFINES: $<$<CONFIG:Debug>:Z3DEBUG>;$<$<CONFIG:Release>:_EXTERNAL_RELEASE>;$<$<CONFIG:RelWithDebInfo>:_EXTERNAL_RELEASE>;-D_MP_INTERNAL;$<$<CONFIG:Debug>:_TRACE>
+  -- Z3_COMPONENT_CXX_FLAGS: -mfpmath=sse;-msse;-msse2;-Wall
+  -- Z3_DEPENDENT_LIBS: Threads::Threads
+  -- Z3_COMPONENT_EXTRA_INCLUDE_DIRS: /workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src;/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src
+  -- Z3_DEPENDENT_EXTRA_CXX_LINK_FLAGS: 
+  -- CMAKE_INSTALL_LIBDIR: "lib"
+  -- CMAKE_INSTALL_BINDIR: "bin"
+  -- CMAKE_INSTALL_INCLUDEDIR: "include"
+  -- CMAKE_INSTALL_PKGCONFIGDIR: "lib/pkgconfig"
+  -- CMAKE_INSTALL_Z3_CMAKE_PACKAGE_DIR: "lib/cmake/z3"
+  -- Adding component util
+  -- Adding component polynomial
+  -- Adding rule to generate "algebraic_params.hpp"
+  -- Adding component dd
+  -- Adding component hilbert
+  -- Adding component simplex
+  -- Adding component automata
+  -- Adding component interval
+  -- Adding component realclosure
+  -- Adding rule to generate "rcf_params.hpp"
+  -- Adding component subpaving
+  -- Adding component ast
+  -- Adding rule to generate "pp_params.hpp"
+  -- Adding component params
+  -- Adding rule to generate "arith_rewriter_params.hpp"
+  -- Adding rule to generate "array_rewriter_params.hpp"
+  -- Adding rule to generate "bool_rewriter_params.hpp"
+  -- Adding rule to generate "bv_rewriter_params.hpp"
+  -- Adding rule to generate "fpa_rewriter_params.hpp"
+  -- Adding rule to generate "fpa2bv_rewriter_params.hpp"
+  -- Adding rule to generate "pattern_inference_params_helper.hpp"
+  -- Adding rule to generate "poly_rewriter_params.hpp"
+  -- Adding rule to generate "rewriter_params.hpp"
+  -- Adding rule to generate "seq_rewriter_params.hpp"
+  -- Adding rule to generate "solver_params.hpp"
+  -- Adding rule to generate "tactic_params.hpp"
+  -- Adding component rewriter
+  -- Adding component bit_blaster
+  -- Adding component normal_forms
+  -- Adding rule to generate "nnf_params.hpp"
+  -- Adding component macros
+  -- Adding component model
+  -- Adding rule to generate "model_evaluator_params.hpp"
+  -- Adding rule to generate "model_params.hpp"
+  -- Adding component euf
+  -- Adding component converters
+  -- Adding component substitution
+  -- Adding component simplifiers
+  -- Adding component tactic
+  -- Adding component smt_params
+  -- Adding rule to generate "smt_params_helper.hpp"
+  -- Adding component parser_util
+  -- Adding rule to generate "parser_params.hpp"
+  -- Adding component grobner
+  -- Adding component sat
+  -- Adding rule to generate "sat_asymm_branch_params.hpp"
+  -- Adding rule to generate "sat_params.hpp"
+  -- Adding rule to generate "sat_scc_params.hpp"
+  -- Adding rule to generate "sat_simplifier_params.hpp"
+  -- Adding component nlsat
+  -- Adding rule to generate "nlsat_params.hpp"
+  -- Adding component core_tactics
+  -- Adding component subpaving_tactic
+  -- Adding component aig_tactic
+  -- Adding component arith_tactics
+  -- Adding component solver
+  -- Adding rule to generate "combined_solver_params.hpp"
+  -- Adding rule to generate "parallel_params.hpp"
+  -- Adding component cmd_context
+  -- Adding component extra_cmds
+  -- Adding component smt2parser
+  -- Adding component mbp
+  -- Adding component qe_lite
+  -- Adding component solver_assertions
+  -- Adding component pattern
+  -- Adding component lp
+  -- Adding component sat_smt
+  -- Adding component sat_tactic
+  -- Adding component nlsat_tactic
+  -- Adding component ackermannization
+  -- Adding rule to generate "ackermannization_params.hpp"
+  -- Adding rule to generate "ackermannize_bv_tactic_params.hpp"
+  -- Adding component proofs
+  -- Adding component fpa
+  -- Adding component proto_model
+  -- Adding component smt
+  -- Adding component bv_tactics
+  -- Adding component smt_tactic
+  -- Adding component sls_tactic
+  -- Adding rule to generate "sls_params.hpp"
+  -- Adding component qe
+  -- Adding component muz
+  -- Adding rule to generate "fp_params.hpp"
+  -- Adding component dataflow
+  -- Adding component transforms
+  -- Adding component rel
+  -- Adding component clp
+  -- Adding component tab
+  -- Adding component bmc
+  -- Adding component ddnf
+  -- Adding component spacer
+  -- Adding component fp
+  -- Adding component ufbv_tactic
+  -- Adding component sat_solver
+  -- Adding component smtlogic_tactics
+  -- Adding rule to generate "qfufbv_tactic_params.hpp"
+  -- Adding component fpa_tactics
+  -- Adding component fd_solver
+  -- Adding component portfolio
+  -- Adding component opt
+  -- Adding rule to generate "opt_params.hpp"
+  -- Adding component api
+  -- Adding component api_dll
+  -- Building documentation disabled
+  -- Configuring done (1.6s)
+  -- Generating done (0.2s)
+  -- Build files have been written to: /workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build
+  running: cd "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build" && MAKEFLAGS="-j --jobserver-fds=7,8 --jobserver-auth=7,8" "cmake" "--build" "." "--target" "install" "--config" "Release"
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/approx_nat.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/approx_set.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/bit_util.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/bit_vector.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/cmd_context_types.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/common_msgs.cpp.o
+  [  0%] Building CXX object src/util/CMakeFiles/util.dir/debug.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/env_params.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/fixed_bit_vector.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/gparams.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/hash.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/hwf.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/inf_int_rational.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/inf_rational.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/inf_s_integer.cpp.o
+  [  1%] Building CXX object src/util/CMakeFiles/util.dir/lbool.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/luby.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/memory_manager.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/min_cut.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpbq.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpf.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpff.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpfx.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpn.cpp.o
+  [  2%] Building CXX object src/util/CMakeFiles/util.dir/mpq.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/mpq_inf.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/mpz.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/page.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/params.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/permutation.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/prime_generator.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/rational.cpp.o
+  [  3%] Building CXX object src/util/CMakeFiles/util.dir/region.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/rlimit.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/scoped_ctrl_c.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/scoped_timer.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/sexpr.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/s_integer.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/small_object_allocator.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/smt2_util.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/stack.cpp.o
+  [  4%] Building CXX object src/util/CMakeFiles/util.dir/state_graph.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/statistics.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/symbol.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/tbv.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/timeit.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/timeout.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/trace.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/util.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/warning.cpp.o
+  [  5%] Building CXX object src/util/CMakeFiles/util.dir/z3_exception.cpp.o
+  [  6%] Building CXX object src/util/CMakeFiles/util.dir/zstring.cpp.o
+  [  6%] Built target util
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/tactic_params.hpp" from "tactic_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/arith_rewriter_params.hpp" from "arith_rewriter_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/array_rewriter_params.hpp" from "array_rewriter_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/bool_rewriter_params.hpp" from "bool_rewriter_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/bv_rewriter_params.hpp" from "bv_rewriter_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/fpa2bv_rewriter_params.hpp" from "fpa2bv_rewriter_params.pyg"
+  [  6%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/fpa_rewriter_params.hpp" from "fpa_rewriter_params.pyg"
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/pattern_inference_params_helper.hpp" from "pattern_inference_params_helper.pyg"
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/poly_rewriter_params.hpp" from "poly_rewriter_params.pyg"
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/rewriter_params.hpp" from "rewriter_params.pyg"
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/seq_rewriter_params.hpp" from "seq_rewriter_params.pyg"
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/solver_params.hpp" from "solver_params.pyg"
+  [  7%] Building CXX object src/params/CMakeFiles/params.dir/pattern_inference_params.cpp.o
+  [  7%] Building CXX object src/params/CMakeFiles/params.dir/context_params.cpp.o
+  [  7%] Built target params
+  [  7%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/math/polynomial/algebraic_params.hpp" from "algebraic_params.pyg"
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/algebraic_numbers.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/polynomial_cache.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/polynomial.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/rpolynomial.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/sexpr2upolynomial.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/upolynomial.cpp.o
+  [  8%] Building CXX object src/math/polynomial/CMakeFiles/polynomial.dir/upolynomial_factorization.cpp.o
+  [  8%] Built target polynomial
+  [  8%] Building CXX object src/math/automata/CMakeFiles/automata.dir/automaton.cpp.o
+  [  8%] Built target automata
+  [  8%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/ast/pp_params.hpp" from "pp_params.pyg"
+  [  8%] Building CXX object src/ast/CMakeFiles/ast.dir/act_cache.cpp.o
+  [  8%] Building CXX object src/ast/CMakeFiles/ast.dir/arith_decl_plugin.cpp.o
+  [  8%] Building CXX object src/ast/CMakeFiles/ast.dir/array_decl_plugin.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_ll_pp.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_lt.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_pp_util.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_printer.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_smt2_pp.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_smt_pp.cpp.o
+  [  9%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_pp_dot.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_translation.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/ast_util.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/bv_decl_plugin.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/char_decl_plugin.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/cost_evaluator.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/datatype_decl_plugin.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/decl_collector.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/display_dimacs.cpp.o
+  [ 10%] Building CXX object src/ast/CMakeFiles/ast.dir/dl_decl_plugin.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr2polynomial.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr2var.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr_abstract.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr_functors.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr_map.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr_stat.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/expr_substitution.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/for_each_ast.cpp.o
+  [ 11%] Building CXX object src/ast/CMakeFiles/ast.dir/for_each_expr.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/format.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/fpa_decl_plugin.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/func_decl_dependencies.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/has_free_vars.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/macro_substitution.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/num_occurs.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/occurs.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/pb_decl_plugin.cpp.o
+  [ 12%] Building CXX object src/ast/CMakeFiles/ast.dir/pp.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/quantifier_stat.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/recfun_decl_plugin.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/reg_decl_plugins.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/seq_decl_plugin.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/shared_occs.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/special_relations_decl_plugin.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/static_features.cpp.o
+  [ 13%] Building CXX object src/ast/CMakeFiles/ast.dir/used_vars.cpp.o
+  [ 14%] Building CXX object src/ast/CMakeFiles/ast.dir/value_generator.cpp.o
+  [ 14%] Building CXX object src/ast/CMakeFiles/ast.dir/well_sorted.cpp.o
+  [ 14%] Building CXX object src/math/dd/CMakeFiles/dd.dir/dd_bdd.cpp.o
+  [ 14%] Building CXX object src/math/dd/CMakeFiles/dd.dir/dd_fdd.cpp.o
+  [ 14%] Building CXX object src/math/dd/CMakeFiles/dd.dir/dd_pdd.cpp.o
+  [ 14%] Built target ast
+  [ 14%] Building CXX object src/math/simplex/CMakeFiles/simplex.dir/simplex.cpp.o
+  [ 14%] Building CXX object src/math/simplex/CMakeFiles/simplex.dir/model_based_opt.cpp.o
+  [ 14%] Building CXX object src/math/simplex/CMakeFiles/simplex.dir/bit_matrix.cpp.o
+  [ 14%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/smt/params/smt_params_helper.hpp" from "smt_params_helper.pyg"
+  [ 14%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/dyn_ack_params.cpp.o
+  [ 14%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/preprocessor_params.cpp.o
+  [ 14%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/qi_params.cpp.o
+  [ 14%] Built target simplex
+  [ 15%] Building CXX object src/math/hilbert/CMakeFiles/hilbert.dir/hilbert_basis.cpp.o
+  [ 15%] Built target dd
+  [ 15%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/parsers/util/parser_params.hpp" from "parser_params.pyg"
+  [ 16%] Building CXX object src/parsers/util/CMakeFiles/parser_util.dir/cost_parser.cpp.o
+  [ 16%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/smt_params.cpp.o
+  [ 16%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_arith_params.cpp.o
+  [ 16%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_array_params.cpp.o
+  [ 16%] Building CXX object src/parsers/util/CMakeFiles/parser_util.dir/pattern_validation.cpp.o
+  [ 17%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_bv_params.cpp.o
+  [ 17%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_pb_params.cpp.o
+  [ 17%] Built target hilbert
+  [ 17%] Building CXX object src/math/interval/CMakeFiles/interval.dir/interval_mpq.cpp.o
+  [ 17%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_seq_params.cpp.o
+  [ 17%] Building CXX object src/smt/params/CMakeFiles/smt_params.dir/theory_str_params.cpp.o
+  [ 17%] Building CXX object src/parsers/util/CMakeFiles/parser_util.dir/scanner.cpp.o
+  [ 17%] Building CXX object src/parsers/util/CMakeFiles/parser_util.dir/simple_parser.cpp.o
+  [ 17%] Built target smt_params
+  [ 17%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/arith_rewriter.cpp.o
+  [ 17%] Building CXX object src/math/interval/CMakeFiles/interval.dir/dep_intervals.cpp.o
+  [ 17%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/array_rewriter.cpp.o
+  [ 17%] Built target parser_util
+  [ 18%] Building CXX object src/ast/euf/CMakeFiles/euf.dir/euf_enode.cpp.o
+  [ 18%] Built target interval
+  [ 18%] Building CXX object src/math/grobner/CMakeFiles/grobner.dir/grobner.cpp.o
+  [ 18%] Building CXX object src/ast/euf/CMakeFiles/euf.dir/euf_etable.cpp.o
+  [ 18%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/ast_counter.cpp.o
+  [ 18%] Building CXX object src/ast/euf/CMakeFiles/euf.dir/euf_egraph.cpp.o
+  [ 18%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/bit2int.cpp.o
+  [ 18%] Building CXX object src/math/grobner/CMakeFiles/grobner.dir/pdd_simplifier.cpp.o
+  [ 18%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/bool_rewriter.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/bv_bounds.cpp.o
+  [ 20%] Building CXX object src/math/grobner/CMakeFiles/grobner.dir/pdd_solver.cpp.o
+  [ 20%] Built target euf
+  [ 20%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/math/realclosure/rcf_params.hpp" from "rcf_params.pyg"
+  [ 20%] Building CXX object src/math/realclosure/CMakeFiles/realclosure.dir/mpz_matrix.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/bv_elim.cpp.o
+  [ 20%] Building CXX object src/math/realclosure/CMakeFiles/realclosure.dir/realclosure.cpp.o
+  [ 20%] Built target grobner
+  [ 20%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/bv_rewriter.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/cached_var_subst.cpp.o
+  [ 20%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving_hwf.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/char_rewriter.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/datatype_rewriter.cpp.o
+  [ 20%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving_mpf.cpp.o
+  [ 20%] Built target realclosure
+  [ 20%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_simplifier_params.hpp" from "sat_simplifier_params.pyg"
+  [ 20%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_asymm_branch_params.hpp" from "sat_asymm_branch_params.pyg"
+  [ 20%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_params.hpp" from "sat_params.pyg"
+  [ 20%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_scc_params.hpp" from "sat_scc_params.pyg"
+  [ 20%] Building CXX object src/sat/CMakeFiles/sat.dir/dimacs.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/der.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/distribute_forall.cpp.o
+  [ 20%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_aig_cuts.cpp.o
+  [ 20%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving_mpff.cpp.o
+  [ 20%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving_mpfx.cpp.o
+  [ 20%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/dl_rewriter.cpp.o
+  [ 21%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/elim_bounds.cpp.o
+  [ 21%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_aig_finder.cpp.o
+  [ 21%] Building CXX object src/math/subpaving/CMakeFiles/subpaving.dir/subpaving_mpq.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_anf_simplifier.cpp.o
+  [ 22%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/enum2bv_rewriter.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_asymm_branch.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_bcd.cpp.o
+  [ 22%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/expr_replacer.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_big.cpp.o
+  [ 22%] Built target subpaving
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_binspr.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_clause.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_clause_set.cpp.o
+  [ 22%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_clause_use_list.cpp.o
+  [ 22%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/expr_safe_replace.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_cleaner.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_config.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_cut_simplifier.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_cutset.cpp.o
+  [ 23%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/factor_equivs.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_ddfw.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_drat.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_elim_eqs.cpp.o
+  [ 23%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/factor_rewriter.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_elim_vars.cpp.o
+  [ 23%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_gc.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_integrity_checker.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_local_search.cpp.o
+  [ 24%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/fpa_rewriter.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_lookahead.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_lut_finder.cpp.o
+  [ 24%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/func_decl_replace.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_model_converter.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_mus.cpp.o
+  [ 24%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/hoist_rewriter.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_npn3_finder.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_parallel.cpp.o
+  [ 24%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_prob.cpp.o
+  [ 25%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/inj_axiom.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_probing.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_proof_trim.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_scc.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/label_rewriter.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_simplifier.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_solver.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_watched.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/macro_replacer.cpp.o
+  [ 26%] Building CXX object src/sat/CMakeFiles/sat.dir/sat_xor_finder.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/maximize_ac_sharing.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/mk_simplified_app.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/pb_rewriter.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/pb2bv_rewriter.cpp.o
+  [ 26%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/push_app_ite.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/quant_hoist.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/recfun_rewriter.cpp.o
+  [ 27%] Built target sat
+  [ 27%] Generating "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/nlsat/nlsat_params.hpp" from "nlsat_params.pyg"
+  [ 27%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_clause.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/rewriter.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/seq_axioms.cpp.o
+  [ 27%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_evaluator.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/seq_eq_solver.cpp.o
+  [ 27%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_explain.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/seq_rewriter.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/seq_skolem.cpp.o
+  [ 27%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/th_rewriter.cpp.o
+  [ 28%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_interval_set.cpp.o
+  [ 28%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/value_sweep.cpp.o
+  [ 28%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_solver.cpp.o
+  [ 29%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/var_subst.cpp.o
+  [ 29%] Building CXX object src/ast/rewriter/CMakeFiles/rewriter.dir/mk_extract_proc.cpp.o
+  [ 29%] Building CXX object src/nlsat/CMakeFiles/nlsat.dir/nlsat_types.cpp.o
+  [ 29%] Built target nlsat
+  [ 29%] Building CXX object src/math/lp/CMakeFiles/lp.dir/binary_heap_priority_queue.cpp.o
+  [ 29%] Building CXX object src/math/lp/CMakeFiles/lp.dir/binary_heap_upair_queue.cpp.o
+  [ 29%] Building CXX object src/math/lp/CMakeFiles/lp.dir/core_solver_pretty_printer.cpp.o
+  [ 29%] Building CXX object src/math/lp/CMakeFiles/lp.dir/dense_matrix.cpp.o
+  [ 29%] Built target rewriter
+  [ 29%] Building CXX object src/ast/substitution/CMakeFiles/substitution.dir/demodulator_rewriter.cpp.o
+  [ 29%] Building CXX object src/ast/rewriter/bit_blaster/CMakeFiles/bit_blaster.dir/bit_blaster.cpp.o
+  [ 29%] Building CXX object src/ast/substitution/CMakeFiles/substitution.dir/matcher.cpp.o
+  [ 29%] Building CXX object src/ast/substitution/CMakeFiles/substitution.dir/substitution.cpp.o
+  [ 29%] Building CXX object src/ast/substitution/CMakeFiles/substitution.dir/substitution_tree.cpp.o
+  [ 29%] Building CXX object src/ast/substitution/CMakeFiles/substitution.dir/unifier.cpp.o
+  [ 29%] Building CXX object src/ast/rewriter/bit_blaster/CMakeFiles/bit_blaster.dir/bit_blaster_rewriter.cpp.o
+  [ 29%] Built target substitution
+  [ 29%] Built target bit_blaster
+
+  --- stderr
+  CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+
+  CMake Warning at CMakeLists.txt:44 (message):
+    Disabling Z3_INCLUDE_GIT_DESCRIBE
+  Call Stack (most recent call first):
+    CMakeLists.txt:93 (disable_git_describe)
+
+
+  CMake Warning at CMakeLists.txt:48 (message):
+    Disabling Z3_INCLUDE_GIT_HASH
+  Call Stack (most recent call first):
+    CMakeLists.txt:94 (disable_git_hash)
+
+
+  CMake Warning (dev) at CMakeLists.txt:156 (find_package):
+    Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+    are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+    the cmake_policy command to set the policy and suppress this warning.
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  CMake Warning:
+    Manually-specified variables were not used by the project:
+
+      CMAKE_ASM_COMPILER
+      CMAKE_ASM_FLAGS
+      CMAKE_C_COMPILER
+      CMAKE_C_FLAGS
+
+
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/tactic_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/tactic_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/arith_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/arith_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/array_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/array_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/bool_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/bool_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/bv_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/bv_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/fpa2bv_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/fpa2bv_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/fpa_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/fpa_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/pattern_inference_params_helper.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/pattern_inference_params_helper.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/poly_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/poly_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/seq_rewriter_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/seq_rewriter_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/solver_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/params/solver_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/algebraic_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/math/polynomial/algebraic_params.hpp"
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/polynomial.cpp:3630:22: warning: variable 'counter' set but not used [-Wunused-but-set-variable]
+   3630 |             unsigned counter = 0;
+        |                      ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/polynomial.cpp:4174:22: warning: variable 'counter' set but not used [-Wunused-but-set-variable]
+   4174 |             unsigned counter   = 0;
+        |                      ^
+  2 warnings generated.
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/pp_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/ast/pp_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/params/smt_params_helper.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/smt/params/smt_params_helper.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/parsers/util/parser_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/parsers/util/parser_params.hpp"
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/bool_rewriter.cpp:553:14: warning: variable 'rounds' set but not used [-Wunused-but-set-variable]
+    553 |     unsigned rounds = 0;
+        |              ^
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/realclosure/rcf_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/math/realclosure/rcf_params.hpp"
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/bv_rewriter.cpp:1557:28: warning: unused variable 'arg' [-Wunused-variable]
+   1557 |                 for (expr* arg : new_args)
+        |                            ^~~
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_simplifier_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_simplifier_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_asymm_branch_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_asymm_branch_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_params.hpp"
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_scc_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/sat/sat_scc_params.hpp"
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_clause_use_list.cpp:25:18: warning: variable 'sz' set but not used [-Wunused-but-set-variable]
+     25 |         unsigned sz = 0;
+        |                  ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_clause_use_list.cpp:30:18: warning: variable 'redundant' set but not used [-Wunused-but-set-variable]
+     30 |         unsigned redundant = 0;
+        |                  ^
+  2 warnings generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_drat.cpp:366:26: warning: variable 'num_undef' set but not used [-Wunused-but-set-variable]
+    366 |                 unsigned num_undef = 0, num_true = 0;
+        |                          ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_drat.cpp:366:41: warning: variable 'num_true' set but not used [-Wunused-but-set-variable]
+    366 |                 unsigned num_undef = 0, num_true = 0;
+        |                                         ^
+  2 warnings generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_integrity_checker.cpp:101:18: warning: variable 'num_frozen' set but not used [-Wunused-but-set-variable]
+    101 |         unsigned num_frozen = 0;
+        |                  ^
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_local_search.cpp:583:18: warning: variable 'reflipped' set but not used [-Wunused-but-set-variable]
+    583 |         unsigned reflipped = 0;
+        |                  ^
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_model_converter.cpp:162:44: warning: variable 'itbegin' set but not used [-Wunused-but-set-variable]
+    162 |             literal_vector::const_iterator itbegin = it;
+        |                                            ^
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/hoist_rewriter.cpp:56:14: warning: variable 'round' set but not used [-Wunused-but-set-variable]
+     56 |     unsigned round = 0;
+        |              ^
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/inj_axiom.cpp:55:26: warning: variable 'num_vars' set but not used [-Wunused-but-set-variable]
+     55 |                 unsigned num_vars = 1;
+        |                          ^
+  1 warning generated.
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_simplifier.cpp:291:18: warning: variable 'nm' set but not used [-Wunused-but-set-variable]
+    291 |         unsigned nm = 0;
+        |                  ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_solver.cpp:4287:33: warning: variable 'num_iterations' set but not used [-Wunused-but-set-variable]
+   4287 |         unsigned num_units = 0, num_iterations = 0;
+        |                                 ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_solver.cpp:4382:22: warning: variable 'num_assigned' set but not used [-Wunused-but-set-variable]
+   4382 |             unsigned num_assigned = 0;
+        |                      ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_solver.cpp:4601:18: warning: variable 'num_ext' set but not used [-Wunused-but-set-variable]
+   4601 |         unsigned num_ext = 0;
+        |                  ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/macro_replacer.cpp:81:21: warning: unused variable 'q' [-Wunused-variable]
+     81 |         quantifier* q = nullptr;
+        |                     ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/macro_replacer.cpp:82:41: warning: unused variable 'd2' [-Wunused-variable]
+     82 |         func_decl* d = n->get_decl(), * d2 = nullptr;
+        |                                         ^~
+  2 warnings generated.
+  1 warning generated.
+  3 warnings generated.
+  INFO:root:Using /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/nlsat/nlsat_params.pyg
+  INFO:root:Generated "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src/nlsat/nlsat_params.hpp"
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer_def.h:26:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_core_solver_base.h:27:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer_def.h:26:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_core_solver_base.h:27:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  2 errors generated.
+  gmake[2]: *** [src/math/lp/CMakeFiles/lp.dir/build.make:107: src/math/lp/CMakeFiles/lp.dir/core_solver_pretty_printer.cpp.o] Error 1
+  gmake[2]: *** Waiting for unfinished jobs....
+  gmake[1]: *** [CMakeFiles/Makefile2:3671: src/math/lp/CMakeFiles/lp.dir/all] Error 2
+  gmake[1]: *** Waiting for unfinished jobs....
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/substitution/demodulator_rewriter.cpp:28:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/substitution/demodulator_rewriter.h:114:27: warning: private field 'm' is not used [-Wunused-private-field]
+    114 |     ast_manager &         m;
+        |                           ^
+  1 warning generated.
+  gmake: *** [Makefile:136: all] Error 2
+  thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/cmake-0.1.50/src/lib.rs:1098:5:
+
+  command did not execute successfully, got: exit status: 2
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
