@@ -1,0 +1,304 @@
+[32m INFO[0m fetching abi from http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=
+[31mERROR[0m Error: error sending request for url (http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=): error trying to connect: tcp connect error: Connection refused (os error 111)
+[31mERROR[0m Error: error sending request for url (http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=): error trying to connect: tcp connect error: Connection refused (os error 111)
+[31mERROR[0m Error: error sending request for url (http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=): error trying to connect: tcp connect error: Connection refused (os error 111)
+[31mERROR[0m Error: error sending request for url (http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=): error trying to connect: tcp connect error: Connection refused (os error 111)
+[31mERROR[0m Error: error sending request for url (http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=): error trying to connect: tcp connect error: Connection refused (os error 111)
+[31mERROR[0m Error: did not succeed within 3 tries
+[31mERROR[0m failed to fetch abi from http://localhost:8080/abi/?module=contract&action=getabi&address=0x5fbdb2315678afecb367f032d93f642f64180aa3&format=json&apikey=
+[32m INFO[0m fetching code from 5fbdb2315678afecb367f032d93f642f64180aa3
+Contract loaded: 0x5fbdb2315678afecb367f032d93f642f64180aa3
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[32m INFO[0m Deploying contract: 0x5fbdb2315678afecb367f032d93f642f64180aa3
+[32m INFO[0m Contract 0x5fbdb2315678afecb367f032d93f642f64180aa3 deployed to: 0x5fbdb2315678afecb367f032d93f642f64180aa3 -> balacne is 0
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m Contract 0x5fbdb2315678afecb367f032d93f642f64180aa3 has no abi
+[32m INFO[0m Too many unknown function signature for "0x5fbdb2315678afecb367f032d93f642f64180aa3", we are going to decompile this contract using EVMole
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 0, objectives: 0, executions: 0, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x00000000, 15792089237316195423570985008687907853269984665640564039457.5840 ethe))
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 6, objectives: 0, executions: 1, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 6, objectives: 0, executions: 1, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 4024.4697 ether}(abi.encodeWithSelector(0x27e235e3, 0xe1A425f1AC34A8a441566f93c82dD730639c8510))
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 7, objectives: 0, executions: 4, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 7, objectives: 0, executions: 4, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x27e235e3, 0x5FbDB2315678afecb367f032d93F642f64180aa3))
+   │  └─ ← 0x00
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 8, objectives: 0, executions: 9, exec/sec: 0.000
+[32m INFO[0m balance of 0x5fbdb2315678afecb367f032d93f642f64180aa3 at 0x2 is 5000000000000000000
+[32m INFO[0m fetching code from 68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 57.73% Instruction Covered, 52.38% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 8, objectives: 0, executions: 9, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 4722.3304 ether}(abi.encodeWithSelector(0x2e1a7d4d, 13493406698181678055771010407827321542110490522171413311807.4408 ether))
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 9, objectives: 0, executions: 279, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 9, objectives: 0, executions: 279, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x2e1a7d4d, 842909709487787795093882963765003445214533106837.4407 ether))
+   │  └─ ← 0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000014496e73756666696369656e742062616c616e6365000000000000000000000000
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 10, objectives: 0, executions: 292, exec/sec: 0.000
+[32m INFO[0m fetching code from 8ef508aca04b32ff3ba5003177cb18bfa6cd79dd
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 10, objectives: 0, executions: 292, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  └─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 11, objectives: 0, executions: 335, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 11, objectives: 0, executions: 335, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  ├─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  └─[3] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 3812.3008 ether}(0x00000000)
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 12, objectives: 0, executions: 384, exec/sec: 0.000
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 76.69% Instruction Covered, 64.29% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 12, objectives: 0, executions: 384, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x47734892, 0x0000000000000000000000000000000000000000))
+   │  └─ ← 0x00
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 13, objectives: 0, executions: 527, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 13, objectives: 0, executions: 527, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 4722.3664 ether}(abi.encodeWithSelector(0x47734892, 0xe1A425f1AC34A8a441566f93c82dD730639c8510))
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 14, objectives: 0, executions: 557, exec/sec: 0.000
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 77.01% Instruction Covered, 66.67% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 14, objectives: 0, executions: 557, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 1}(0xd0e30db0)
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 15, objectives: 0, executions: 773, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 15, objectives: 0, executions: 773, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(0xd0e30db0)
+   │  └─ ← 0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000164d757374206465706f73697420736f6d657468696e6700000000000000000000
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 16, objectives: 0, executions: 792, exec/sec: 0.000
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 85.91% Instruction Covered, 71.43% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 16, objectives: 0, executions: 792, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 1099511627806}(0xed12e8ef)
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 17, objectives: 0, executions: 1025, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 17, objectives: 0, executions: 1025, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 3795.3506 ether}(0xd0e30db0)
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(0xed12e8ef)
+   │  └─ ← 0xcdbf123800ef4eb9fc
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 18, objectives: 0, executions: 1044, exec/sec: 0.000
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 86.23% Instruction Covered, 73.81% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 18, objectives: 0, executions: 1044, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  ├─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  └─[3] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 3812.3008 ether}(abi.encodeWithSelector(0x00000000, 15792089237316195423570985008687907853269984665640564039457.5840 ethe))
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 19, objectives: 0, executions: 2817, exec/sec: 0.000
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 88.88% Instruction Covered, 76.19% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-1s, clients: 1, corpus: 19, objectives: 0, executions: 68864, exec/sec: 65.30k
+[32m INFO[0m fetching code from 35c9dfd76bf02107ff4f7128bd69716612d31ddb
+[32m INFO[0m [Stats #0] run time: 0h-0m-2s, clients: 1, corpus: 19, objectives: 0, executions: 137472, exec/sec: 66.88k
+[32m INFO[0m [Stats #0] run time: 0h-0m-3s, clients: 1, corpus: 19, objectives: 0, executions: 206336, exec/sec: 67.51k
+[32m INFO[0m [Stats #0] run time: 0h-0m-4s, clients: 1, corpus: 19, objectives: 0, executions: 274176, exec/sec: 67.55k
+[32m INFO[0m [Stats #0] run time: 0h-0m-4s, clients: 1, corpus: 19, objectives: 0, executions: 274176, exec/sec: 61.45k
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 2634.5290 ether}(0xd0e30db0)
+   ├─[1] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call(abi.encodeWithSelector(0x2e1a7d4d, 2043))
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  │  └─[3] 0x5FbDB2315678afecb367f032d93F642f64180aa3.call{value: 4309.3505 ether}(0x00000000)
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-4s, clients: 1, corpus: 20, objectives: 0, executions: 302068, exec/sec: 67.70k
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0x5fbdb2315678afecb367f032d93f642f64180aa3: 88.88% Instruction Covered, 76.19% Branch Covered
+[32m INFO[0m fetching code from e1a425f1ac34a8a441566f93c82dd730639c8510
+[32m INFO[0m [Stats #0] run time: 0h-0m-5s, clients: 1, corpus: 20, objectives: 0, executions: 343040, exec/sec: 67.78k
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 20, objectives: 0, executions: 413184, exec/sec: 68.16k
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 20, objectives: 0, executions: 483072, exec/sec: 68.39k
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 20, objectives: 0, executions: 550400, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 20, objectives: 0, executions: 619775, exec/sec: 68.36k
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 20, objectives: 0, executions: 688639, exec/sec: 68.41k
+[32m INFO[0m [Stats #0] run time: 0h-0m-11s, clients: 1, corpus: 20, objectives: 0, executions: 757247, exec/sec: 68.42k
+[32m INFO[0m [Stats #0] run time: 0h-0m-12s, clients: 1, corpus: 20, objectives: 0, executions: 825855, exec/sec: 68.43k
+[32m INFO[0m [Stats #0] run time: 0h-0m-13s, clients: 1, corpus: 20, objectives: 0, executions: 894463, exec/sec: 68.44k
+[32m INFO[0m [Stats #0] run time: 0h-0m-14s, clients: 1, corpus: 20, objectives: 0, executions: 962815, exec/sec: 68.43k
+[32m INFO[0m [Stats #0] run time: 0h-0m-15s, clients: 1, corpus: 20, objectives: 0, executions: 1030143, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-0m-16s, clients: 1, corpus: 20, objectives: 0, executions: 1099519, exec/sec: 68.41k
+[32m INFO[0m [Stats #0] run time: 0h-0m-17s, clients: 1, corpus: 20, objectives: 0, executions: 1167102, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-0m-18s, clients: 1, corpus: 20, objectives: 0, executions: 1236478, exec/sec: 68.39k
+[32m INFO[0m [Stats #0] run time: 0h-0m-19s, clients: 1, corpus: 20, objectives: 0, executions: 1304828, exec/sec: 68.39k
+[32m INFO[0m [Stats #0] run time: 0h-0m-20s, clients: 1, corpus: 20, objectives: 0, executions: 1373436, exec/sec: 68.40k
+[32m INFO[0m [Stats #0] run time: 0h-0m-21s, clients: 1, corpus: 20, objectives: 0, executions: 1436156, exec/sec: 68.13k
+[32m INFO[0m [Stats #0] run time: 0h-0m-22s, clients: 1, corpus: 20, objectives: 0, executions: 1504763, exec/sec: 68.15k
+[32m INFO[0m [Stats #0] run time: 0h-0m-23s, clients: 1, corpus: 20, objectives: 0, executions: 1573883, exec/sec: 68.18k
+[32m INFO[0m [Stats #0] run time: 0h-0m-24s, clients: 1, corpus: 20, objectives: 0, executions: 1642747, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-0m-25s, clients: 1, corpus: 20, objectives: 0, executions: 1710843, exec/sec: 68.18k
+[32m INFO[0m [Stats #0] run time: 0h-0m-26s, clients: 1, corpus: 20, objectives: 0, executions: 1779706, exec/sec: 68.20k
+[32m INFO[0m [Stats #0] run time: 0h-0m-27s, clients: 1, corpus: 20, objectives: 0, executions: 1848570, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-0m-28s, clients: 1, corpus: 20, objectives: 0, executions: 1917178, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-0m-29s, clients: 1, corpus: 20, objectives: 0, executions: 1986554, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-0m-30s, clients: 1, corpus: 20, objectives: 0, executions: 2055674, exec/sec: 68.28k
+[32m INFO[0m [Stats #0] run time: 0h-0m-31s, clients: 1, corpus: 20, objectives: 0, executions: 2124026, exec/sec: 68.28k
+[32m INFO[0m [Stats #0] run time: 0h-0m-32s, clients: 1, corpus: 20, objectives: 0, executions: 2190586, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-0m-33s, clients: 1, corpus: 20, objectives: 0, executions: 2258682, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-0m-34s, clients: 1, corpus: 20, objectives: 0, executions: 2327545, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-0m-35s, clients: 1, corpus: 20, objectives: 0, executions: 2395641, exec/sec: 68.23k
+[32m INFO[0m [Stats #0] run time: 0h-0m-36s, clients: 1, corpus: 20, objectives: 0, executions: 2462201, exec/sec: 68.18k
+[32m INFO[0m [Stats #0] run time: 0h-0m-37s, clients: 1, corpus: 20, objectives: 0, executions: 2531065, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-0m-38s, clients: 1, corpus: 20, objectives: 0, executions: 2599928, exec/sec: 68.20k
+[32m INFO[0m [Stats #0] run time: 0h-0m-39s, clients: 1, corpus: 20, objectives: 0, executions: 2669559, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-0m-40s, clients: 1, corpus: 20, objectives: 0, executions: 2738167, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-0m-41s, clients: 1, corpus: 20, objectives: 0, executions: 2806007, exec/sec: 68.23k
+[32m INFO[0m [Stats #0] run time: 0h-0m-42s, clients: 1, corpus: 20, objectives: 0, executions: 2874359, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-0m-43s, clients: 1, corpus: 20, objectives: 0, executions: 2943990, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-0m-44s, clients: 1, corpus: 20, objectives: 0, executions: 3011574, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-0m-45s, clients: 1, corpus: 20, objectives: 0, executions: 3080438, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-0m-46s, clients: 1, corpus: 20, objectives: 0, executions: 3149558, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-0m-47s, clients: 1, corpus: 20, objectives: 0, executions: 3218678, exec/sec: 68.29k
+[32m INFO[0m [Stats #0] run time: 0h-0m-48s, clients: 1, corpus: 20, objectives: 0, executions: 3287029, exec/sec: 68.29k
+[32m INFO[0m [Stats #0] run time: 0h-0m-49s, clients: 1, corpus: 20, objectives: 0, executions: 3356660, exec/sec: 68.31k
+[32m INFO[0m [Stats #0] run time: 0h-0m-50s, clients: 1, corpus: 20, objectives: 0, executions: 3425780, exec/sec: 68.33k
+[32m INFO[0m [Stats #0] run time: 0h-0m-51s, clients: 1, corpus: 20, objectives: 0, executions: 3493620, exec/sec: 68.32k
+[32m INFO[0m [Stats #0] run time: 0h-0m-52s, clients: 1, corpus: 20, objectives: 0, executions: 3563507, exec/sec: 68.34k
+[32m INFO[0m [Stats #0] run time: 0h-0m-53s, clients: 1, corpus: 20, objectives: 0, executions: 3632627, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-0m-54s, clients: 1, corpus: 20, objectives: 0, executions: 3700979, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-0m-55s, clients: 1, corpus: 20, objectives: 0, executions: 3767539, exec/sec: 68.31k
+[32m INFO[0m [Stats #0] run time: 0h-0m-56s, clients: 1, corpus: 20, objectives: 0, executions: 3837170, exec/sec: 68.34k
+[32m INFO[0m [Stats #0] run time: 0h-0m-57s, clients: 1, corpus: 20, objectives: 0, executions: 3906546, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-0m-58s, clients: 1, corpus: 20, objectives: 0, executions: 3975409, exec/sec: 68.36k
+[32m INFO[0m [Stats #0] run time: 0h-0m-59s, clients: 1, corpus: 20, objectives: 0, executions: 4043505, exec/sec: 68.35k
+[32m INFO[0m [Stats #0] run time: 0h-1m-0s, clients: 1, corpus: 20, objectives: 0, executions: 4110833, exec/sec: 68.34k
+[32m INFO[0m [Stats #0] run time: 0h-1m-1s, clients: 1, corpus: 20, objectives: 0, executions: 4177905, exec/sec: 68.31k
+[32m INFO[0m [Stats #0] run time: 0h-1m-2s, clients: 1, corpus: 20, objectives: 0, executions: 4247793, exec/sec: 68.34k
+[32m INFO[0m [Stats #0] run time: 0h-1m-3s, clients: 1, corpus: 20, objectives: 0, executions: 4316401, exec/sec: 68.34k
+[32m INFO[0m [Stats #0] run time: 0h-1m-4s, clients: 1, corpus: 20, objectives: 0, executions: 4381937, exec/sec: 68.29k
+[32m INFO[0m [Stats #0] run time: 0h-1m-5s, clients: 1, corpus: 20, objectives: 0, executions: 4449265, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-1m-6s, clients: 1, corpus: 20, objectives: 0, executions: 4517617, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-1m-7s, clients: 1, corpus: 20, objectives: 0, executions: 4586225, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-1m-8s, clients: 1, corpus: 20, objectives: 0, executions: 4653809, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-1m-9s, clients: 1, corpus: 20, objectives: 0, executions: 4722161, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-1m-10s, clients: 1, corpus: 20, objectives: 0, executions: 4791025, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-1m-11s, clients: 1, corpus: 20, objectives: 0, executions: 4858865, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-1m-12s, clients: 1, corpus: 20, objectives: 0, executions: 4926449, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-13s, clients: 1, corpus: 20, objectives: 0, executions: 4995057, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-14s, clients: 1, corpus: 20, objectives: 0, executions: 5063921, exec/sec: 68.26k
+[32m INFO[0m [Stats #0] run time: 0h-1m-15s, clients: 1, corpus: 20, objectives: 0, executions: 5133297, exec/sec: 68.27k
+[32m INFO[0m [Stats #0] run time: 0h-1m-16s, clients: 1, corpus: 20, objectives: 0, executions: 5199345, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-17s, clients: 1, corpus: 20, objectives: 0, executions: 5265904, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-1m-18s, clients: 1, corpus: 20, objectives: 0, executions: 5335024, exec/sec: 68.23k
+[32m INFO[0m [Stats #0] run time: 0h-1m-19s, clients: 1, corpus: 20, objectives: 0, executions: 5404400, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-20s, clients: 1, corpus: 20, objectives: 0, executions: 5473264, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-21s, clients: 1, corpus: 20, objectives: 0, executions: 5537008, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-22s, clients: 1, corpus: 20, objectives: 0, executions: 5604848, exec/sec: 68.18k
+[32m INFO[0m [Stats #0] run time: 0h-1m-23s, clients: 1, corpus: 20, objectives: 0, executions: 5673200, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-24s, clients: 1, corpus: 20, objectives: 0, executions: 5741296, exec/sec: 68.18k
+[32m INFO[0m [Stats #0] run time: 0h-1m-25s, clients: 1, corpus: 20, objectives: 0, executions: 5810416, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-26s, clients: 1, corpus: 20, objectives: 0, executions: 5878768, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-27s, clients: 1, corpus: 20, objectives: 0, executions: 5944560, exec/sec: 68.16k
+[32m INFO[0m [Stats #0] run time: 0h-1m-28s, clients: 1, corpus: 20, objectives: 0, executions: 6013424, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-29s, clients: 1, corpus: 20, objectives: 0, executions: 6081776, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-30s, clients: 1, corpus: 20, objectives: 0, executions: 6150128, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-31s, clients: 1, corpus: 20, objectives: 0, executions: 6218480, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-32s, clients: 1, corpus: 20, objectives: 0, executions: 6285039, exec/sec: 68.15k
+[32m INFO[0m [Stats #0] run time: 0h-1m-33s, clients: 1, corpus: 20, objectives: 0, executions: 6354415, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-34s, clients: 1, corpus: 20, objectives: 0, executions: 6422511, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-35s, clients: 1, corpus: 20, objectives: 0, executions: 6491631, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-36s, clients: 1, corpus: 20, objectives: 0, executions: 6559727, exec/sec: 68.17k
+[32m INFO[0m [Stats #0] run time: 0h-1m-37s, clients: 1, corpus: 20, objectives: 0, executions: 6629615, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-38s, clients: 1, corpus: 20, objectives: 0, executions: 6697967, exec/sec: 68.19k
+[32m INFO[0m [Stats #0] run time: 0h-1m-39s, clients: 1, corpus: 20, objectives: 0, executions: 6767855, exec/sec: 68.20k
+[32m INFO[0m [Stats #0] run time: 0h-1m-40s, clients: 1, corpus: 20, objectives: 0, executions: 6836975, exec/sec: 68.21k
+[32m INFO[0m [Stats #0] run time: 0h-1m-41s, clients: 1, corpus: 20, objectives: 0, executions: 6906351, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-1m-42s, clients: 1, corpus: 20, objectives: 0, executions: 6974447, exec/sec: 68.22k
+[32m INFO[0m [Stats #0] run time: 0h-1m-43s, clients: 1, corpus: 20, objectives: 0, executions: 7043567, exec/sec: 68.23k
+[32m INFO[0m [Stats #0] run time: 0h-1m-44s, clients: 1, corpus: 20, objectives: 0, executions: 7113198, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-45s, clients: 1, corpus: 20, objectives: 0, executions: 7182574, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-46s, clients: 1, corpus: 20, objectives: 0, executions: 7250158, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-47s, clients: 1, corpus: 20, objectives: 0, executions: 7318766, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-48s, clients: 1, corpus: 20, objectives: 0, executions: 7388142, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-49s, clients: 1, corpus: 20, objectives: 0, executions: 7454701, exec/sec: 68.23k
+[32m INFO[0m [Stats #0] run time: 0h-1m-50s, clients: 1, corpus: 20, objectives: 0, executions: 7524077, exec/sec: 68.24k
+[32m INFO[0m [Stats #0] run time: 0h-1m-51s, clients: 1, corpus: 20, objectives: 0, executions: 7593197, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-52s, clients: 1, corpus: 20, objectives: 0, executions: 7661805, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-53s, clients: 1, corpus: 20, objectives: 0, executions: 7729901, exec/sec: 68.25k
+[32m INFO[0m [Stats #0] run time: 0h-1m-54s, clients: 1, corpus: 20, objectives: 0, executions: 7796972, exec/sec: 68.24k

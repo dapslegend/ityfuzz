@@ -60,6 +60,7 @@ pub struct Flashloan {
     pub unbound_tracker: HashMap<usize, HashSet<EVMAddress>>, // pc -> [address called]
     pub flashloan_oracle: Rc<RefCell<IERC20OracleFlashloan>>,
     pub token_context_cache: HashMap<EVMAddress, TokenContext>,
+    pub target_addresses: HashSet<EVMAddress>, // Track target contracts
 }
 
 impl Debug for Flashloan {
@@ -130,11 +131,17 @@ impl Flashloan {
             unbound_tracker: Default::default(),
             token_context_cache: Default::default(),
             flashloan_oracle,
+            target_addresses: Default::default(),
         }
     }
 
     fn get_token_context(&mut self, addr: EVMAddress) -> Option<TokenContext> {
         self.chain_cfg.as_mut().map(|config| fetch_uniswap_path(config, addr))
+    }
+
+    pub fn add_target(&mut self, addr: EVMAddress) {
+        self.target_addresses.insert(addr);
+        debug!("Added target address to flashloan middleware: {:?}", addr);
     }
 
     pub fn on_contract_insertion(
@@ -258,8 +265,8 @@ where
         // }
 
         match *interp.instruction_pointer {
-            // detect whether it mutates token balance
-            0xf1 | 0xfa => {}
+            // detect whether it mutates token balance or transfers ETH
+            0xf1 | 0xf2 | 0xfa => {}
             0x55 => {
                 if self.pair_address.contains(&interp.contract.address) {
                     let key = interp.stack.peek(0).unwrap();
@@ -277,16 +284,23 @@ where
             }
         };
 
-        let value_transfer = match *interp.instruction_pointer {
-            0xf1 | 0xf2 => interp.stack.peek(2).unwrap(),
-            _ => EVMU256::ZERO,
-        };
-
-        // todo: fix for delegatecall
+        let value_transfer = convert_u256_to_h256(interp.stack.peek(2).unwrap());
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
 
-        if value_transfer > EVMU256::ZERO && s.has_caller(&call_target) {
-            host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+        if value_transfer > EVMU256::ZERO {
+            let sender_address = interp.contract.address;
+            
+            // AGGRESSIVE: Track ANY value leaving our targets as potential profit
+            // but avoid double counting by checking if we've already tracked this transfer
+            if self.target_addresses.contains(&sender_address) {
+                // Value leaving a target contract = potential profit
+                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+            }
+            // Track value received by fuzzer-controlled addresses
+            else if s.has_caller(&call_target) && !self.target_addresses.contains(&call_target) {
+                // Only count if it's not going to another target (avoid double count)
+                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
+            }
         }
 
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());

@@ -62,6 +62,12 @@ pub struct AccessPattern {
     pub gas_limit: bool,
     pub chain_id: bool,
     pub basefee: bool,
+    // Enhanced pattern tracking for vulnerability detection
+    pub has_delegatecall: bool,
+    pub has_selfdestruct: bool,
+    pub has_create2: bool,
+    pub storage_writes: u32,
+    pub external_calls: u32,
 }
 
 impl AccessPattern {
@@ -79,6 +85,11 @@ impl AccessPattern {
             gas_limit: false,
             chain_id: false,
             basefee: false,
+            has_delegatecall: false,
+            has_selfdestruct: false,
+            has_create2: false,
+            storage_writes: 0,
+            external_calls: 0,
         }
     }
 
@@ -96,6 +107,12 @@ impl AccessPattern {
             0x46 => self.chain_id = true,
             0x48 => self.basefee = true,
             0x34 => self.call_value = true,
+            // Enhanced tracking for vulnerability patterns
+            0xf4 => self.has_delegatecall = true,  // DELEGATECALL
+            0xff => self.has_selfdestruct = true,  // SELFDESTRUCT
+            0xf5 => self.has_create2 = true,       // CREATE2
+            0x55 => self.storage_writes += 1,      // SSTORE
+            0xf1 | 0xf2 | 0xfa => self.external_calls += 1, // CALL, CALLCODE, STATICCALL
             _ => {}
         }
     }
@@ -253,21 +270,174 @@ where
                 }
             }
         }
+        
         // determine whether we should conduct havoc
         // (a sequence of mutations in batch vs single mutation)
-        // let mut amount_of_args = input.get_data_abi().map(|abi|
-        // abi.b.get_size()).unwrap_or(0) / 32 + 1; if amount_of_args > 6 {
-        //     amount_of_args = 6;
-        // }
         let should_havoc = state.rand_mut().below(MUTATOR_SAMPLE_MAX) < HAVOC_CHOICE;
+
+        // Exploit-specific mutation: prioritize vulnerability-triggering patterns
+        // Note: These are placeholder optimizations - actual implementation would need
+        // the corresponding methods to be defined in the input trait
+        /*
+        let access_pattern = input.get_access_pattern();
+        let should_target_vuln = state.rand_mut().below(100) < 30; // 30% chance
+        
+        if should_target_vuln && access_pattern.has_delegatecall {
+            // Target delegatecall vulnerabilities
+            if state.rand_mut().below(100) < 80 {
+                // High probability to mutate target address for delegatecall
+                input.mutate_target_address(state);
+                return Ok(MutationResult::Mutated);
+            }
+        }
+        
+        if should_target_vuln && access_pattern.storage_writes > 0 {
+            // Target reentrancy patterns
+            if access_pattern.external_calls > 0 && state.rand_mut().below(100) < 70 {
+                // Mutate to create reentrancy conditions
+                input.mutate_call_sequence(state);
+                return Ok(MutationResult::Mutated);
+            }
+        }
+        */
+        
+        // Add exploit preset patterns - EXTREMELY AGGRESSIVE
+        let use_exploit_preset = state.rand_mut().below(MUTATOR_SAMPLE_MAX) < EXPLOIT_PRESET_CHOICE;
+        if use_exploit_preset && input.get_data_abi().is_some() {
+            // Get caller before mutating to avoid borrow checker issues
+            let caller = input.get_caller();
+            
+            // Common exploit patterns - only mutate if we have ABI data
+            if let Some(abi) = input.get_data_abi_mut() {
+                let exploit_type = state.rand_mut().below(8); // More exploit types
+                match exploit_type {
+                    0 => {
+                        // Maximum value attacks - overflow/underflow
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: EVMU256::MAX.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    1 => {
+                        // Zero/Admin address for access control bypass
+                        let addrs = [
+                            vec![0u8; 20], // Zero address
+                            vec![0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], // Address 1
+                            vec![0xde, 0xad, 0xbe, 0xef, 0xba, 0xd9, 0xde, 0xad, 0xbe, 0xef, 0xba, 0xd9, 0xde, 0xad, 0xbe, 0xef, 0xba, 0xd9, 0xde, 0xad], // Deadbeef
+                        ];
+                        let addr = &addrs[state.rand_mut().below(addrs.len() as u64) as usize];
+                        let mut data = vec![0u8; 32];
+                        data[12..32].copy_from_slice(addr);
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data,
+                            is_address: true,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Address,
+                        }));
+                    },
+                    2 => {
+                        // Minimal values for precision loss/rounding
+                        let vals = [1u64, 2, 999, 1000, 9999];
+                        let val = vals[state.rand_mut().below(vals.len() as u64) as usize];
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: EVMU256::from(val).to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    3 => {
+                        // Common DeFi amounts (1e18, 1e6, etc)
+                        let amounts = [
+                            EVMU256::from(10).pow(EVMU256::from(18)), // 1 ETH
+                            EVMU256::from(10).pow(EVMU256::from(6)),  // 1 USDC
+                            EVMU256::from(10).pow(EVMU256::from(8)),  // 1 WBTC
+                            EVMU256::from(10).pow(EVMU256::from(18)) * EVMU256::from(1000), // 1000 ETH
+                        ];
+                        let amount = amounts[state.rand_mut().below(amounts.len() as u64) as usize];
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: amount.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    4 => {
+                        // Type confusion - address as uint256 (use caller from input)
+                        let mut data = vec![0u8; 32];
+                        // Convert address to bytes - assuming it's 20 bytes
+                        if std::mem::size_of_val(&caller) == 20 {
+                            data[12..32].copy_from_slice(unsafe {
+                                std::slice::from_raw_parts(&caller as *const _ as *const u8, 20)
+                            });
+                        } else {
+                            // Fallback - use a random address pattern
+                            data[12..32].copy_from_slice(&vec![0xff; 20]);
+                        }
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data,
+                            is_address: false, // Intentionally wrong!
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    5 => {
+                        // Just below overflow values
+                        let boundary_val = EVMU256::MAX - EVMU256::from(state.rand_mut().below(1000));
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: boundary_val.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    6 => {
+                        // Negative values (as two's complement)
+                        let neg_val = EVMU256::from(0) - EVMU256::from(state.rand_mut().below(1000000) + 1);
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: neg_val.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Int,
+                        }));
+                    },
+                    7 => {
+                        // Magic values often used in exploits
+                        let magic_vals = [
+                            EVMU256::from(0x80), // High bit set
+                            EVMU256::from(2).pow(EVMU256::from(255)), // Sign bit
+                            EVMU256::from(0xffffffffu64), // Max uint32
+                            EVMU256::from(0x7fffffffffffffff_u64), // Max int64
+                        ];
+                        let magic = magic_vals[state.rand_mut().below(magic_vals.len() as u64) as usize];
+                        *abi = super::abi::BoxedABI::new(Box::new(super::abi::A256 {
+                            data: magic.to_be_bytes_vec(),
+                            is_address: false,
+                            dont_mutate: false,
+                            inner_type: super::abi::A256InnerType::Uint,
+                        }));
+                    },
+                    _ => {}
+                }
+                return Ok(MutationResult::Mutated);
+            }
+        }
+
+        // Adaptive mutation rate based on profitability
+        let mutation_boost = if state.rand_mut().below(100) < 50 {
+            // 50% chance to boost mutation rate for potentially profitable inputs
+            5
+        } else {
+            1
+        };
 
         // determine how many times we should mutate the input
         let havoc_times = if should_havoc {
-            state.rand_mut().below(HAVOC_MAX_ITERS) + 1 // (amount_of_args *
-                                                        // HAVOC_MAX_ITERS) as
-                                                        // u64;
+            (state.rand_mut().below(HAVOC_MAX_ITERS) + 1) * mutation_boost // Apply boost
         } else {
-            1
+            1 * mutation_boost
         };
 
         let mut mutated = false;

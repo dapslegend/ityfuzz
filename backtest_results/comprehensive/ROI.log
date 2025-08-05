@@ -1,0 +1,22 @@
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from f8c76eea8cbb03a65f07acd4027540b5059b8fc0
+Contract loaded: 0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea
+Contract loaded: 0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[32m INFO[0m Deploying contract: 0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0
+[32m INFO[0m Contract 0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0 deployed to: 0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0 -> balacne is 0
+[32m INFO[0m Deploying contract: 0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea
+[32m INFO[0m Contract 0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea deployed to: 0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea -> balacne is 0
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m Contract 0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0 has no abi
+[32m INFO[0m Too many unknown function signature for "0xf8c76eea8cbb03a65f07acd4027540b5059b8fc0", we are going to decompile this contract using EVMole
+[32m INFO[0m Contract 0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea has no abi
+[32m INFO[0m Too many unknown function signature for "0x4cbd19b3db72e713cd32ce1de5be01b3b4dca0ea", we are going to decompile this contract using EVMole
+[31mERROR[0m There is nothing to fuzz. Please check the target you provided.

@@ -1,0 +1,200 @@
+nohup: ignoring input
+🚀 Comprehensive BSC Backtests with ALL Detectors
+=================================================
+
+Configuration:
+  ✅ ALL detectors enabled
+  ✅ Extended timeouts (5 minutes each)
+  ✅ Enhanced ItyFuzz with optimizations
+
+Starting comprehensive backtests...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing BEGO
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x88503F48e437a377f1aC2892cBB3a5b09949faDd,0xc342774492b54ce5F8ac662113ED702Fc1b34972
+   Block: 22315679
+   Expected: Fund Loss
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: ...     [ 20s] Rate: 2.111k  
+✅ SUCCESS: Found vulnerability in 21s
+
+Details:
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 57.83% Instruction Covered, 50.00% Branch Covered
+[32m INFO[0m 0xc342774492b54ce5f8ac662113ed702fc1b34972: 54.13% Instruction Covered, 43.64% Branch Covered
+
+
+
+😊😊 Found vulnerabilities! 
+
+
+================ Description ================
+[Fund Loss]: Anyone can earn 12.037 ETH by interacting with the provided contracts
+
+================ Trace ================
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0x88503F48e437a377f1aC2892cBB3a5b09949faDd.skim(0xe1A425f1AC34A8a441566f93c82dD730639c8510)
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing RES02
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x5c811d550E421bcc37cb2097AF5b40Eb62Cf6d7A,0xA0ED3C520dC0632657AD2EaaF19E26C4fD431a84
+   Block: 23695904
+   Expected: Reentrancy
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: ...     [ 20s] Rate: 69.15   [ 30s] Rate: 1.025k  [ 40s] Rate: 1.968k  [ 50s] Rate: 4.195k  [ 60s] Rate: 6.508k  [ 70s] Rate: 9.525k  [ 80s] Rate: 11.61k  [ 90s] Rate: 12.87k  [100s] Rate: 13.94k  [110s] Rate: 14.80k  [120s] Rate: 15.48k  [130s] Rate: 16.02k  [140s] Rate: 16.53k  [150s] Rate: 16.97k  [160s] Rate: 17.35k  [170s] Rate: 17.66k  [180s] Rate: 17.96k  [190s] Rate: 18.20k  [200s] Rate: 18.45k  [210s] Rate: 18.67k  [220s] Rate: 18.87k  [230s] Rate: 19.04k  [240s] Rate: 19.20k  [250s] Rate: 19.34k  [260s] Rate: 19.47k  [270s] Rate: 19.59k  [280s] Rate: 19.71k  [290s] Rate: 19.82k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-53s, clients: 1, corpus: 81, objectives: 0, executions: 5567996, exec/sec: 19.89k
+[32m INFO[0m [Stats #0] run time: 0h-4m-54s, clients: 1, corpus: 81, objectives: 0, executions: 5591036, exec/sec: 19.90k
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 81, objectives: 0, executions: 5614076, exec/sec: 19.91k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 81, objectives: 0, executions: 5636092, exec/sec: 19.92k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 81, objectives: 0, executions: 5658620, exec/sec: 19.93k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing LPC
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x55d398326f99059fF775485246999027B3197955,0x2dEc3B6AdFCCE085F31C0fdba870Fb4344d35EF7,0x9ca1c80b7B4789382d3081b77a5add91fD638407
+   Block: 16008280
+   Expected: Fund Loss
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 2.001k  [ 20s] Rate: 10.44k  [ 30s] Rate: 16.38k  [ 40s] Rate: 19.15k  [ 50s] Rate: 20.54k  [ 60s] Rate: 21.65k  [ 70s] Rate: 22.58k  [ 80s] Rate: 23.07k  [ 90s] Rate: 23.58k  [100s] Rate: 23.93k  [110s] Rate: 24.32k  [120s] Rate: 24.67k  [130s] Rate: 24.93k  [150s] Rate: 25.34k  [160s] Rate: 25.53k  [170s] Rate: 25.67k  [180s] Rate: 25.80k  [190s] Rate: 25.90k  [200s] Rate: 25.99k  [210s] Rate: 26.10k  [220s] Rate: 26.19k  [230s] Rate: 26.25k  [240s] Rate: 26.31k  [250s] Rate: 26.38k  [260s] Rate: 26.44k  [270s] Rate: 26.50k  [280s] Rate: 26.56k  [290s] Rate: 26.60k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-53s, clients: 1, corpus: 51, objectives: 0, executions: 7684863, exec/sec: 26.63k
+[32m INFO[0m [Stats #0] run time: 0h-4m-54s, clients: 1, corpus: 51, objectives: 0, executions: 7713279, exec/sec: 26.63k
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 51, objectives: 0, executions: 7742207, exec/sec: 26.64k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 51, objectives: 0, executions: 7770111, exec/sec: 26.64k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 51, objectives: 0, executions: 7800319, exec/sec: 26.65k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing AES
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0xdDc0CFF76bcC0ee14c3e73aF630C029fe020F907
+   Block: 15307521
+   Expected: Price Manipulation
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 19.02k  [ 20s] Rate: 19.47k  [ 30s] Rate: 19.60k  [ 40s] Rate: 20.42k  [ 50s] Rate: 21.00k  [ 60s] Rate: 21.42k  [ 70s] Rate: 21.71k  [ 80s] Rate: 21.95k  [ 90s] Rate: 22.05k  [110s] Rate: 22.30k  [120s] Rate: 22.39k  [130s] Rate: 22.46k  [140s] Rate: 22.53k  [150s] Rate: 22.60k  [160s] Rate: 22.65k  [170s] Rate: 22.71k  [180s] Rate: 22.73k  [190s] Rate: 22.77k  [200s] Rate: 22.80k  [210s] Rate: 22.83k  [220s] Rate: 22.84k  [230s] Rate: 22.87k  [240s] Rate: 22.90k  [250s] Rate: 22.92k  [260s] Rate: 22.94k  [270s] Rate: 22.96k  [280s] Rate: 22.97k  [290s] Rate: 22.99k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-53s, clients: 1, corpus: 42, objectives: 0, executions: 6708224, exec/sec: 23.00k
+[32m INFO[0m [Stats #0] run time: 0h-4m-54s, clients: 1, corpus: 42, objectives: 0, executions: 6731520, exec/sec: 23.00k
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 42, objectives: 0, executions: 6755072, exec/sec: 23.01k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 42, objectives: 0, executions: 6779392, exec/sec: 23.01k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 42, objectives: 0, executions: 6803200, exec/sec: 23.01k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing Novo
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0xB76a913e21bA068468215B0e35C892542b2Fa9C2
+   Block: 28073403
+   Expected: Reentrancy
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 13.14k  [ 20s] Rate: 17.34k  [ 30s] Rate: 18.95k  [ 40s] Rate: 19.75k  [ 50s] Rate: 20.17k  [ 60s] Rate: 20.40k  [ 70s] Rate: 20.62k  [ 80s] Rate: 20.73k  [ 90s] Rate: 20.82k  [100s] Rate: 20.88k  [110s] Rate: 20.94k  [120s] Rate: 20.98k  [130s] Rate: 21.03k  [140s] Rate: 21.07k  [150s] Rate: 21.10k  [160s] Rate: 21.13k  [170s] Rate: 21.13k  [180s] Rate: 21.15k  [190s] Rate: 21.16k  [200s] Rate: 21.17k  [210s] Rate: 21.18k  [220s] Rate: 21.19k  [230s] Rate: 21.19k  [240s] Rate: 21.18k  [250s] Rate: 21.18k  [260s] Rate: 21.18k  [270s] Rate: 21.17k  [280s] Rate: 21.18k  [290s] Rate: 21.19k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 28, objectives: 0, executions: 6241264, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 28, objectives: 0, executions: 6262767, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 28, objectives: 0, executions: 6284271, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 28, objectives: 0, executions: 6306031, exec/sec: 21.19k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 28, objectives: 0, executions: 6327535, exec/sec: 21.19k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing HEALTH
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x32B166e082993Af6598a89397E82e123ca44e74E,0xF375709DbdE84D800642168c2e8bA751368e8D32
+   Block: 18170716
+   Expected: Access Control
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 19.02k  [ 20s] Rate: 23.39k  [ 30s] Rate: 25.73k  [ 40s] Rate: 26.31k  [ 50s] Rate: 26.44k  [ 60s] Rate: 26.78k  [ 70s] Rate: 27.08k  [ 80s] Rate: 27.28k  [ 90s] Rate: 27.36k  [100s] Rate: 27.45k  [110s] Rate: 27.53k  [120s] Rate: 27.55k  [130s] Rate: 27.59k  [140s] Rate: 27.64k  [150s] Rate: 27.65k  [160s] Rate: 27.67k  [170s] Rate: 27.67k  [180s] Rate: 27.69k  [190s] Rate: 27.71k  [200s] Rate: 27.71k  [210s] Rate: 27.71k  [220s] Rate: 27.73k  [230s] Rate: 27.74k  [240s] Rate: 27.77k  [250s] Rate: 27.78k  [260s] Rate: 27.78k  [270s] Rate: 27.79k  [280s] Rate: 27.81k  [290s] Rate: 27.80k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 56, objectives: 0, executions: 8165888, exec/sec: 27.80k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 56, objectives: 0, executions: 8194560, exec/sec: 27.81k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 56, objectives: 0, executions: 8222464, exec/sec: 27.81k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 56, objectives: 0, executions: 8249600, exec/sec: 27.80k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 56, objectives: 0, executions: 8278528, exec/sec: 27.81k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing Seaman
+   Target: 0x6bc9b4976ba6f8C9574326375204eE469993D038,0x7B86b0836f3454e50C6F6a190cd692bB17da1928
+   Block: 22142525
+   Expected: Access Control
+   Timeout: 600s
+
+⏳ Monitoring...
+[ 10s] Rate: 351.6   [ 20s] Rate: 13.61k  [ 30s] Rate: 24.24k  [ 40s] Rate: 28.45k  [ 50s] Rate: 30.65k  [ 60s] Rate: 32.02k  [ 70s] Rate: 32.90k  [ 80s] Rate: 33.49k  [ 90s] Rate: 34.01k  [100s] Rate: 34.50k  [110s] Rate: 34.78k  [120s] Rate: 34.99k  [130s] Rate: 35.18k  [140s] Rate: 35.34k  [150s] Rate: 35.49k  [160s] Rate: 35.70k  [170s] Rate: 35.83k  [180s] Rate: 35.92k  [190s] Rate: 36.00k  [200s] Rate: 36.10k  [210s] Rate: 36.22k  [220s] Rate: 36.28k  [230s] Rate: 36.33k  [240s] Rate: 36.37k  [250s] Rate: 36.42k  [260s] Rate: 36.45k  [270s] Rate: 36.52k  [280s] Rate: 36.55k  [290s] Rate: 36.61k  [300s] Rate: 36.66k  [310s] Rate: 36.68k  [320s] Rate: 36.70k  [330s] Rate: 36.72k  [340s] Rate: 36.75k  [350s] Rate: 36.78k  [360s] Rate: 36.82k  [370s] Rate: 36.84k  [380s] Rate: 36.87k  [390s] Rate: 36.89k  [400s] Rate: 36.93k  [410s] Rate: 36.95k  [420s] Rate: 36.95k  [430s] Rate: 36.98k  [440s] Rate: 37.02k  [450s] Rate: 37.05k  [460s] Rate: 37.07k  [470s] Rate: 37.11k  [480s] Rate: 37.14k  [490s] Rate: 37.15k  [500s] Rate: 37.17k  [510s] Rate: 37.21k  [520s] Rate: 37.21k  [530s] Rate: 37.24k  [540s] Rate: 37.27k  [550s] Rate: 37.28k  [560s] Rate: 37.31k  [570s] Rate: 37.32k  [580s] Rate: 37.32k  [590s] Rate: 37.33k  [600s] Rate: 37.34k  
+❌ No vulnerability found in 601s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-9m-54s, clients: 1, corpus: 207, objectives: 0, executions: 22028030, exec/sec: 37.33k
+[32m INFO[0m [Stats #0] run time: 0h-9m-55s, clients: 1, corpus: 207, objectives: 0, executions: 22070782, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-56s, clients: 1, corpus: 207, objectives: 0, executions: 22107902, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-57s, clients: 1, corpus: 207, objectives: 0, executions: 22143230, exec/sec: 37.34k
+[32m INFO[0m [Stats #0] run time: 0h-9m-58s, clients: 1, corpus: 207, objectives: 0, executions: 22182654, exec/sec: 37.34k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing CFC
+   Target: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x55d398326f99059fF775485246999027B3197955,0x4Ad2A83dF23e5F5e1C31C73bcbAD70a45f6C9479
+   Block: 27012846
+   Expected: Fund Loss
+   Timeout: 300s
+
+⏳ Monitoring...
+[ 10s] Rate: 7.799k  [ 20s] Rate: 15.10k  [ 30s] Rate: 18.97k  [ 40s] Rate: 20.50k  [ 50s] Rate: 21.51k  [ 60s] Rate: 22.29k  [ 70s] Rate: 22.87k  [ 80s] Rate: 23.17k  [ 90s] Rate: 23.52k  [100s] Rate: 23.78k  [110s] Rate: 23.96k  [120s] Rate: 24.12k  [130s] Rate: 24.26k  [140s] Rate: 24.40k  [150s] Rate: 24.52k  [160s] Rate: 24.62k  [170s] Rate: 24.69k  [180s] Rate: 24.75k  [190s] Rate: 24.82k  [200s] Rate: 24.84k  [210s] Rate: 24.90k  [220s] Rate: 24.95k  [230s] Rate: 24.95k  [240s] Rate: 24.98k  [250s] Rate: 25.04k  [260s] Rate: 25.06k  [270s] Rate: 25.11k  [280s] Rate: 25.15k  [290s] Rate: 25.20k  
+❌ No vulnerability found in 300s
+Final stats:
+[32m INFO[0m [Stats #0] run time: 0h-4m-55s, clients: 1, corpus: 52, objectives: 0, executions: 7367680, exec/sec: 25.22k
+[32m INFO[0m [Stats #0] run time: 0h-4m-56s, clients: 1, corpus: 52, objectives: 0, executions: 7394816, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-57s, clients: 1, corpus: 52, objectives: 0, executions: 7421184, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-58s, clients: 1, corpus: 52, objectives: 0, executions: 7447040, exec/sec: 25.23k
+[32m INFO[0m [Stats #0] run time: 0h-4m-59s, clients: 1, corpus: 52, objectives: 0, executions: 7473664, exec/sec: 25.23k
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Testing ROI
+   Target: 0x4cbd19b3Db72E713cD32Ce1De5be01b3B4dCa0EA,0xF8c76eEa8cBb03A65F07ACD4027540B5059B8fC0
+   Block: 29135693
+   Expected: Incorrect Calculation
+   Timeout: 300s
+
+⏳ Monitoring...
+
+❌ No vulnerability found in 2s
+Final stats:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Final Summary
+
+❌ AES: Not found
+✅ BEGO: FOUND
+❌ CFC: Not found
+❌ HEALTH: Not found
+❌ LPC: Not found
+✅ main: FOUND
+❌ Novo: Not found
+❌ RES02: Not found
+❌ ROI: Not found
+❌ Seaman: Not found
+
+Total: 2/10 vulnerabilities detected
+
+Performance stats:
+  AES: 23.01k exec/sec
+  BEGO: 2.111k exec/sec
+  CFC: 25.23k exec/sec
+  HEALTH: 27.81k exec/sec
+  LPC: 26.65k exec/sec
+  main: 26.65k exec/sec
+  Novo: 21.19k exec/sec
+  RES02: 19.93k exec/sec
+  Seaman: 37.34k exec/sec
+
+✅ Comprehensive backtest complete!
+📝 Logs saved in: backtest_results/comprehensive/

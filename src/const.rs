@@ -12,9 +12,9 @@ pub const KNOWN_STATE_SKIP_SIZE: usize = 500;
 // src/fuzzer.rs
 /// The maximum number of inputs (or VMState) to keep in the corpus before
 /// pruning
-pub const DROP_THRESHOLD: usize = 500;
+pub const DROP_THRESHOLD: usize = 150;  // Even smaller for faster profitable path focus
 /// The number of inputs (or VMState) to prune each time the corpus is pruned
-pub const PRUNE_AMT: usize = 250;
+pub const PRUNE_AMT: usize = 75;  // Keep only the most profitable
 /// If inputs (or VMState) has not been visited this many times, it will be
 /// ignored during pruning
 pub const VISIT_IGNORE_THRESHOLD: usize = 2;
@@ -27,7 +27,7 @@ pub const ACCOUNT_AMT: u8 = 2;
 /// We will generate random addresses for these accounts and contracts.
 pub const CONTRACT_AMT: u8 = 2;
 /// Maximum size of the input data
-pub const MAX_INPUT_SIZE: usize = 20;
+pub const MAX_INPUT_SIZE: usize = 10;  // Even smaller for speed
 
 // src/abi.rs
 /// Sample will be used to generate a random value with max value
@@ -46,21 +46,21 @@ pub const UNKNOWN_SIGS_DIVISOR: usize = 30;
 
 // src/evm/mutator.rs
 /// Sample will be used to generate a random value with max value
-pub const MUTATOR_SAMPLE_MAX: u64 = 100;
+pub const MUTATOR_SAMPLE_MAX: u64 = 30;  // Extremely aggressive
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const EXPLOIT_PRESET_CHOICE: u64 = 20;
+pub const EXPLOIT_PRESET_CHOICE: u64 = 25;  // 83% chance to use exploit presets!
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const ABI_MUTATE_CHOICE: u64 = 96;
+pub const ABI_MUTATE_CHOICE: u64 = 70;  // More ABI mutations
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const HAVOC_CHOICE: u64 = 60;
+pub const HAVOC_CHOICE: u64 = 90;  // Almost always havoc
 /// Maximum number of iterations to try to find a valid havoc mutation
-pub const HAVOC_MAX_ITERS: u64 = 10;
+pub const HAVOC_MAX_ITERS: u64 = 30;  // More havoc attempts
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const MUTATE_CALLER_CHOICE: u64 = 20;
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const TURN_TO_STEP_CHOICE: u64 = 60;
 /// Related to [MUTATOR_SAMPLE_MAX]
-pub const RANDOMNESS_CHOICE: u64 = 33;
+pub const RANDOMNESS_CHOICE: u64 = 10;  // Much less randomness, more targeted
 /// Related to [MUTATOR_SAMPLE_MAX]
 pub const LIQUIDATE_CHOICE: u64 = 5;
 /// Related to [MUTATOR_SAMPLE_MAX]
@@ -69,9 +69,25 @@ pub const LIQ_PERCENT: u64 = 10;
 /// Related to [MUTATOR_SAMPLE_MAX] and [LIQUIDATE_CHOICE]
 pub const RANDOMNESS_CHOICE_2: u64 = 6;
 /// Maximum number of retries to try to find a valid mutation
-pub const MUTATION_RETRIES: usize = 20;
+pub const MUTATION_RETRIES: u64 = 50;  // More retries for profitable paths
 
 // src/evm/scheduler.rs
-pub const POWER_MULTIPLIER: f64 = 32.0;
-pub const MAX_POWER: f64 = 3200.0;
-pub const MIN_POWER: f64 = 32.0;
+/// Power
+pub const POWER_MULTIPLIER: f64 = 256.0;  // Extreme power for profitable inputs
+/// Maximum power
+pub const MAX_POWER: f64 = 25600.0;  // Very high priority for profitable paths
+/// Minimum power
+pub const MIN_POWER: f64 = 4.0;  // Even lower minimum
+
+/// The more state change, the more likely a state is interesting
+pub const STATE_CHANGE_MULTIPLIER: f64 = 20000.0;  // Back to original
+
+/// The more calls, the more likely a state is interesting
+pub const STATE_CHANGE_POWER_MULTIPLIER: f64 = 16.0;  // Double the original
+
+/// Related to [MUTATOR_SAMPLE_MAX], can we call borrow or not
+pub const CAN_BORROW: u64 = 28;  // 93% chance for flash loans!
+
+// Profitability focus
+pub const PROFIT_THRESHOLD: u64 = 1000000000000000000; // 1 ETH profit threshold
+pub const PROFIT_MULTIPLIER: f64 = 1000.0;  // Huge boost for profitable paths

@@ -1,0 +1,25 @@
+--- a/src/evm/onchain/flashloan.rs
++++ b/src/evm/onchain/flashloan.rs
+@@ -285,8 +285,19 @@
+         // todo: fix for delegatecall
+         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
+ 
+-        if value_transfer > EVMU256::ZERO && s.has_caller(&call_target) {
+-            host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
++        if value_transfer > EVMU256::ZERO {
++            // Track all ETH transfers during execution
++            // If ETH is being sent FROM a contract we're testing TO any address,
++            // and the sender is a fuzz caller, it's potentially earned
++            let sender = interp.contract.address;
++            
++            // If the current contract is sending ETH and we control the recipient
++            if s.has_caller(&call_target) {
++                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
++            }
++            // Also track if we're receiving ETH from the target contract
++            else if self.known_addresses.contains(&sender) {
++                host.evmstate.flashloan_data.earned += EVMU512::from(value_transfer) * scale!();
++            }
+         }
+ 
+         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());

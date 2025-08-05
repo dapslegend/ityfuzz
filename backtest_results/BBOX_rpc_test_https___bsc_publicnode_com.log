@@ -1,0 +1,46 @@
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+Contract loaded: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+Contract loaded: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x0fe261aee0d1c4dfddee4102e82dd425999065f4&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 0fe261aee0d1c4dfddee4102e82dd425999065f4
+Contract loaded: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[32m INFO[0m Deploying contract: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c deployed to: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c -> balacne is 0
+[32m INFO[0m Deploying contract: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m Contract 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c deployed to: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c -> balacne is 0
+[32m INFO[0m Deploying contract: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4
+[32m INFO[0m Contract 0x0fe261aee0d1c4dfddee4102e82dd425999065f4 deployed to: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4 -> balacne is 0
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m fetching pairs for 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching pairs for 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching code from 7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348
+[32m INFO[0m fetching code from 50c4235c34c8ce1188b6a23f8c8ba4c4464dbfab
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m [Stats #0] run time: 0h-0m-1s, clients: 1, corpus: 0, objectives: 0, executions: 38656, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-2s, clients: 1, corpus: 0, objectives: 0, executions: 75776, exec/sec: 75.36k
+[32m INFO[0m [Stats #0] run time: 0h-0m-3s, clients: 1, corpus: 0, objectives: 0, executions: 115200, exec/sec: 57.33k
+[32m INFO[0m [Stats #0] run time: 0h-0m-4s, clients: 1, corpus: 0, objectives: 0, executions: 153344, exec/sec: 50.34k
+[32m INFO[0m [Stats #0] run time: 0h-0m-5s, clients: 1, corpus: 0, objectives: 0, executions: 193024, exec/sec: 47.62k
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 0, objectives: 0, executions: 230656, exec/sec: 45.53k
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 0, objectives: 0, executions: 268800, exec/sec: 44.29k
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 0, objectives: 0, executions: 306432, exec/sec: 43.33k
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 0, objectives: 0, executions: 344832, exec/sec: 42.71k
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 0, objectives: 0, executions: 382720, exec/sec: 42.17k
+[32m INFO[0m [Stats #0] run time: 0h-0m-11s, clients: 1, corpus: 0, objectives: 0, executions: 420608, exec/sec: 41.69k
+[32m INFO[0m [Stats #0] run time: 0h-0m-12s, clients: 1, corpus: 0, objectives: 0, executions: 459520, exec/sec: 41.44k
+[32m INFO[0m [Stats #0] run time: 0h-0m-13s, clients: 1, corpus: 0, objectives: 0, executions: 497920, exec/sec: 41.10k
+[32m INFO[0m [Stats #0] run time: 0h-0m-14s, clients: 1, corpus: 0, objectives: 0, executions: 535808, exec/sec: 40.86k
+[32m INFO[0m [Stats #0] run time: 0h-0m-15s, clients: 1, corpus: 0, objectives: 0, executions: 573440, exec/sec: 40.55k
+[32m INFO[0m [Stats #0] run time: 0h-0m-16s, clients: 1, corpus: 0, objectives: 0, executions: 612096, exec/sec: 40.41k
+[32m INFO[0m [Stats #0] run time: 0h-0m-17s, clients: 1, corpus: 0, objectives: 0, executions: 649728, exec/sec: 40.23k
+[32m INFO[0m [Stats #0] run time: 0h-0m-18s, clients: 1, corpus: 0, objectives: 0, executions: 687872, exec/sec: 40.06k
+[32m INFO[0m [Stats #0] run time: 0h-0m-19s, clients: 1, corpus: 0, objectives: 0, executions: 727040, exec/sec: 40.01k
