@@ -1,4 +1,4 @@
-[32m INFO[0m fetching abi from https://api.bscscan.com/api?module=contract&action=getabi&address=0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c&format=json&apikey=TR24XDQF35QCNK9PZBV8XEH2XRSWTPWFWT
+[32m INFO[0m fetching abi from https://api.bscscan.com/api?module=contract&action=getabi&address=0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
 [32m INFO[0m fetching code from 5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
 thread 'main' panicked at src/evm/contract_utils.rs:238:85:
 failed to parse abis file: Error("expected value", line: 1, column: 1)
