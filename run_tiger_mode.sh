@@ -32,7 +32,7 @@ tiger_hunt() {
     echo -n "🐅 $name [$oracle]: "
     
     # Quick strike with timeout
-    timeout $TIMEOUT ./target/release/ityfuzz evm \
+    timeout $TIMEOUT ./target/debug/ityfuzz evm \
         -t "$target" \
         -c bsc \
         --onchain-block-number "$block" \
@@ -77,10 +77,14 @@ ORACLES=(
 
 # Run tests in parallel batches
 for test_data in "${TESTS[@]}"; do
-    IFS=',' read -r name addresses block <<< "$test_data"
-    # Remove name from addresses
-    target="${test_data#*,}"
-    target="${target%,*}"
+    # Extract the last element as block number
+    block="${test_data##*,}"
+    # Remove the block number from the end
+    temp="${test_data%,*}"
+    # Extract name (first element)
+    name="${temp%%,*}"
+    # Extract target addresses (everything except name and block)
+    target="${temp#*,}"
     
     echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     echo "🎯 Hunting: $name"
