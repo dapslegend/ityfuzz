@@ -1,0 +1,105 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 208 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0x2583 (9603 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xe9e7cea3dedca5984780bafc599bd69add087d56&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from e9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+Contract loaded: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m resolving host="api.etherscan.io"
+[34mDEBUG[0m connecting to 217.79.240.58:443
+[34mDEBUG[0m connected to 217.79.240.58:443
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (6198 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+Contract loaded: 0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x6985884c4392d348587b19cb9eaaf157f13271cd&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m reuse idle connection for ("https", api.etherscan.io)
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (22234 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 6985884c4392d348587b19cb9eaaf157f13271cd
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+Contract loaded: 0x6985884c4392d348587b19cb9eaaf157f13271cd
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m reuse idle connection for ("https", api.etherscan.io)
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (77 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 22ca19f13c5979d93bbe7b082e8e084a6c7b2511
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[34mDEBUG[0m ABI not found for 0x22ca…2511, we'll decompile
+Contract loaded: 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x4b0f1812e5df2a09796481ff14017e6005508003&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m reuse idle connection for ("https", api.etherscan.io)
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (5045 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 4b0f1812e5df2a09796481ff14017e6005508003
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+Contract loaded: 0x4b0f1812e5df2a09796481ff14017e6005508003
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x55d398326f99059ff775485246999027b3197955&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 55d398326f99059ff775485246999027b3197955
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

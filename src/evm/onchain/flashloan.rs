@@ -284,7 +284,7 @@ where
             }
         };
 
-        let value_transfer = convert_u256_to_h256(interp.stack.peek(2).unwrap());
+        let value_transfer = interp.stack.peek(2).unwrap();
         let call_target: EVMAddress = convert_u256_to_h160(interp.stack.peek(1).unwrap());
 
         if value_transfer > EVMU256::ZERO {

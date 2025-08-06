@@ -1,0 +1,462 @@
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56628956)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754469771.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56629538)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754470207.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56630119)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754470644.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56630701)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754471080.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ✅ Clean
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56631168)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754471432.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56631749)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754471868.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56632331)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754472305.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56632913)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754472741.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56633482)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754473169.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56634055)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754473599.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56634638)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754474036.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56635219)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754474472.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56635762)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754474880.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ✅ Clean
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56636265)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754475257.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56636847)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754475693.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56637428)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754476129.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56638009)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754476566.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56638591)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754477002.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56639113)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754477393.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56639677)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754477816.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56640251)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754478247.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56640805)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754478663.json
+✅ All data saved in mev/ directory!

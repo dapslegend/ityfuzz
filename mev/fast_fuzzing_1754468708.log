@@ -1,0 +1,61 @@
+=== Fast MEV Fuzzer ===
+Optimized for speed - minimal token discovery
+
+
+============================================================
+Testing: BEGO
+============================================================
+
+🎯 Fuzzing BEGO (0x68Cc9035...) with erc20
+   Block: 22315679
+   ✅ Clean
+
+🎯 Fuzzing BEGO (0x68Cc9035...) with reentrancy
+   Block: 22315679
+   ✅ Clean
+
+🎯 Fuzzing BEGO (0x68Cc9035...) with arbitrary_call
+   Block: 22315679
+   ✅ Clean
+
+============================================================
+Testing: CAKE
+============================================================
+
+🎯 Fuzzing CAKE (0x0E09FaBB...) with erc20
+   Block: 56627542
+   ✅ Clean
+
+🎯 Fuzzing CAKE (0x0E09FaBB...) with reentrancy
+   Block: 56627543
+   ✅ Clean
+
+🎯 Fuzzing CAKE (0x0E09FaBB...) with arbitrary_call
+   Block: 56627543
+   ✅ Clean
+
+============================================================
+Testing: PancakeRouter
+============================================================
+
+🎯 Fuzzing PancakeRouter (0x10ED43C7...) with erc20
+   Block: 56627543
+   ✅ Clean
+
+🎯 Fuzzing PancakeRouter (0x10ED43C7...) with reentrancy
+   Block: 56627545
+   ✅ Clean
+
+🎯 Fuzzing PancakeRouter (0x10ED43C7...) with arbitrary_call
+   Block: 56627546
+   ✅ Clean
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 6.2 seconds
+Contracts tested: 3
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/fast_mev_report_1754468714.json
+✅ All data saved in mev/ directory for exploitation!

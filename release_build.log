@@ -1,0 +1,397 @@
+   Compiling z3-sys v0.8.1
+error: failed to run custom build command for `z3-sys v0.8.1`
+
+Caused by:
+  process didn't exit successfully: `/workspace/target/release/build/z3-sys-d2a55e9bec32f0cf/build-script-build` (exit status: 101)
+  --- stdout
+  CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+  CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_TOOLCHAIN_FILE = None
+  CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+  CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_GENERATOR = None
+  CMAKE_GENERATOR = None
+  CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+  CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE_PREFIX_PATH = None
+  CMAKE_PREFIX_PATH = None
+  CMAKE_x86_64-unknown-linux-gnu = None
+  CMAKE_x86_64_unknown_linux_gnu = None
+  HOST_CMAKE = None
+  CMAKE = None
+  running: cd "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build" && CMAKE_PREFIX_PATH="" "cmake" "/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3" "-DZ3_BUILD_LIBZ3_SHARED=false" "-DZ3_BUILD_EXECUTABLE=false" "-DZ3_BUILD_TEST_EXECUTABLES=false" "-DCMAKE_INSTALL_PREFIX=/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+  -- Z3 version 4.12.1.0
+  -- Failed to find git directory.
+  -- CMake generator: Unix Makefiles
+  -- Build type: Release
+  -- PYTHON_EXECUTABLE: /usr/bin/python3
+  -- Detected target architecture: x86_64
+  -- Not using libgmp
+  -- Not using Z3_API_LOG_SYNC
+  -- Thread-safe build
+  -- C++ compiler supports -Wall
+  -- Treating only serious compiler warnings as errors
+  -- C++ compiler supports -Werror=odr
+  -- C++ compiler supports -Werror=delete-non-virtual-dtor
+  -- C++ compiler supports -Werror=overloaded-virtual
+  -- C++ compiler supports -Werror=non-virtual-dtor
+  -- C++ compiler supports -Werror=null-dereference
+  -- C++ compiler does not support -Werror=no-unreachable-code-return
+  -- LTO disabled
+  -- CMAKE_CXX_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 --target=x86_64-unknown-linux-gnu -Werror=odr  -Werror=delete-non-virtual-dtor  -Werror=overloaded-virtual  -Werror=non-virtual-dtor  -Werror=null-dereference "
+  -- CMAKE_EXE_LINKER_FLAGS: ""
+  -- CMAKE_STATIC_LINKER_FLAGS: ""
+  -- CMAKE_SHARED_LINKER_FLAGS: ""
+  -- CMAKE_CXX_FLAGS_RELEASE: "-O3 -DNDEBUG"
+  -- CMAKE_EXE_LINKER_FLAGS_RELEASE: ""
+  -- CMAKE_SHARED_LINKER_FLAGS_RELEASE: ""
+  -- CMAKE_STATIC_LINKER_FLAGS_RELEASE: ""
+  -- Z3_COMPONENT_CXX_DEFINES: $<$<CONFIG:Debug>:Z3DEBUG>;$<$<CONFIG:Release>:_EXTERNAL_RELEASE>;$<$<CONFIG:RelWithDebInfo>:_EXTERNAL_RELEASE>;-D_MP_INTERNAL;$<$<CONFIG:Debug>:_TRACE>
+  -- Z3_COMPONENT_CXX_FLAGS: -mfpmath=sse;-msse;-msse2;-Wall
+  -- Z3_DEPENDENT_LIBS: Threads::Threads
+  -- Z3_COMPONENT_EXTRA_INCLUDE_DIRS: /workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build/src;/usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src
+  -- Z3_DEPENDENT_EXTRA_CXX_LINK_FLAGS: 
+  -- CMAKE_INSTALL_LIBDIR: "lib"
+  -- CMAKE_INSTALL_BINDIR: "bin"
+  -- CMAKE_INSTALL_INCLUDEDIR: "include"
+  -- CMAKE_INSTALL_PKGCONFIGDIR: "lib/pkgconfig"
+  -- CMAKE_INSTALL_Z3_CMAKE_PACKAGE_DIR: "lib/cmake/z3"
+  -- Adding component util
+  -- Adding component polynomial
+  -- Adding rule to generate "algebraic_params.hpp"
+  -- Adding component dd
+  -- Adding component hilbert
+  -- Adding component simplex
+  -- Adding component automata
+  -- Adding component interval
+  -- Adding component realclosure
+  -- Adding rule to generate "rcf_params.hpp"
+  -- Adding component subpaving
+  -- Adding component ast
+  -- Adding rule to generate "pp_params.hpp"
+  -- Adding component params
+  -- Adding rule to generate "arith_rewriter_params.hpp"
+  -- Adding rule to generate "array_rewriter_params.hpp"
+  -- Adding rule to generate "bool_rewriter_params.hpp"
+  -- Adding rule to generate "bv_rewriter_params.hpp"
+  -- Adding rule to generate "fpa_rewriter_params.hpp"
+  -- Adding rule to generate "fpa2bv_rewriter_params.hpp"
+  -- Adding rule to generate "pattern_inference_params_helper.hpp"
+  -- Adding rule to generate "poly_rewriter_params.hpp"
+  -- Adding rule to generate "rewriter_params.hpp"
+  -- Adding rule to generate "seq_rewriter_params.hpp"
+  -- Adding rule to generate "solver_params.hpp"
+  -- Adding rule to generate "tactic_params.hpp"
+  -- Adding component rewriter
+  -- Adding component bit_blaster
+  -- Adding component normal_forms
+  -- Adding rule to generate "nnf_params.hpp"
+  -- Adding component macros
+  -- Adding component model
+  -- Adding rule to generate "model_evaluator_params.hpp"
+  -- Adding rule to generate "model_params.hpp"
+  -- Adding component euf
+  -- Adding component converters
+  -- Adding component substitution
+  -- Adding component simplifiers
+  -- Adding component tactic
+  -- Adding component smt_params
+  -- Adding rule to generate "smt_params_helper.hpp"
+  -- Adding component parser_util
+  -- Adding rule to generate "parser_params.hpp"
+  -- Adding component grobner
+  -- Adding component sat
+  -- Adding rule to generate "sat_asymm_branch_params.hpp"
+  -- Adding rule to generate "sat_params.hpp"
+  -- Adding rule to generate "sat_scc_params.hpp"
+  -- Adding rule to generate "sat_simplifier_params.hpp"
+  -- Adding component nlsat
+  -- Adding rule to generate "nlsat_params.hpp"
+  -- Adding component core_tactics
+  -- Adding component subpaving_tactic
+  -- Adding component aig_tactic
+  -- Adding component arith_tactics
+  -- Adding component solver
+  -- Adding rule to generate "combined_solver_params.hpp"
+  -- Adding rule to generate "parallel_params.hpp"
+  -- Adding component cmd_context
+  -- Adding component extra_cmds
+  -- Adding component smt2parser
+  -- Adding component mbp
+  -- Adding component qe_lite
+  -- Adding component solver_assertions
+  -- Adding component pattern
+  -- Adding component lp
+  -- Adding component sat_smt
+  -- Adding component sat_tactic
+  -- Adding component nlsat_tactic
+  -- Adding component ackermannization
+  -- Adding rule to generate "ackermannization_params.hpp"
+  -- Adding rule to generate "ackermannize_bv_tactic_params.hpp"
+  -- Adding component proofs
+  -- Adding component fpa
+  -- Adding component proto_model
+  -- Adding component smt
+  -- Adding component bv_tactics
+  -- Adding component smt_tactic
+  -- Adding component sls_tactic
+  -- Adding rule to generate "sls_params.hpp"
+  -- Adding component qe
+  -- Adding component muz
+  -- Adding rule to generate "fp_params.hpp"
+  -- Adding component dataflow
+  -- Adding component transforms
+  -- Adding component rel
+  -- Adding component clp
+  -- Adding component tab
+  -- Adding component bmc
+  -- Adding component ddnf
+  -- Adding component spacer
+  -- Adding component fp
+  -- Adding component ufbv_tactic
+  -- Adding component sat_solver
+  -- Adding component smtlogic_tactics
+  -- Adding rule to generate "qfufbv_tactic_params.hpp"
+  -- Adding component fpa_tactics
+  -- Adding component fd_solver
+  -- Adding component portfolio
+  -- Adding component opt
+  -- Adding rule to generate "opt_params.hpp"
+  -- Adding component api
+  -- Adding component api_dll
+  -- Building documentation disabled
+  -- Configuring done (0.2s)
+  -- Generating done (0.2s)
+  -- Build files have been written to: /workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build
+  running: cd "/workspace/target/release/build/z3-sys-b65658aa6eb14a5b/out/build" && MAKEFLAGS="-j --jobserver-fds=7,8 --jobserver-auth=7,8" "cmake" "--build" "." "--target" "install" "--config" "Release"
+  [  6%] Built target util
+  [  6%] Built target dd
+  [  6%] Built target automata
+  [  7%] Built target params
+  [  8%] Built target polynomial
+  [  8%] Built target interval
+  [  8%] Built target simplex
+  [  9%] Built target hilbert
+  [  9%] Built target realclosure
+  [  9%] Built target subpaving
+  [ 15%] Built target ast
+  [ 15%] Built target grobner
+  [ 16%] Built target euf
+  [ 17%] Built target smt_params
+  [ 23%] Built target rewriter
+  [ 24%] Built target parser_util
+  [ 24%] Built target bit_blaster
+  [ 25%] Built target normal_forms
+  [ 25%] Built target substitution
+  [ 29%] Built target sat
+  [ 30%] Built target macros
+  [ 30%] Built target proofs
+  [ 31%] Built target nlsat
+  [ 33%] Built target simplifiers
+  [ 35%] Built target model
+  [ 35%] Building CXX object src/math/lp/CMakeFiles/lp.dir/core_solver_pretty_printer.cpp.o
+  [ 35%] Building CXX object src/math/lp/CMakeFiles/lp.dir/eta_matrix.cpp.o
+  [ 36%] Building CXX object src/math/lp/CMakeFiles/lp.dir/emonics.cpp.o
+  [ 36%] Built target converters
+  [ 36%] Building CXX object src/math/lp/CMakeFiles/lp.dir/factorization.cpp.o
+  [ 37%] Built target mbp
+  [ 38%] Built target fpa
+  [ 38%] Built target proto_model
+  [ 38%] Building CXX object src/tactic/CMakeFiles/tactic.dir/dependency_converter.cpp.o
+  [ 38%] Building CXX object src/sat/smt/CMakeFiles/sat_smt.dir/arith_axioms.cpp.o
+  [ 40%] Building CXX object src/tactic/CMakeFiles/tactic.dir/goal.cpp.o
+  [ 40%] Building CXX object src/tactic/CMakeFiles/tactic.dir/goal_num_occurs.cpp.o
+  [ 41%] Building CXX object src/sat/smt/CMakeFiles/sat_smt.dir/arith_diagnostics.cpp.o
+  [ 41%] Building CXX object src/sat/smt/CMakeFiles/sat_smt.dir/arith_internalize.cpp.o
+  [ 41%] Building CXX object src/tactic/CMakeFiles/tactic.dir/goal_shared_occs.cpp.o
+  [ 41%] Building CXX object src/tactic/CMakeFiles/tactic.dir/goal_util.cpp.o
+  [ 41%] Building CXX object src/tactic/CMakeFiles/tactic.dir/probe.cpp.o
+  [ 41%] Building CXX object src/tactic/CMakeFiles/tactic.dir/tactical.cpp.o
+  [ 41%] Building CXX object src/tactic/CMakeFiles/tactic.dir/tactic.cpp.o
+  [ 41%] Built target tactic
+
+  --- stderr
+  CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+
+  CMake Warning at CMakeLists.txt:44 (message):
+    Disabling Z3_INCLUDE_GIT_DESCRIBE
+  Call Stack (most recent call first):
+    CMakeLists.txt:93 (disable_git_describe)
+
+
+  CMake Warning at CMakeLists.txt:48 (message):
+    Disabling Z3_INCLUDE_GIT_HASH
+  Call Stack (most recent call first):
+    CMakeLists.txt:94 (disable_git_hash)
+
+
+  CMake Warning (dev) at CMakeLists.txt:156 (find_package):
+    Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+    are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+    the cmake_policy command to set the policy and suppress this warning.
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/eta_matrix.cpp:23:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/eta_matrix_def.h:23:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/eta_matrix.h:23:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  1 error generated.
+  gmake[2]: *** [src/math/lp/CMakeFiles/lp.dir/build.make:135: src/math/lp/CMakeFiles/lp.dir/eta_matrix.cpp.o] Error 1
+  gmake[2]: *** Waiting for unfinished jobs....
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/factorization.cpp:2:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/factorization.h:23:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/monic.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_solver.h:31:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_constraints.h:32:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/column_namer.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/factorization.cpp:2:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/factorization.h:23:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/monic.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_solver.h:31:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_constraints.h:32:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/column_namer.h:22:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer_def.h:26:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_core_solver_base.h:27:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/core_solver_pretty_printer_def.h:26:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_core_solver_base.h:27:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/emonics.cpp:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/emonics.h:25:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/monic.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_solver.h:31:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_constraints.h:32:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/column_namer.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/emonics.cpp:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/emonics.h:25:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/monic.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_solver.h:31:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lar_constraints.h:32:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/column_namer.h:22:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  2 errors generated.
+  gmake[2]: *** [src/math/lp/CMakeFiles/lp.dir/build.make:107: src/math/lp/CMakeFiles/lp.dir/core_solver_pretty_printer.cpp.o] Error 1
+  2 errors generated.
+  gmake[2]: *** [src/math/lp/CMakeFiles/lp.dir/build.make:163: src/math/lp/CMakeFiles/lp.dir/factorization.cpp.o] Error 1
+  2 errors generated.
+  gmake[2]: *** [src/math/lp/CMakeFiles/lp.dir/build.make:149: src/math/lp/CMakeFiles/lp.dir/emonics.cpp.o] Error 1
+  gmake[1]: *** [CMakeFiles/Makefile2:3671: src/math/lp/CMakeFiles/lp.dir/all] Error 2
+  gmake[1]: *** Waiting for unfinished jobs....
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_axioms.cpp:19:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_axioms.cpp:19:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_diagnostics.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_diagnostics.cpp:21:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_diagnostics.cpp:86:18: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+     86 |         unsigned i = 0;
+        |                  ^
+  2 errors generated.
+  gmake[2]: *** [src/sat/smt/CMakeFiles/sat_smt.dir/build.make:79: src/sat/smt/CMakeFiles/sat_smt.dir/arith_axioms.cpp.o] Error 1
+  gmake[2]: *** Waiting for unfinished jobs....
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_internalize.cpp:19:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:17:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/permutation_matrix.h:29:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/tail_matrix.h:46:53: error: no member named 'get_elem' in 'tail_matrix<T, X>'
+     46 |         T operator[](unsigned j) const { return m_A.get_elem(m_row, j);}
+        |                                                 ~~~ ^
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_internalize.cpp:19:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_solver.h:22:
+  In file included from /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/lp_solver.h:28:
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:83:72: error: no member named 'get' in 'static_matrix<T, X>'; did you mean 'set'?
+     83 |         ref operator=(ref & v) { m_matrix.set(m_row, m_col, v.m_matrix.get(v.m_row, v.m_col)); return *this; }
+        |                                                                        ^~~
+        |                                                                        set
+  /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/lp/static_matrix.h:166:10: note: 'set' declared here
+    166 |     void set(unsigned row, unsigned col, T const & val);
+        |          ^
+  1 warning and 2 errors generated.
+  gmake[2]: *** [src/sat/smt/CMakeFiles/sat_smt.dir/build.make:93: src/sat/smt/CMakeFiles/sat_smt.dir/arith_diagnostics.cpp.o] Error 1
+  2 errors generated.
+  gmake[2]: *** [src/sat/smt/CMakeFiles/sat_smt.dir/build.make:107: src/sat/smt/CMakeFiles/sat_smt.dir/arith_internalize.cpp.o] Error 1
+  gmake[1]: *** [CMakeFiles/Makefile2:3726: src/sat/smt/CMakeFiles/sat_smt.dir/all] Error 2
+  gmake: *** [Makefile:136: all] Error 2
+  thread 'main' panicked at /usr/local/cargo/registry/src/index.crates.io-6f17d22bba15001f/cmake-0.1.50/src/lib.rs:1098:5:
+
+  command did not execute successfully, got: exit status: 2
+
+  build script failed, must exit now
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,953 @@
+
+🚀 Starting On-chain Transaction Fuzzer
+   Duration: 10 minutes
+   RPC: https://bsc-dataseed.binance.org/
+
+
+⏱️  Time: 0s / 600s (remaining: 600s)
+📊 Current BSC block: 56637911
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56637911...
+   Found 97 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637910...
+   Found 103 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637909...
+   Found 90 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 30s / 600s (remaining: 570s)
+📊 Current BSC block: 56637952
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56637952...
+   Found 88 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637951...
+   Found 105 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637950...
+   Found 91 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 60s / 600s (remaining: 540s)
+📊 Current BSC block: 56637993
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56637993...
+   Found 106 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637992...
+   Found 103 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56637991...
+   Found 105 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 90s / 600s (remaining: 510s)
+📊 Current BSC block: 56638034
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638034...
+   Found 89 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638033...
+   Found 107 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638032...
+   Found 109 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 121s / 600s (remaining: 479s)
+📊 Current BSC block: 56638075
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638075...
+   Found 121 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638074...
+   Found 126 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638073...
+   Found 96 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 151s / 600s (remaining: 449s)
+📊 Current BSC block: 56638116
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638116...
+   Found 110 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638115...
+   Found 124 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638114...
+   Found 99 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 181s / 600s (remaining: 419s)
+📊 Current BSC block: 56638157
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638157...
+   Found 94 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638156...
+   Found 90 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638155...
+   Found 88 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 212s / 600s (remaining: 388s)
+📊 Current BSC block: 56638198
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638198...
+   Found 95 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638197...
+   Found 131 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638196...
+   Found 129 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 242s / 600s (remaining: 358s)
+📊 Current BSC block: 56638235
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638235...
+   Found 86 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638234...
+   Found 99 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638233...
+   Found 110 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 272s / 600s (remaining: 328s)
+📊 Current BSC block: 56638276
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638276...
+   Found 117 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638275...
+   Found 149 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638274...
+   Found 96 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 303s / 600s (remaining: 297s)
+📊 Current BSC block: 56638317
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638317...
+   Found 90 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638316...
+   Found 78 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638315...
+   Found 136 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 333s / 600s (remaining: 267s)
+📊 Current BSC block: 56638358
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638358...
+   Found 101 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638357...
+   Found 89 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638356...
+   Found 99 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 363s / 600s (remaining: 237s)
+📊 Current BSC block: 56638399
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638399...
+   Found 118 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638398...
+   Found 103 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638397...
+   Found 108 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 393s / 600s (remaining: 207s)
+📊 Current BSC block: 56638439
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638439...
+   Found 130 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638438...
+   Found 103 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638437...
+   Found 147 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 424s / 600s (remaining: 176s)
+📊 Current BSC block: 56638480
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638480...
+   Found 133 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638479...
+   Found 116 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638478...
+   Found 98 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 454s / 600s (remaining: 146s)
+📊 Current BSC block: 56638517
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638517...
+   Found 92 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638516...
+   Found 112 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638515...
+   Found 104 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 484s / 600s (remaining: 116s)
+📊 Current BSC block: 56638558
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638558...
+   Found 116 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638557...
+   Found 82 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638556...
+   Found 87 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 515s / 600s (remaining: 85s)
+📊 Current BSC block: 56638599
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638599...
+   Found 118 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638598...
+   Found 103 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638597...
+   Found 147 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 545s / 600s (remaining: 55s)
+📊 Current BSC block: 56638640
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638640...
+   Found 90 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638639...
+   Found 87 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638638...
+   Found 98 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+⏱️  Time: 575s / 600s (remaining: 25s)
+📊 Current BSC block: 56638681
+🔍 Scanning last 3 blocks for contracts...
+
+📦 Scanning block 56638681...
+   Found 97 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638680...
+   Found 102 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+
+📦 Scanning block 56638679...
+   Found 96 transactions
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+Error getting tx details: expected str, bytes or os.PathLike object, not dict
+   Found 0 unique contracts
+❌ No contracts found in recent blocks
+
+==================================================
+📊 FUZZING SESSION COMPLETE
+   Duration: 10 minutes
+   Contracts scanned: 0
+   Vulnerabilities found: 0
+
+📝 Full results saved to: mev/onchain_tx/session_1754476495.json

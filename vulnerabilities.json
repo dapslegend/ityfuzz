@@ -1,0 +1,587 @@
+[
+  {
+    "file": "bego_test_extended.log",
+    "profit": 357564.692,
+    "pattern": "setup_drain",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 2199.9978,
+        "value_eth": 2199.9978,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972"
+      },
+      {
+        "type": "call",
+        "target": "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",
+        "function": "sync",
+        "value": 0,
+        "value_eth": 0,
+        "params": ""
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 35756469.199999996,
+    "multiplier": 99.99999999999999,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 2199.9978 ether}(0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972), address(this), block.tim..."
+  },
+  {
+    "file": "bego_test_optimized.log",
+    "profit": 352438.341,
+    "pattern": "setup_drain",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 4297.9217,
+        "value_eth": 4297.9217,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972"
+      },
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "increaseAllowance",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, 201275628711246522058474639742772579306295251922795486638.3907 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 35243834.1,
+    "multiplier": 100.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 4297.9217 ether}(0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972), address(this), block.tim..."
+  },
+  {
+    "file": "BEGO.log",
+    "profit": 279825.05,
+    "pattern": "approve_exploit",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 2303.744,
+        "value_eth": 2303.744,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972"
+      },
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "approve",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0xe1A425f1AC34A8a441566f93c82dD730639c8510, 1645504566899303172566936860656812723961962146.9894 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 13991252.5,
+    "multiplier": 50.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972), address(this), block.timestamp);\n   \u2514\u2500..."
+  },
+  {
+    "file": "SEAMAN_erc20.log",
+    "profit": 30179.434,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 8.9199,
+        "value_eth": 8.9199,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e"
+      },
+      {
+        "type": "call",
+        "target": "0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e",
+        "function": "receive",
+        "value": 1075.394,
+        "value_eth": 1075.394,
+        "params": "0x3ca40010ff7f58bb6471"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 150897.17,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0xdb95fbc5532eeb43deed56c8dc050c930e31017e",
+      "0x6637914482670f91f43025802b6755f27050b0a6",
+      "0x6bc9b4976ba6f8c9574326375204ee469993d038"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH \u2192 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e), address(this), block.timestamp);\n   \u2514\u2500..."
+  },
+  {
+    "file": "BEGO_erc20.log",
+    "profit": 3992.645,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "10043, 0x038740000000d4627104, 0xe1A425f1AC34A8a441566f93c82dD730639c8510, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 19963.225,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] Router.swapExactETHForTokens{value: 4220}(0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972), address(this), block.timestamp);\n[S..."
+  },
+  {
+    "file": "bego_backtest.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",
+        "function": "skim",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb"
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] 0x88503F48e437a377f1aC2892cBB3a5b09949faDd.skim(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb)"
+  },
+  {
+    "file": "BEGO.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "18868724077597.3111 ether, 0x0087a2ade210d11e2149, 0xe1A425f1AC34A8a441566f93c82dD730639c8510, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(18868724077597.3111 ether, 0x0087a2ade210d11e2149, 0xe1A425f1AC34A8a441566f93c82dD730639c8..."
+  },
+  {
+    "file": "BEGO_all.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "324538360699055.2928 ether, 0x027acf119c78f04d6ad5, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(324538360699055.2928 ether, 0x027acf119c78f04d6ad5, 0x35c9dfd76bf02107ff4f7128Bd69716612d3..."
+  },
+  {
+    "file": "BEGO_erc20_reentrancy.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "4716, 0x0067f1925e7997d81380, 0xe1A425f1AC34A8a441566f93c82dD730639c8510, ("
+      },
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "611329972342750079134256991775692569759685583857108830787.4324 ether, 0x000000e8030000000001, 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, ("
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH \u2192 0xc342774492b54ce5F8ac662113ED702Fc1b34972), address(this), block.timestamp);\n[Send..."
+  },
+  {
+    "file": "main.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",
+        "function": "skim",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0xe1A425f1AC34A8a441566f93c82dD730639c8510"
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] 0x88503F48e437a377f1aC2892cBB3a5b09949faDd.skim(0xe1A425f1AC34A8a441566f93c82dD730639c8510)"
+  },
+  {
+    "file": "BEGO.log",
+    "profit": 12.037,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",
+        "function": "skim",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0xe1A425f1AC34A8a441566f93c82dD730639c8510"
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 60.185,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] 0x88503F48e437a377f1aC2892cBB3a5b09949faDd.skim(0xe1A425f1AC34A8a441566f93c82dD730639c8510)"
+  },
+  {
+    "file": "RES02.log",
+    "profit": 8.086,
+    "pattern": "approve_exploit",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 10.0,
+        "value_eth": 10.0,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xa0ED3C520dC0632657AD2EaaF19E26C4fD431a84"
+      },
+      {
+        "type": "call",
+        "target": "0xa0ED3C520dC0632657AD2EaaF19E26C4fD431a84",
+        "function": "approve",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c, 1065206540208516089514440839393939258229932191397749163438.7575 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 404.3,
+    "multiplier": 50.0,
+    "block": 0,
+    "contracts": [
+      "0xa0ed3c520dc0632657ad2eaaf19e26c4fd431a84",
+      "0x5c811d550e421bcc37cb2097af5b40eb62cf6d7a",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH \u2192 0xa0ED3C520dC0632657AD2EaaF19E26C4fD431a84), address(this), block.timestamp);\n   \u2514\u2500..."
+  },
+  {
+    "file": "BEGO_erc20.log",
+    "profit": 7.639,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "604462.9095 ether, 0x000010e80300ffff7160, 0xe1A425f1AC34A8a441566f93c82dD730639c8510, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 38.195,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(604462.9095 ether, 0x000010e80300ffff7160, 0xe1A425f1AC34A8a441566f93c82dD730639c8510, (),..."
+  },
+  {
+    "file": "BEGO_flashloan_panic.log",
+    "profit": 7.433,
+    "pattern": "approve_exploit",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "561841.2163 ether, 0x428daec8ea34cf81b6f0, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, ("
+      },
+      {
+        "type": "call",
+        "target": "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",
+        "function": "approve",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0xe1A425f1AC34A8a441566f93c82dD730639c8510, 1684996666696915010550736940638095043588812456225.9276 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 371.65,
+    "multiplier": 50.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(561841.2163 ether, 0x428daec8ea34cf81b6f0, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, (),..."
+  },
+  {
+    "file": "BEGO_erc20_balance_drain.log",
+    "profit": 5.117,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "604462.9098 ether, 0x00ed51ca0000007f01ff, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 25.585,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(604462.9098 ether, 0x00ed51ca0000007f01ff, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, (),..."
+  },
+  {
+    "file": "LPC_all.log",
+    "profit": 0.307,
+    "pattern": "setup_drain",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 4722.3457,
+        "value_eth": 4722.3457,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0x1E813fA05739Bf145c1F182CB950dA7af046778d"
+      },
+      {
+        "type": "call",
+        "target": "0x1E813fA05739Bf145c1F182CB950dA7af046778d",
+        "function": "transfer",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 5967.5770 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 30.7,
+    "multiplier": 100.0,
+    "block": 0,
+    "contracts": [
+      "0x1e813fa05739bf145c1f182cb950da7af046778d",
+      "0xcfb7909b7eb27b71fdc482a2883049351a1749d7",
+      "0x2ecd8ce228d534d8740617673f31b7541f6a0099"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u251c\u2500[1] Router.swapExactETHForTokens{value: 4722.3457 ether}(0, path:(WETH \u2192 0x1E813fA05739Bf145c1F182CB950dA7af046778d), address(this), block.tim..."
+  },
+  {
+    "file": "BEGO_erc20.log",
+    "profit": 0.039,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xc342774492b54ce5F8ac662113ED702Fc1b34972",
+        "function": "mint",
+        "value": 0,
+        "value_eth": 0,
+        "params": "1153.6626 ether, 0xfd98b57d05ffff05ed5a, 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, ("
+      }
+    ],
+    "transaction_count": 1,
+    "max_potential": 0.195,
+    "multiplier": 5.0,
+    "block": 0,
+    "contracts": [
+      "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+      "0x88503f48e437a377f1ac2892cbb3a5b09949fadd",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] 0xc342774492b54ce5F8ac662113ED702Fc1b34972.mint(1153.6626 ether, 0xfd98b57d05ffff05ed5a, 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, (), (..."
+  },
+  {
+    "file": "SEAMAN_erc20_reentrancy.log",
+    "profit": 0.012,
+    "pattern": "setup_drain",
+    "transactions": [
+      {
+        "type": "swap",
+        "function": "swapExactETHForTokens",
+        "value": 0.3314,
+        "value_eth": 0.3314,
+        "path": "",
+        "params": "0, path:(WETH \u2192 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e"
+      },
+      {
+        "type": "call",
+        "target": "0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e",
+        "function": "receive",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x8e5d799af710f3df0487"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 1.2,
+    "multiplier": 100.0,
+    "block": 0,
+    "contracts": [
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0xdb95fbc5532eeb43deed56c8dc050c930e31017e",
+      "0x6637914482670f91f43025802b6755f27050b0a6",
+      "0x6bc9b4976ba6f8c9574326375204ee469993d038"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] Router.swapExactETHForTokens{value: 0.3314 ether}(0, path:(WETH \u2192 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e), address(this), block.timest..."
+  },
+  {
+    "file": "BBOX.log",
+    "profit": 0.004,
+    "pattern": "ownership",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0x0fe261aeE0d1C4DFdDee4102E82Dd425999065F4",
+        "function": "initOwner",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024"
+      },
+      {
+        "type": "call",
+        "target": "0x0fe261aeE0d1C4DFdDee4102E82Dd425999065F4",
+        "function": "retrieve",
+        "value": 0,
+        "value_eth": 0,
+        "params": "0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c, 0.4441 ether"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 0.008,
+    "multiplier": 2.0,
+    "block": 0,
+    "contracts": [
+      "0x0fe261aee0d1c4dfddee4102e82dd425999065f4",
+      "0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb\n   \u2514\u2500[1] 0x0fe261aeE0d1C4DFdDee4102E82Dd425999065F4.initOwner(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024)\n[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E..."
+  },
+  {
+    "file": "FAPEN_erc20_reentrancy.log",
+    "profit": 0.0,
+    "pattern": "unknown",
+    "transactions": [
+      {
+        "type": "call",
+        "target": "0xf3F1aBae8BfeCA054B330C379794A7bf84988228",
+        "function": "unstake",
+        "value": 0,
+        "value_eth": 0,
+        "params": "204"
+      },
+      {
+        "type": "call",
+        "target": "0xf3F1aBae8BfeCA054B330C379794A7bf84988228",
+        "function": "unstake",
+        "value": 0,
+        "value_eth": 0,
+        "params": "6563447"
+      }
+    ],
+    "transaction_count": 2,
+    "max_potential": 0.0,
+    "multiplier": 0,
+    "block": 0,
+    "contracts": [
+      "0xf3f1abae8bfeca054b330c379794a7bf84988228",
+      "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "trace_snippet": "\n[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd\n   \u2514\u2500[1] 0xf3F1aBae8BfeCA054B330C379794A7bf84988228.unstake(204)\n[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024\n   \u2514\u2500[1] 0xf3F1aBae8BfeCA054B3..."
+  }
+]

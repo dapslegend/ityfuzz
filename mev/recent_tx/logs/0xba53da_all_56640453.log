@@ -1,0 +1,2257 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 211 bytes
+[34mDEBUG[0m parsed 11 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0x1F78 (8056 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1000 (4096 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1A5 (421 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (6287 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0xbb4c…095c, we'll decompile
+Contract loaded: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xe9e7cea3dedca5984780bafc599bd69add087d56&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from e9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (8865 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+Contract loaded: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xba53da030f3504db8cf0309bb89791950d0ce5e6&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from ba53da030f3504db8cf0309bb89791950d0ce5e6
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0xba53…e5e6, we'll decompile
+Contract loaded: 0xba53da030f3504db8cf0309bb89791950d0ce5e6
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[34mDEBUG[0m onchain middleware enabled
+[34mDEBUG[0m Adding 3 contracts to flashloan middleware
+[34mDEBUG[0m Adding target: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c (0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Adding target: 0xe9e7cea3dedca5984780bafc599bd69add087d56 (0xe9e7cea3dedca5984780bafc599bd69add087d56)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Adding target: 0xba53da030f3504db8cf0309bb89791950d0ce5e6 (0xba53da030f3504db8cf0309bb89791950d0ce5e6)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xba53da030f3504db8cf0309bb89791950d0ce5e6
+[34mDEBUG[0m reentrancy oracle enabled
+[32m INFO[0m Deploying contract: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c is already deployed
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c deployed to: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c -> balacne is 0
+[32m INFO[0m Deploying contract: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Contract 0xe9e7cea3dedca5984780bafc599bd69add087d56 is already deployed
+[32m INFO[0m Contract 0xe9e7cea3dedca5984780bafc599bd69add087d56 deployed to: 0xe9e7cea3dedca5984780bafc599bd69add087d56 -> balacne is 0
+[32m INFO[0m Deploying contract: 0xba53da030f3504db8cf0309bb89791950d0ce5e6
+[34mDEBUG[0m Contract 0xba53da030f3504db8cf0309bb89791950d0ce5e6 is already deployed
+[32m INFO[0m Contract 0xba53da030f3504db8cf0309bb89791950d0ce5e6 deployed to: 0xba53da030f3504db8cf0309bb89791950d0ce5e6 -> balacne is 0
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c has no abi
+[32m INFO[0m Too many unknown function signature for "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", we are going to decompile this contract using EVMole
+[32m INFO[0m fetching pairs for 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m fetching pairs for 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="pairs-all.infra.fuzz.land"
+[34mDEBUG[0m connecting to 104.21.27.128:443
+[34mDEBUG[0m connected to 104.21.27.128:443
+[34mDEBUG[0m flushed 165 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (4253 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", pairs-all.infra.fuzz.land)
+[32m INFO[0m fetching code from 32776ed4d96ed069a2d812773f0ad8ad9ef83cf8
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from cb99fe720124129520f7a09ca3cbef78d58ed934
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from db2177fee5b0ebdc7b8038cb70f3964bb6d14143
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from e49f5ca131354ed5ffb9273f17bd7f3017727db6
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 1c79d6599a5ff35922b2aed8d2a2eacbc77ebd44
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 469efaaadb06b5f4618ed1907aba380411f9a200
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 85faac652b707fdf6907ef726751087f9e0b6687
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 8f45b99bf65cdbf9bc0c0b4846d6a324d2de5314
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from b2ded03530571c5792d0a33600b2f1f4a3f91c55
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from b784c80bfc8f8131bf8d10d4af76dffbed0adf87
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (17929 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 1b96b92314c44b159149f7e0303511fb2fc4774f
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (17371 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 58f876857a02d6762e0101bb5c46a8c1ed44dc16
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (30001 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from acaac9311b0096e04dfe96b6d87dec867d3883dc
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (24729 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from dc558d64c29721d74c4456cfb4363a6e6660a9bb
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0xb784c80bfc8f8131bf8d10d4af76dffbed0adf87 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x1b96b92314c44b159149f7e0303511fb2fc4774f 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x58f876857a02d6762e0101bb5c46a8c1ed44dc16 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0xacaac9311b0096e04dfe96b6d87dec867d3883dc 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x58f876857a02d6762e0101bb5c46a8c1ed44dc16 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m Contract 0xba53da030f3504db8cf0309bb89791950d0ce5e6 has no abi
+[32m INFO[0m Too many unknown function signature for "0xba53da030f3504db8cf0309bb89791950d0ce5e6", we are going to decompile this contract using EVMole
+[34mDEBUG[0m Adding initialized target to flashloan: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Added target address to flashloan middleware: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Adding initialized target to flashloan: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Added target address to flashloan middleware: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 1
+[32m INFO[0m [Stats #0] run time: 0h-0m-5s, clients: 1, corpus: 0, objectives: 0, executions: 0, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 1
+[32m INFO[0m [Testcase #0] run time: 0h-0m-5s, clients: 1, corpus: 23, objectives: 0, executions: 1, exec/sec: 0.000
+[34mDEBUG[0m Voted for 2
+[34mDEBUG[0m Voted for 3
+[34mDEBUG[0m Voted for 14
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 245 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (60 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m balance of 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c at 0x36043c5 is 1350357390273542765976044
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 86.82% Instruction Covered, 63.16% Branch Covered
+[34mDEBUG[0m Voted for 83 because of CMP
+[34mDEBUG[0m Voted for 83
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 23, objectives: 0, executions: 1, exec/sec: 0.649
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 141836999983103}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x00000000, xdEaDbEEFBAd9deADBeefBad9dEaDBeEfbAD9dEA))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 83
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 24, objectives: 0, executions: 257, exec/sec: 166.7
+[34mDEBUG[0m Voted for 71
+[34mDEBUG[0m Voted for 143
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 24, objectives: 0, executions: 257, exec/sec: 166.5
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4713.7105 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 4639.7265 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x06fdde03)
+   │  └─ ← 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000b5772617070656420424e42000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 163
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 25, objectives: 0, executions: 260, exec/sec: 168.3
+[34mDEBUG[0m Voted for 141
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 83 because of CMP
+[34mDEBUG[0m Voted for 83
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 25, objectives: 0, executions: 260, exec/sec: 167.7
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 141836999983103}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 75.2010 ether}(0x06fdde03)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 83
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 26, objectives: 0, executions: 268, exec/sec: 172.7
+[34mDEBUG[0m Voted for 80
+[34mDEBUG[0m Voted for 63
+[34mDEBUG[0m Voted for 161
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 26, objectives: 0, executions: 268, exec/sec: 161.7
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4049.3976 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 541.5293 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x06fdde03)
+   │  └─ ← 0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000b5772617070656420424e42000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 128
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 27, objectives: 0, executions: 305, exec/sec: 183.9
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 87.02% Instruction Covered, 65.79% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 27, objectives: 0, executions: 305, exec/sec: 169.5
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2130707923}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 9.2233 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 154
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 28, objectives: 0, executions: 521, exec/sec: 289.4
+[34mDEBUG[0m Voted for 167
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 28, objectives: 0, executions: 521, exec/sec: 287.8
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 14.5710 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, 1442906438583779661980674109958922528418108899207451915.1643 ether)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 167
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 29, objectives: 0, executions: 535, exec/sec: 295.4
+[34mDEBUG[0m Voted for 2 because of CMP
+[34mDEBUG[0m Voted for 2
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 29, objectives: 0, executions: 535, exec/sec: 295.0
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve{value: 72.5759 ether}(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56, 8696754941529333958773287386921515458702239167741598.6600 ether)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 2
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 30, objectives: 0, executions: 538, exec/sec: 296.5
+[34mDEBUG[0m Voted for 74
+[34mDEBUG[0m Voted for 164
+[34mDEBUG[0m Voted for 63
+[34mDEBUG[0m Voted for 162
+[34mDEBUG[0m Voted for 122
+[34mDEBUG[0m Voted for 131
+[34mDEBUG[0m Voted for 168
+[34mDEBUG[0m Voted for 126
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 169
+[34mDEBUG[0m Voted for 169
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 172
+[34mDEBUG[0m Voted for 173
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 87.22% Instruction Covered, 67.11% Branch Covered
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 30, objectives: 0, executions: 538, exec/sec: 273.4
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4108.2246 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 279156113408}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 281614563213312}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x18160ddd)
+   │  └─ ← 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 60
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 31, objectives: 0, executions: 769, exec/sec: 390.4
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 31, objectives: 0, executions: 769, exec/sec: 387.5
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 295.1479 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 268.4032 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x18160ddd)
+   │  └─ ← 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 71
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 32, objectives: 0, executions: 792, exec/sec: 398.9
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 123
+[34mDEBUG[0m Voted for 155 because of CMP
+[34mDEBUG[0m Voted for 155
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 32, objectives: 0, executions: 792, exec/sec: 392.4
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1342.2609 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1625.6513 ether}(0x18160ddd)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 155
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 33, objectives: 0, executions: 844, exec/sec: 417.7
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 74
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 87.42% Instruction Covered, 68.42% Branch Covered
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[34mDEBUG[0m Voted for 161 because of CMP
+[34mDEBUG[0m Voted for 161
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 33, objectives: 0, executions: 844, exec/sec: 394.5
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4713.7105 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transferFrom(0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 161
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 34, objectives: 0, executions: 1028, exec/sec: 480.2
+[34mDEBUG[0m Voted for 146 because of CMP
+[34mDEBUG[0m Voted for 146
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 34, objectives: 0, executions: 1028, exec/sec: 477.3
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 1356.7004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transferFrom{value: 758.6858 ether}(0x0000000000000000000000000000000000000000, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, 56046085604791685193247896592732422804208624345525691330422.6215 ether)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 146
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 35, objectives: 0, executions: 1048, exec/sec: 486.2
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 14 because of CMP
+[34mDEBUG[0m Voted for 14
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 35, objectives: 0, executions: 1048, exec/sec: 474.1
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transferFrom(0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 0x0000000000000000000000000000000000000000, 455846542712826370908579273172313263989134264209573336410.8326 ether)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 14
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 36, objectives: 0, executions: 1129, exec/sec: 510.5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 314 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 1
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 87.83% Instruction Covered, 71.05% Branch Covered
+[34mDEBUG[0m Voted for 56 because of CMP
+[34mDEBUG[0m Voted for 56
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 36, objectives: 0, executions: 1129, exec/sec: 446.4
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 14.5710 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 1555216902397113927697262851866618489563363155798656713283.2761 ether))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 56
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 37, objectives: 0, executions: 1282, exec/sec: 506.7
+[34mDEBUG[0m Voted for 174
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 37, objectives: 0, executions: 1282, exec/sec: 506.3
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 12.9772 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4642.7815 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  └─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 174
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 38, objectives: 0, executions: 1285, exec/sec: 507.1
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-7s, clients: 1, corpus: 38, objectives: 0, executions: 1285, exec/sec: 506.6
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 3599.3003 ether}(abi.encodeWithSelector(0x2e1a7d4d, 25720114382133387543568612098251235305572328869195.3432 ether))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-7s, clients: 1, corpus: 39, objectives: 0, executions: 1289, exec/sec: 508.1
+[34mDEBUG[0m Voted for 175
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 39, objectives: 0, executions: 1289, exec/sec: 503.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4049.3976 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 541.5293 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  └─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 179
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 40, objectives: 0, executions: 1320, exec/sec: 515.8
+[34mDEBUG[0m Voted for 183 because of CMP
+[34mDEBUG[0m Voted for 183
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 40, objectives: 0, executions: 1320, exec/sec: 505.6
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  │  └─[3] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 0.3602 ether}(0x00000000)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 183
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 41, objectives: 0, executions: 1399, exec/sec: 535.6
+[34mDEBUG[0m Voted for 177
+[34mDEBUG[0m Voted for 188
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 90.52% Instruction Covered, 75.00% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 41, objectives: 0, executions: 1536, exec/sec: 567.6
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 41, objectives: 0, executions: 1536, exec/sec: 566.8
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 4477.8001 ether}(0x313ce567)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 42, objectives: 0, executions: 1542, exec/sec: 568.9
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 42, objectives: 0, executions: 1542, exec/sec: 568.3
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4049.3976 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 541.5293 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x313ce567)
+   │  └─ ← 0x12
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 128
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 43, objectives: 0, executions: 1547, exec/sec: 569.9
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 168
+[34mDEBUG[0m Voted for 196
+[34mDEBUG[0m Voted for 80
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 43, objectives: 0, executions: 1547, exec/sec: 546.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 3923.3188 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x313ce567)
+   │  └─ ← 0x12
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 92
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 44, objectives: 0, executions: 1730, exec/sec: 611.3
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 90.72% Instruction Covered, 76.32% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 44, objectives: 0, executions: 1730, exec/sec: 601.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 12.9772 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4642.7815 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x70a08231, 0x0000000000000000000000000000000000000000))
+   │  └─ ← 0x03ce2c67d91b635f6d
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 122
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 45, objectives: 0, executions: 1798, exec/sec: 624.4
+[34mDEBUG[0m Voted for 160 because of CMP
+[34mDEBUG[0m Voted for 160
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 45, objectives: 0, executions: 1798, exec/sec: 623.6
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4713.7105 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4076725131}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1959.3488 ether}(abi.encodeWithSelector(0x70a08231, 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 160
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 46, objectives: 0, executions: 1804, exec/sec: 625.3
+[34mDEBUG[0m Voted for 148
+[34mDEBUG[0m Voted for 163
+[34mDEBUG[0m Voted for 84
+[34mDEBUG[0m Voted for 80
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 179
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 205
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 90.92% Instruction Covered, 77.63% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 46, objectives: 0, executions: 1804, exec/sec: 591.6
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3812.8922 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0xBa53dA030F3504Db8Cf0309bb89791950D0Ce5e6, 268437247)
+   │  └─ ← 0x01
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x95d89b41)
+   │  └─ ← 0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 173
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 47, objectives: 0, executions: 2061, exec/sec: 675.5
+[34mDEBUG[0m Voted for 146 because of CMP
+[34mDEBUG[0m Voted for 146
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 47, objectives: 0, executions: 2061, exec/sec: 675.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 1356.7004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 3053.8344 ether}(0x95d89b41)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 146
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 48, objectives: 0, executions: 2063, exec/sec: 675.5
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 48, objectives: 0, executions: 2063, exec/sec: 673.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 141836999983103}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x95d89b41)
+   │  └─ ← 0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 83
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 49, objectives: 0, executions: 2074, exec/sec: 677.2
+[34mDEBUG[0m Voted for 167
+[34mDEBUG[0m Voted for 126
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.12% Instruction Covered, 78.95% Branch Covered
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 315 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 49, objectives: 0, executions: 2074, exec/sec: 604.1
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2361.2458 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 4280.9413 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transfer(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56, 0)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 76
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 50, objectives: 0, executions: 2313, exec/sec: 673.3
+[34mDEBUG[0m Voted for 149 because of CMP
+[34mDEBUG[0m Voted for 149
+[32m INFO[0m [Stats #0] run time: 0h-0m-8s, clients: 1, corpus: 50, objectives: 0, executions: 2313, exec/sec: 668.3
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 6454}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 129.5239 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transfer{value: 221.5815 ether}(0xBa53dA030F3504Db8Cf0309bb89791950D0Ce5e6, 221.5815 ether)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 149
+[32m INFO[0m [Testcase #0] run time: 0h-0m-8s, clients: 1, corpus: 51, objectives: 0, executions: 2352, exec/sec: 679.2
+[34mDEBUG[0m Voted for 188
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.32% Instruction Covered, 80.26% Branch Covered
+[34mDEBUG[0m Voted for 212
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 51, objectives: 0, executions: 2352, exec/sec: 651.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4108.2246 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 279156113408}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 281614563213312}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 412173331250695618995749440896084999880541445.2163 ether)
+   │  └─ ← 0x01
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1.1529 ether}(0xd0e30db0)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 212
+[32m INFO[0m [Testcase #0] run time: 0h-0m-9s, clients: 1, corpus: 52, objectives: 0, executions: 2572, exec/sec: 712.4
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 52, objectives: 0, executions: 2572, exec/sec: 711.8
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 1356.7004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 3088.4792 ether}(0xd0e30db0)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 213
+[32m INFO[0m [Testcase #0] run time: 0h-0m-9s, clients: 1, corpus: 53, objectives: 0, executions: 2576, exec/sec: 712.6
+[34mDEBUG[0m Voted for 215
+[34mDEBUG[0m Voted for 222
+[34mDEBUG[0m Voted for 229
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.32% Instruction Covered, 80.26% Branch Covered
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 53, objectives: 0, executions: 2816, exec/sec: 745.2
+[34mDEBUG[0m Voted for 212 because of CMP
+[34mDEBUG[0m Voted for 212
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 53, objectives: 0, executions: 2816, exec/sec: 744.0
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4108.2246 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 279156113408}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 281614563213312}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 412173331250695618995749440896084999880541445.2163 ether)
+   │  └─ ← 0x01
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1.1529 ether}(0xd0e30db0)
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1}(abi.encodeWithSelector(0xdd62ed3e, 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 0x0000000000000000000000000000000000000000))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 212
+[32m INFO[0m [Testcase #0] run time: 0h-0m-9s, clients: 1, corpus: 54, objectives: 0, executions: 2826, exec/sec: 746.1
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 54, objectives: 0, executions: 2826, exec/sec: 745.0
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4049.3976 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2361.1111 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0xdd62ed3e, 0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000))
+   │  └─ ← 0x00
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 74
+[32m INFO[0m [Testcase #0] run time: 0h-0m-9s, clients: 1, corpus: 55, objectives: 0, executions: 2835, exec/sec: 747.0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 215
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 46.85% Instruction Covered, 47.54% Branch Covered
+[34mDEBUG[0m Voted for 207 because of CMP
+[34mDEBUG[0m Voted for 207
+[32m INFO[0m [Stats #0] run time: 0h-0m-9s, clients: 1, corpus: 55, objectives: 0, executions: 2835, exec/sec: 646.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4713.7105 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2756.8382 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 2839.6004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   │  │  └─[3] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x00000000)
+   │  [Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   │  │  └─[3] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 207
+[32m INFO[0m [Testcase #0] run time: 0h-0m-9s, clients: 1, corpus: 56, objectives: 0, executions: 3073, exec/sec: 700.1
+[34mDEBUG[0m Voted for 84
+[34mDEBUG[0m Voted for 175
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 230
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 56, objectives: 0, executions: 3073, exec/sec: 663.1
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH → 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 230
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 57, objectives: 0, executions: 3214, exec/sec: 693.4
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 50.63% Instruction Covered, 47.54% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[34mDEBUG[0m Voted for 207 because of CMP
+[34mDEBUG[0m Voted for 207
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 57, objectives: 0, executions: 3214, exec/sec: 679.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4713.7105 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2756.8382 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 2839.6004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(abi.encodeWithSelector(0x2e1a7d4d, 0))
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   │  │  └─[3] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call(0x00000000)
+   │  [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   │  │  └─[3] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.call(0x00000000)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 207
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 58, objectives: 0, executions: 3329, exec/sec: 703.3
+[34mDEBUG[0m Voted for 200
+[34mDEBUG[0m Voted for 228
+[34mDEBUG[0m Voted for 215
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 58, objectives: 0, executions: 3329, exec/sec: 702.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.approve(0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002242455032303a20617070726f766520746f20746865207a65726f2061646472657373000000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 1
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 59, objectives: 0, executions: 3335, exec/sec: 704.1
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 59, objectives: 0, executions: 3335, exec/sec: 703.9
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.approve{value: 3001.9930 ether}(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, 104692714566003149562584601098999343542114493437296140263240.4629 ether)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 60, objectives: 0, executions: 3338, exec/sec: 704.5
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 60, objectives: 0, executions: 3338, exec/sec: 704.0
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 141836999983103}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 11397226857551847033937643229034329135038831516697502950626.2563 ether)
+   │  └─ ← 0x01
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.approve(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 57896044618658097711785492504343953926635075409570018576970.8484 ether)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 234
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 61, objectives: 0, executions: 3344, exec/sec: 705.0
+[34mDEBUG[0m Voted for 148
+[34mDEBUG[0m Voted for 217
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 237
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 61, objectives: 0, executions: 3584, exec/sec: 743.9
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 61, objectives: 0, executions: 3584, exec/sec: 743.7
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3812.8922 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.burn(0)
+   │  └─ ← 0x01
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 91
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 62, objectives: 0, executions: 3586, exec/sec: 743.9
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[34mDEBUG[0m Voted for 80 because of CMP
+[34mDEBUG[0m Voted for 80
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 62, objectives: 0, executions: 3586, exec/sec: 731.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.decreaseAllowance(0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002242455032303a20617070726f766520746f20746865207a65726f2061646472657373000000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 80
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 63, objectives: 0, executions: 3851, exec/sec: 785.1
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 63, objectives: 0, executions: 3851, exec/sec: 773.1
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.increaseAllowance(0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002242455032303a20617070726f766520746f20746865207a65726f2061646472657373000000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 1
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 64, objectives: 0, executions: 4107, exec/sec: 824.4
+[34mDEBUG[0m Voted for 146
+[34mDEBUG[0m Voted for 173
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 238
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 239
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 240
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 241
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 64, objectives: 0, executions: 4107, exec/sec: 782.5
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4722.3664 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 1356.7004 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.mint(0)
+   │  └─ ← 0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 146
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 65, objectives: 0, executions: 4358, exec/sec: 830.0
+[34mDEBUG[0m Voted for 218
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 65, objectives: 0, executions: 4358, exec/sec: 818.7
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2842.7351 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3173.3911 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 407.8293 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.renounceOwnership()
+   │  └─ ← 0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 136
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 66, objectives: 0, executions: 4614, exec/sec: 866.5
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 66, objectives: 0, executions: 4614, exec/sec: 855.1
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.transfer(0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002342455032303a207472616e7366657220746f20746865207a65726f20616464726573730000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 2
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 67, objectives: 0, executions: 4874, exec/sec: 903.1
+[34mDEBUG[0m Voted for 76
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 67, objectives: 0, executions: 4874, exec/sec: 890.3
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 33587200}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 141836999983103}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 11397226857551847033937643229034329135038831516697502950626.2563 ether)
+   │  └─ ← 0x01
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.approve(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 57896044618658097711785492504343953926635075409570018576970.8484 ether)
+   │  └─ ← 0x01
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.transferFrom(0x0000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000, 0)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002542455032303a207472616e736665722066726f6d20746865207a65726f2061646472657373000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 234
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 68, objectives: 0, executions: 5141, exec/sec: 938.7
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 68, objectives: 0, executions: 5141, exec/sec: 928.7
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 2842.7351 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1313}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 3174.3967 ether}(0xd0e30db0)
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.transferFrom(0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd, 0xBa53dA030F3504Db8Cf0309bb89791950D0Ce5e6, 0.3602 ether)
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002642455032303a207472616e7366657220616d6f756e7420657863656564732062616c616e63650000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 214
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 69, objectives: 0, executions: 5355, exec/sec: 967.0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-10s, clients: 1, corpus: 69, objectives: 0, executions: 5355, exec/sec: 965.2
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3002.9868 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1342.2609 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.transferOwnership(0x0000000000000000000000000000000000000000)
+   │  └─ ← 0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 89
+[32m INFO[0m [Testcase #0] run time: 0h-0m-10s, clients: 1, corpus: 70, objectives: 0, executions: 5378, exec/sec: 969.0
+[34mDEBUG[0m Voted for 215
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.53% Instruction Covered, 81.58% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-11s, clients: 1, corpus: 70, objectives: 0, executions: 5888, exec/sec: 1.011k
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m Voted for 439
+[34mDEBUG[0m Voted for 377
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-12s, clients: 1, corpus: 70, objectives: 0, executions: 7424, exec/sec: 1.072k
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 445
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 387
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-13s, clients: 1, corpus: 70, objectives: 0, executions: 8704, exec/sec: 1.082k
+[34mDEBUG[0m Voted for 482
+[34mDEBUG[0m Voted for 482
+[34mDEBUG[0m Voted for 503
+[34mDEBUG[0m Voted for 506
+[32m INFO[0m [Stats #0] run time: 0h-0m-14s, clients: 1, corpus: 70, objectives: 0, executions: 10240, exec/sec: 1.123k
+[34mDEBUG[0m Voted for 387
+[32m INFO[0m [Stats #0] run time: 0h-0m-15s, clients: 1, corpus: 70, objectives: 0, executions: 11776, exec/sec: 1.158k
+[34mDEBUG[0m Voted for 391
+[34mDEBUG[0m Voted for 332
+[34mDEBUG[0m Voted for 452
+[34mDEBUG[0m scheduler metadata malformed
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-16s, clients: 1, corpus: 70, objectives: 0, executions: 13056, exec/sec: 1.167k
+[34mDEBUG[0m Voted for 519
+[34mDEBUG[0m Voted for 549
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-17s, clients: 1, corpus: 70, objectives: 0, executions: 14080, exec/sec: 1.126k
+[34mDEBUG[0m Voted for 579
+[34mDEBUG[0m Voted for 638
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-19s, clients: 1, corpus: 70, objectives: 0, executions: 16128, exec/sec: 1.152k
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 315 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 315 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-20s, clients: 1, corpus: 70, objectives: 0, executions: 17152, exec/sec: 1.131k
+[34mDEBUG[0m Voted for 0
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 646
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 770 because of CMP
+[34mDEBUG[0m Voted for 770
+[32m INFO[0m [Stats #0] run time: 0h-0m-21s, clients: 1, corpus: 70, objectives: 0, executions: 17152, exec/sec: 1.049k
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 72.5759 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3447.8683 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 1523.9651 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 3288.4190 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 4108.2246 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 279156113408}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 281614563213312}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.approve(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 412173331250695618995749440896084999880541445.2163 ether)
+   │  └─ ← 0x01
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1.1529 ether}(0xd0e30db0)
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.call{value: 1}(abi.encodeWithSelector(0x00000000, 15792089237316195423570985008687907853269984665640564039457.5840 ethe))
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] Router.swapExactETHForTokens{value: 0}(0, path:(WETH → 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56), address(this), block.timestamp);
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] Router.swapExactETHForTokens{value: 16809984}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.transferFrom(0xBa53dA030F3504Db8Cf0309bb89791950D0Ce5e6, 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c, 1403)
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 770
+[32m INFO[0m [Testcase #0] run time: 0h-0m-21s, clients: 1, corpus: 71, objectives: 0, executions: 19189, exec/sec: 1.173k
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m ============= Coverage Summary =============
+[32m INFO[0m 0xe9e7cea3dedca5984780bafc599bd69add087d56: 53.35% Instruction Covered, 50.82% Branch Covered
+[32m INFO[0m 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c: 91.73% Instruction Covered, 82.89% Branch Covered
+[32m INFO[0m [Stats #0] run time: 0h-0m-21s, clients: 1, corpus: 71, objectives: 0, executions: 19200, exec/sec: 1.168k
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-23s, clients: 1, corpus: 71, objectives: 0, executions: 20992, exec/sec: 1.133k
+[34mDEBUG[0m Voted for 939
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 315 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m [Stats #0] run time: 0h-0m-25s, clients: 1, corpus: 71, objectives: 0, executions: 22272, exec/sec: 1.132k
+[32m INFO[0m [Stats #0] run time: 0h-0m-26s, clients: 1, corpus: 71, objectives: 0, executions: 24576, exec/sec: 1.185k
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Voted for 1095
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m [Stats #0] run time: 0h-0m-27s, clients: 1, corpus: 71, objectives: 0, executions: 26112, exec/sec: 1.194k
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 1187
+[32m INFO[0m [Stats #0] run time: 0h-0m-28s, clients: 1, corpus: 71, objectives: 0, executions: 27648, exec/sec: 1.205k
+[34mDEBUG[0m Voted for 1218
+[34mDEBUG[0m Voted for 1095
+[34mDEBUG[0m Voted for 1102
+[32m INFO[0m [Stats #0] run time: 0h-0m-29s, clients: 1, corpus: 71, objectives: 0, executions: 29184, exec/sec: 1.213k

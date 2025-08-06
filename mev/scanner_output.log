@@ -1,0 +1,360 @@
+nohup: ignoring input
+
+🚀 Starting MEV Scanner
+   Duration: 20 minutes
+   Session log: mev/logs/session_1754472190.log
+
+⏱️  Time elapsed: 0s / 1200s
+📊 Current block: 56632178
+📊 Scanning last 5 blocks from 56632178
+Error processing block 56632178: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632177: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632176: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632175: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632174: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 30s / 1200s
+📊 Current block: 56632219
+📊 Scanning last 5 blocks from 56632219
+Error processing block 56632219: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632218: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632217: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632216: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632215: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 61s / 1200s
+📊 Current block: 56632256
+📊 Scanning last 5 blocks from 56632256
+Error processing block 56632256: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632255: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632254: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632253: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632252: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 91s / 1200s
+📊 Current block: 56632297
+📊 Scanning last 5 blocks from 56632297
+Error processing block 56632297: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632296: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632295: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632294: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632293: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 122s / 1200s
+📊 Current block: 56632338
+📊 Scanning last 5 blocks from 56632338
+Error processing block 56632338: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632337: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632336: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632335: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632334: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 152s / 1200s
+📊 Current block: 56632379
+📊 Scanning last 5 blocks from 56632379
+Error processing block 56632379: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632378: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632377: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632376: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632375: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 183s / 1200s
+📊 Current block: 56632420
+📊 Scanning last 5 blocks from 56632420
+Error processing block 56632420: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632419: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632418: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632417: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632416: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 213s / 1200s
+📊 Current block: 56632461
+📊 Scanning last 5 blocks from 56632461
+Error processing block 56632461: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632460: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632459: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632458: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632457: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 244s / 1200s
+📊 Current block: 56632501
+📊 Scanning last 5 blocks from 56632501
+Error processing block 56632501: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632500: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632499: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632498: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632497: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 274s / 1200s
+📊 Current block: 56632543
+📊 Scanning last 5 blocks from 56632543
+Error processing block 56632543: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632542: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632541: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632540: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632539: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 305s / 1200s
+📊 Current block: 56632584
+📊 Scanning last 5 blocks from 56632584
+Error processing block 56632584: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632583: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632582: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632581: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632580: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 335s / 1200s
+📊 Current block: 56632625
+📊 Scanning last 5 blocks from 56632625
+Error processing block 56632625: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632624: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632623: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632622: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632621: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 366s / 1200s
+📊 Current block: 56632665
+📊 Scanning last 5 blocks from 56632665
+Error processing block 56632665: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632664: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632663: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632662: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632661: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 396s / 1200s
+📊 Current block: 56632706
+📊 Scanning last 5 blocks from 56632706
+Error processing block 56632706: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632705: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632704: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632703: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632702: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 427s / 1200s
+📊 Current block: 56632747
+📊 Scanning last 5 blocks from 56632747
+Error processing block 56632747: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632746: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632745: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632744: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632743: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 457s / 1200s
+📊 Current block: 56632788
+📊 Scanning last 5 blocks from 56632788
+Error processing block 56632788: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632787: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632786: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632785: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632784: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 488s / 1200s
+📊 Current block: 56632825
+📊 Scanning last 5 blocks from 56632825
+Error processing block 56632825: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632824: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632823: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632822: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632821: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 518s / 1200s
+📊 Current block: 56632866
+📊 Scanning last 5 blocks from 56632866
+Error processing block 56632866: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632865: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632864: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632863: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632862: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 549s / 1200s
+📊 Current block: 56632907
+📊 Scanning last 5 blocks from 56632907
+Error processing block 56632907: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632906: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632905: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632904: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632903: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 580s / 1200s
+📊 Current block: 56632948
+📊 Scanning last 5 blocks from 56632948
+Error processing block 56632948: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632947: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632946: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632945: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632944: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 610s / 1200s
+📊 Current block: 56632989
+📊 Scanning last 5 blocks from 56632989
+Error processing block 56632989: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632988: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632987: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632986: expected str, bytes or os.PathLike object, not dict
+Error processing block 56632985: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 641s / 1200s
+📊 Current block: 56633030
+📊 Scanning last 5 blocks from 56633030
+Error processing block 56633030: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633029: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633028: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633027: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633026: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 671s / 1200s
+📊 Current block: 56633071
+📊 Scanning last 5 blocks from 56633071
+Error processing block 56633071: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633070: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633069: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633068: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633067: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 702s / 1200s
+📊 Current block: 56633112
+📊 Scanning last 5 blocks from 56633112
+Error processing block 56633112: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633111: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633110: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633109: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633108: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 732s / 1200s
+📊 Current block: 56633153
+📊 Scanning last 5 blocks from 56633153
+Error processing block 56633153: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633152: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633151: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633150: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633149: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 763s / 1200s
+📊 Current block: 56633193
+📊 Scanning last 5 blocks from 56633193
+Error processing block 56633193: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633192: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633191: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633190: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633189: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 793s / 1200s
+📊 Current block: 56633234
+📊 Scanning last 5 blocks from 56633234
+Error processing block 56633234: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633233: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633232: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633231: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633230: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 824s / 1200s
+📊 Current block: 56633275
+📊 Scanning last 5 blocks from 56633275
+Error processing block 56633275: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633274: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633273: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633272: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633271: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 854s / 1200s
+📊 Current block: 56633316
+📊 Scanning last 5 blocks from 56633316
+Error processing block 56633316: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633315: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633314: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633313: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633312: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 885s / 1200s
+📊 Current block: 56633356
+📊 Scanning last 5 blocks from 56633356
+Error processing block 56633356: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633355: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633354: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633353: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633352: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 916s / 1200s
+📊 Current block: 56633398
+📊 Scanning last 5 blocks from 56633398
+Error processing block 56633398: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633397: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633396: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633395: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633394: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 946s / 1200s
+📊 Current block: 56633438
+📊 Scanning last 5 blocks from 56633438
+Error processing block 56633438: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633437: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633436: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633435: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633434: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 977s / 1200s
+📊 Current block: 56633479
+📊 Scanning last 5 blocks from 56633479
+Error processing block 56633479: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633478: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633477: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633476: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633475: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 1160s / 1200s
+📊 Current block: 56633721
+📊 Scanning last 5 blocks from 56633725
+Error processing block 56633725: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633724: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633723: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633722: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633721: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+⏱️  Time elapsed: 1191s / 1200s
+📊 Current block: 56633766
+📊 Scanning last 5 blocks from 56633766
+Error processing block 56633766: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633765: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633764: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633763: expected str, bytes or os.PathLike object, not dict
+Error processing block 56633762: expected str, bytes or os.PathLike object, not dict
+   No new contracts found, waiting...
+
+✅ Scan complete!
+   Contracts scanned: 0
+   Vulnerabilities found: 0
+   Logs saved in: mev/
