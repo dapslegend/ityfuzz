@@ -23,7 +23,7 @@ class UniversalContractFuzzer:
         self.public_rpc = "https://bsc-dataseed.binance.org/"
         
         # Etherscan API v2
-        self.api_key = "6J26IP7U4YSMEUFVWQWJJRMIT2XNBY2VPU"
+        self.api_key = "SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP"  # Working API key from tests
         self.base_url = "https://api.etherscan.io/v2/api"
         self.chain_id = "56"
         
@@ -229,18 +229,19 @@ class UniversalContractFuzzer:
         
         return tokens[:5]  # Limit to 5 tokens
     
-    def fuzz_contract(self, address: str, tokens: List[str], block: int) -> Dict:
+    def fuzz_contract_with_detector(self, address: str, tokens: List[str], block: int, detector: str) -> Dict:
         """Fuzz a single contract with ItyFuzz"""
         result = {
             "address": address,
+            "detector": detector,
             "status": "pending",
             "profit": 0,
             "timestamp": datetime.now().isoformat(),
             "work_dir": None
         }
         
-        # Create unique work directory for this contract
-        work_dir = f"work_dirs/{address}_{block}_{int(time.time())}"
+        # Create unique work directory for this contract and detector
+        work_dir = f"work_dirs/{address}_{detector}_{block}_{int(time.time())}"
         os.makedirs(work_dir, exist_ok=True)
         result["work_dir"] = work_dir
         
@@ -264,9 +265,10 @@ class UniversalContractFuzzer:
             "--onchain-block-number", str(block),
             "-f",  # Fork mode
             "--panic-on-bug",  # Stop on first bug
-            "--detectors", "all",  # Use all detectors
+            "--detectors", detector,  # Use specific detector
             "--work-dir", work_dir,  # Save corpus and findings here
-            "--onchain-url", self.public_rpc
+            "--onchain-url", self.public_rpc,
+            "--onchain-etherscan-api-key", self.api_key  # Add API key back
         ]
         
         # Set environment
@@ -275,8 +277,8 @@ class UniversalContractFuzzer:
         env["RUST_LOG"] = "error"  # Less verbose
         env["RAYON_NUM_THREADS"] = "32"  # Max parallelism
         
-        print(f"\n🎯 Fuzzing {address}")
-        print(f"   Tokens: {len(self.common_tokens) + len(tokens)}")
+        print(f"\n🎯 Fuzzing {address} with detector: {detector}")
+        print(f"   Tokens: {len(unique_targets)}")
         print(f"   Work dir: {work_dir}")
         
         try:
@@ -343,6 +345,34 @@ class UniversalContractFuzzer:
             print(f"   ❌ Error: {e}")
         
         return result
+    
+    def fuzz_contract(self, address: str, tokens: List[str], block: int) -> List[Dict]:
+        """Fuzz a contract with all detectors"""
+        # Detectors to run separately (from tiger mode)
+        detectors = [
+            "erc20",
+            "reentrancy", 
+            "erc20,reentrancy",
+            "arbitrary_call",
+            "typed_bug",
+            "erc20,balance_drain"
+        ]
+        
+        results = []
+        for detector in detectors:
+            print(f"\n{'='*60}")
+            print(f"Running detector: {detector}")
+            print(f"{'='*60}")
+            
+            result = self.fuzz_contract_with_detector(address, tokens, block, detector)
+            results.append(result)
+            
+            # If vulnerability found, stop
+            if result["status"] == "VULNERABLE":
+                print(f"\n🎉 Vulnerability found with {detector}! Stopping other detectors.")
+                break
+        
+        return results
 
 def main():
     """Main execution"""
@@ -450,7 +480,7 @@ def main():
         remaining = max_duration - elapsed
         print(f"\n[{i+1}] Time remaining: {remaining/60:.1f} minutes")
         
-        result = fuzzer.fuzz_contract(
+        results = fuzzer.fuzz_contract(
             contract_info["address"],
             contract_info["tokens"],
             pub_block - 1
@@ -458,8 +488,10 @@ def main():
         
         contracts_fuzzed = i + 1
         
-        if result["status"] == "VULNERABLE":
-            vulnerabilities.append(result)
+        # Check if any detector found a vulnerability
+        for result in results:
+            if result["status"] == "VULNERABLE":
+                vulnerabilities.append(result)
     
     # Generate report
     elapsed = time.time() - start_time
@@ -501,6 +533,7 @@ def main():
         print(f"\n🚨 Vulnerable contracts with work directories:")
         for vuln in vulnerabilities:
             print(f"\n  Contract: {vuln['address']}")
+            print(f"  Detector: {vuln['detector']}")
             print(f"  Profit: {vuln['profit']:.4f} ETH")
             print(f"  Work dir: {vuln['work_dir']}")
             print(f"  Log: {vuln.get('log_file', 'N/A')}")
