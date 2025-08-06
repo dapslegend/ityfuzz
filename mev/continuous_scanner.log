@@ -840,3 +840,189 @@ Vulnerabilities found: 0
   Vulnerabilities: 5
 
 [Wed Aug  6 10:08:00 AM UTC 2025] Waiting 5 minutes before next round...
+[Wed Aug  6 10:13:00 AM UTC 2025] Starting new scanning round...
+[Wed Aug  6 10:13:00 AM UTC 2025] Running proven MEV scanner...
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   ⏱️ Timeout
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56635024
+  Block 56635024...
+  Block 56635025...
+  Block 56635026...
+  Block 56635027...
+  Block 56635028...
+  Block 56635029...
+  Block 56635030...
+  Block 56635031...
+  Block 56635032...
+  Block 56635033...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 0
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754475226.json
+✅ All MEV data saved!
+[Wed Aug  6 10:14:16 AM UTC 2025] Running individual fuzzer...
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ✅ Clean
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56636265)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754475257.json
+✅ All data saved in mev/ directory!
+
+[Wed Aug  6 10:14:17 AM UTC 2025] Statistics:
+  Work directories: 17
+  Total logs: 372
+  Vulnerabilities: 0
+
+[Wed Aug  6 10:14:17 AM UTC 2025] Waiting 5 minutes before next round...
+[Wed Aug  6 10:19:17 AM UTC 2025] Starting new scanning round...
+[Wed Aug  6 10:19:17 AM UTC 2025] Running proven MEV scanner...
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   ⏱️ Timeout
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56635526
+  Block 56635526...
+  Block 56635527...
+  Block 56635528...
+  Block 56635529...
+  Block 56635530...
+  Block 56635531...
+  Block 56635532...
+  Block 56635533...
+  Block 56635534...
+  Block 56635535...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 0
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754475603.json
+✅ All MEV data saved!
+[Wed Aug  6 10:20:33 AM UTC 2025] Running individual fuzzer...
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56636847)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754475693.json
+✅ All data saved in mev/ directory!
+
+[Wed Aug  6 10:21:33 AM UTC 2025] Statistics:
+  Work directories: 13
+  Total logs: 372
+  Vulnerabilities: 0
+
+[Wed Aug  6 10:21:33 AM UTC 2025] Waiting 5 minutes before next round...
+[Wed Aug  6 10:26:33 AM UTC 2025] Starting new scanning round...
+[Wed Aug  6 10:26:33 AM UTC 2025] Running proven MEV scanner...
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   ⏱️ Timeout
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56636107
+  Block 56636107...
+  Block 56636108...
+  Block 56636109...
+  Block 56636110...
+  Block 56636111...
+  Block 56636112...
+  Block 56636113...
+  Block 56636114...
+  Block 56636115...
+  Block 56636116...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 0
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754476039.json
+✅ All MEV data saved!
+[Wed Aug  6 10:27:49 AM UTC 2025] Running individual fuzzer...
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56637428)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754476129.json
+✅ All data saved in mev/ directory!
+
+[Wed Aug  6 10:28:49 AM UTC 2025] Statistics:
+  Work directories: 30
+  Total logs: 374
+  Vulnerabilities: 1
+
+[Wed Aug  6 10:28:49 AM UTC 2025] Waiting 5 minutes before next round...

@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-08-06T10:14:40.604143",
+  "total_tests": 28,
+  "vulnerabilities_found": 0,
+  "results": [
+    {
+      "name": "BEGO",
+      "detector": "typed_bug",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "arbitrary_call",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "all",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "erc20",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "erc20,reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BEGO",
+      "detector": "erc20,balance_drain",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "typed_bug",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "erc20,balance_drain",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "erc20",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "arbitrary_call",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "all",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "BBOX",
+      "detector": "erc20,reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "arbitrary_call",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "all",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "erc20,balance_drain",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "typed_bug",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "erc20",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "FAPEN",
+      "detector": "erc20,reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "all",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "typed_bug",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "arbitrary_call",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "erc20,balance_drain",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "erc20",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    },
+    {
+      "name": "SEAMAN",
+      "detector": "erc20,reentrancy",
+      "found": false,
+      "profit": null,
+      "log_file": null
+    }
+  ]
+}

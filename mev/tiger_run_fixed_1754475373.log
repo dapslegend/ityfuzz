@@ -1,0 +1,64 @@
+=== Running MEV Tiger Scanner ===
+
+🧹 Cleaned up old logs
+
+🐅 TIGER MODE - MEV Scanner 🐅
+========================================
+
+Tiger settings:
+  🔥 60 second timeouts
+  🔥 Each detector runs separately
+  🔥 Maximum parallelism
+
+🐅 TIGER HUNT BEGINS!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Hunting: BEGO at block 22315679
+🐅 BEGO [erc20]: 🐅 BEGO [erc20,reentrancy]: 🐅 BEGO [reentrancy]: 🐅 BEGO [arbitrary_call]: 🐅 BEGO [typed_bug]: 🐅 BEGO [erc20,balance_drain]: 🐅 BEGO [all]: ❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Hunting: BBOX at block 23106506
+🐅 BBOX [erc20]: 🐅 BBOX [erc20,reentrancy]: 🐅 BBOX [arbitrary_call]: 🐅 BBOX [reentrancy]: 🐅 BBOX [typed_bug]: 🐅 BBOX [erc20,balance_drain]: 🐅 BBOX [all]: ❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Hunting: FAPEN at block 28637846
+🐅 FAPEN [erc20]: 🐅 FAPEN [reentrancy]: 🐅 FAPEN [erc20,reentrancy]: 🐅 FAPEN [arbitrary_call]: 🐅 FAPEN [typed_bug]: 🐅 FAPEN [all]: 🐅 FAPEN [erc20,balance_drain]: ❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 Hunting: SEAMAN at block 23467515
+🐅 SEAMAN [erc20]: 🐅 SEAMAN [reentrancy]: 🐅 SEAMAN [erc20,reentrancy]: 🐅 SEAMAN [arbitrary_call]: 🐅 SEAMAN [erc20,balance_drain]: 🐅 SEAMAN [all]: 🐅 SEAMAN [typed_bug]: ❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+❌ missed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🐅 TIGER HUNT COMPLETE!
+
+🏆 Total kills: 0
+
+Successful hunts:
+
+📝 Summary saved to: mev/logs/tiger_summary_1754475555.json
+
+🐅 The tiger is satisfied! 🐅
