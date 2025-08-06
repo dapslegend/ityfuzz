@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-08-06T09:10:32.054738",
+  "duration_seconds": 9.5367431640625e-07,
+  "contracts_tested": 0,
+  "detectors_used": [
+    "erc20",
+    "reentrancy",
+    "arbitrary_call"
+  ],
+  "vulnerabilities_found": 0,
+  "total_profit_eth": 0,
+  "results": []
+}
