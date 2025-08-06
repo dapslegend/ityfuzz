@@ -33,10 +33,11 @@ class UniversalContractFuzzer:
         if not os.path.exists(self.ityfuzz_path):
             self.ityfuzz_path = "./target/debug/ityfuzz"
         
-        # Create directories
-        os.makedirs("work_dirs", exist_ok=True)
-        os.makedirs("vulnerability_logs", exist_ok=True)
-        os.makedirs("fuzzing_logs", exist_ok=True)
+        # Create directories in mev folder
+        os.makedirs("mev/work_dirs", exist_ok=True)
+        os.makedirs("mev/vulnerability_logs", exist_ok=True)
+        os.makedirs("mev/fuzzing_logs", exist_ok=True)
+        os.makedirs("mev/logs", exist_ok=True)
         
         # Common tokens to always include
         self.common_tokens = [
@@ -240,8 +241,8 @@ class UniversalContractFuzzer:
             "work_dir": None
         }
         
-        # Create unique work directory for this contract and detector
-        work_dir = f"work_dirs/{address}_{detector}_{block}_{int(time.time())}"
+        # Create unique work directory for this contract and detector in mev folder
+        work_dir = f"mev/work_dirs/{address}_{detector}_{block}_{int(time.time())}"
         os.makedirs(work_dir, exist_ok=True)
         result["work_dir"] = work_dir
         
@@ -301,8 +302,8 @@ class UniversalContractFuzzer:
                     result["profit"] = float(profit_match.group(1))
                     result["status"] = "VULNERABLE"
                     
-                    # Save full log
-                    log_file = f"vulnerability_logs/vuln_{address}_{int(time.time())}.log"
+                    # Save full log in mev folder
+                    log_file = f"mev/vulnerability_logs/vuln_{address}_{detector}_{int(time.time())}.log"
                     with open(log_file, "w") as f:
                         f.write(output)
                     result["log_file"] = log_file
@@ -334,6 +335,12 @@ class UniversalContractFuzzer:
                 # Remove work dir if clean to save space
                 shutil.rmtree(work_dir, ignore_errors=True)
                 result["work_dir"] = None
+                
+            # Always save the full output log for debugging
+            debug_log = f"mev/logs/{address}_{detector}_{int(time.time())}.log"
+            with open(debug_log, "w") as f:
+                f.write(output)
+            result["debug_log"] = debug_log
                 
         except subprocess.TimeoutExpired:
             process.kill()
@@ -513,8 +520,8 @@ def main():
         "results": vulnerabilities
     }
     
-    # Save report
-    report_file = f"fuzzing_logs/universal_fuzz_report_{int(time.time())}.json"
+    # Save report in mev folder
+    report_file = f"mev/fuzzing_logs/universal_fuzz_report_{int(time.time())}.json"
     with open(report_file, "w") as f:
         json.dump(report, f, indent=2)
     
@@ -539,8 +546,10 @@ def main():
             print(f"  Log: {vuln.get('log_file', 'N/A')}")
     
     print(f"\n📄 Full report saved to: {report_file}")
-    print(f"📁 Work directories saved in: work_dirs/")
-    print("\n✅ Work directories preserved for MEV exploitation!")
+    print(f"📁 Work directories saved in: mev/work_dirs/")
+    print(f"📊 All logs saved in: mev/logs/")
+    print(f"🚨 Vulnerabilities saved in: mev/vulnerability_logs/")
+    print("\n✅ All data preserved for MEV exploitation!")
 
 if __name__ == "__main__":
     main()
