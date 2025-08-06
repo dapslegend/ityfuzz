@@ -1,0 +1,18 @@
+thread 'main' panicked at src/evm/mod.rs:439:18:
+Invalid detector type: ci
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/e51e98dde6a60637b6a71b8105245b629ac3fe77/library/std/src/panicking.rs:645:5
+   1: core::panicking::panic_fmt
+             at /rustc/e51e98dde6a60637b6a71b8105245b629ac3fe77/library/core/src/panicking.rs:72:14
+   2: ityfuzz::evm::OracleType::from_str
+             at ./src/evm/mod.rs:439:18
+   3: ityfuzz::evm::OracleType::from_strs
+             at ./src/evm/mod.rs:477:26
+   4: ityfuzz::evm::evm_main
+             at ./src/evm/mod.rs:601:24
+   5: ityfuzz::main
+             at ./src/main.rs:69:13
+   6: core::ops::function::FnOnce::call_once
+             at /rustc/e51e98dde6a60637b6a71b8105245b629ac3fe77/library/core/src/ops/function.rs:250:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
