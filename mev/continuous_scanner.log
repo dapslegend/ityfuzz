@@ -770,3 +770,73 @@ Vulnerabilities found: 0
   Vulnerabilities: 4
 
 [Wed Aug  6 10:01:12 AM UTC 2025] Waiting 5 minutes before next round...
+[Wed Aug  6 10:06:12 AM UTC 2025] Starting new scanning round...
+[Wed Aug  6 10:06:12 AM UTC 2025] Running proven MEV scanner...
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   🚨 VULNERABILITY FOUND!
+✅ Confirmed! Profit: 0.161 ETH
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56634442
+  Block 56634442...
+  Block 56634443...
+  Block 56634444...
+  Block 56634445...
+  Block 56634446...
+  Block 56634447...
+  Block 56634448...
+  Block 56634449...
+  Block 56634450...
+  Block 56634451...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 1
+
+💰 Total profit potential: 0.1610 ETH
+
+🚨 Vulnerable contracts:
+  0x68Cc9035... at block 22315679
+    Profit: 0.1610 ETH
+    Work dir: mev/work_dirs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_22315679_1754474772
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754474790.json
+✅ All MEV data saved!
+[Wed Aug  6 10:07:00 AM UTC 2025] Running individual fuzzer...
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56635762)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754474880.json
+✅ All data saved in mev/ directory!
+
+[Wed Aug  6 10:08:00 AM UTC 2025] Statistics:
+  Work directories: 142
+  Total logs: 371
+  Vulnerabilities: 5
+
+[Wed Aug  6 10:08:00 AM UTC 2025] Waiting 5 minutes before next round...
