@@ -1,0 +1,67 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 35.71.137.105:443
+[34mDEBUG[0m connected to 35.71.137.105:443
+[34mDEBUG[0m flushed 208 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0x2D9A (11674 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x591a5bc4cd98a004109f1d12af90eba1d3d19bb1&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 591a5bc4cd98a004109f1d12af90eba1d3d19bb1
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[34mDEBUG[0m ABI not found for 0x591a…9bb1, we'll decompile
+Contract loaded: 0x591a5bc4cd98a004109f1d12af90eba1d3d19bb1
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xfe8acdd8d5e99bedea9c3519a8ede40c243eb802&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from fe8acdd8d5e99bedea9c3519a8ede40c243eb802
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 35.71.137.105:443
+[34mDEBUG[0m connected to 35.71.137.105:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[34mDEBUG[0m ABI not found for 0xfe8a…b802, we'll decompile
+Contract loaded: 0xfe8acdd8d5e99bedea9c3519a8ede40c243eb802
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x66ad618aa90538a054eb491b79d89be5bcb7b28c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m resolving host="api.etherscan.io"
+[34mDEBUG[0m connecting to 217.79.243.34:443
+[34mDEBUG[0m connected to 217.79.243.34:443
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (77 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 66ad618aa90538a054eb491b79d89be5bcb7b28c
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 35.71.137.105:443
+[34mDEBUG[0m connected to 35.71.137.105:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+[34mDEBUG[0m ABI not found for 0x66ad…b28c, we'll decompile
+Contract loaded: 0x66ad618aa90538a054eb491b79d89be5bcb7b28c
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x3e101a4c3d88a1d3623b2b6a9399c1bc1ef11fa7&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from 3e101a4c3d88a1d3623b2b6a9399c1bc1ef11fa7
+[34mDEBUG[0m resolving host="bsc-dataseed.binance.org"
+[34mDEBUG[0m connecting to 52.223.34.155:443
+[34mDEBUG[0m connected to 52.223.34.155:443
+[34mDEBUG[0m flushed 239 bytes
+[34mDEBUG[0m parsed 16 headers
+[34mDEBUG[0m incoming body is content-length (79 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bsc-dataseed.binance.org)
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
