@@ -1,0 +1,691 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 211 bytes
+[34mDEBUG[0m parsed 11 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0x1F78 (8056 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1000 (4096 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1A5 (421 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from cfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (629 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0xcfe6…3634, we'll decompile
+Contract loaded: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xe9e7cea3dedca5984780bafc599bd69add087d56&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from e9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (8865 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+Contract loaded: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (6287 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0xbb4c…095c, we'll decompile
+Contract loaded: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[34mDEBUG[0m onchain middleware enabled
+[34mDEBUG[0m Adding 3 contracts to flashloan middleware
+[34mDEBUG[0m Adding target: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 (0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m Adding target: 0xe9e7cea3dedca5984780bafc599bd69add087d56 (0xe9e7cea3dedca5984780bafc599bd69add087d56)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Adding target: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c (0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m Deploying contract: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m Contract 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 is already deployed
+[32m INFO[0m Contract 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 deployed to: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 -> balacne is 0
+[32m INFO[0m Deploying contract: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Contract 0xe9e7cea3dedca5984780bafc599bd69add087d56 is already deployed
+[32m INFO[0m Contract 0xe9e7cea3dedca5984780bafc599bd69add087d56 deployed to: 0xe9e7cea3dedca5984780bafc599bd69add087d56 -> balacne is 0
+[32m INFO[0m Deploying contract: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c is already deployed
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c deployed to: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c -> balacne is 0
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m Contract 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 has no abi
+[32m INFO[0m Too many unknown function signature for "0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634", we are going to decompile this contract using EVMole
+[32m INFO[0m fetching pairs for 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m fetching pairs for 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="pairs-all.infra.fuzz.land"
+[34mDEBUG[0m connecting to 104.21.27.128:443
+[34mDEBUG[0m connected to 104.21.27.128:443
+[34mDEBUG[0m flushed 165 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (4253 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", pairs-all.infra.fuzz.land)
+[32m INFO[0m fetching code from 32776ed4d96ed069a2d812773f0ad8ad9ef83cf8
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from cb99fe720124129520f7a09ca3cbef78d58ed934
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from db2177fee5b0ebdc7b8038cb70f3964bb6d14143
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from e49f5ca131354ed5ffb9273f17bd7f3017727db6
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 1c79d6599a5ff35922b2aed8d2a2eacbc77ebd44
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 469efaaadb06b5f4618ed1907aba380411f9a200
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 85faac652b707fdf6907ef726751087f9e0b6687
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 8f45b99bf65cdbf9bc0c0b4846d6a324d2de5314
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (45963 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from b2ded03530571c5792d0a33600b2f1f4a3f91c55
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (44323 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from b784c80bfc8f8131bf8d10d4af76dffbed0adf87
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (17929 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 1b96b92314c44b159149f7e0303511fb2fc4774f
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (17371 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 58f876857a02d6762e0101bb5c46a8c1ed44dc16
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (30001 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from acaac9311b0096e04dfe96b6d87dec867d3883dc
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (24729 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from dc558d64c29721d74c4456cfb4363a6e6660a9bb
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (18197 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 343 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0xb784c80bfc8f8131bf8d10d4af76dffbed0adf87 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x1b96b92314c44b159149f7e0303511fb2fc4774f 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x58f876857a02d6762e0101bb5c46a8c1ed44dc16 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0xacaac9311b0096e04dfe96b6d87dec867d3883dc 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0xdc558d64c29721d74c4456cfb4363a6e6660a9bb 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching reserve for 0x58f876857a02d6762e0101bb5c46a8c1ed44dc16 0x36043c5
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 272 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (230 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c has no abi
+[32m INFO[0m Too many unknown function signature for "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", we are going to decompile this contract using EVMole
+[34mDEBUG[0m Adding initialized target to flashloan: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m Added target address to flashloan middleware: 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m Adding initialized target to flashloan: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Added target address to flashloan middleware: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m Adding initialized target to flashloan: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Added target address to flashloan middleware: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 6960b9378440c3d6670848bc53e80650b5c2d706
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (20965 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching abi 0x6960b9378440c3d6670848bc53e80650b5c2d706
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x6960b9378440c3d6670848bc53e80650b5c2d706&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m resolving host="api.etherscan.io"
+[34mDEBUG[0m connecting to 217.79.243.34:443
+[34mDEBUG[0m connected to 217.79.243.34:443
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (77 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[34mDEBUG[0m Contract 0x6960b9378440c3d6670848bc53e80650b5c2d706 has no abi
+[34mDEBUG[0m Too many unknown function signature (37) for 0x6960b9378440c3d6670848bc53e80650b5c2d706, we are going to decompile this contract using EVMole
+[34mDEBUG[0m Propagating hashes ["6129d84d", "e37d28c0", "5c9c810d", "73b2168d", "9e281a98", "50e003be", "3ccfd60b", "9613092d", "a5331ca1", "885a08e0", "5538b47f", "1e74275a", "5c1c603f", "50418c06", "d01437d5", "02ca8d14", "44ba912d", "833b0acb", "5b7e30e5", "4b3499cb", "f4993018", "33ba9f90", "338b5dea", "b8d9c585", "c55dae63", "2389997c", "9810248f", "432c66e2", "8cf333da", "fa461e33", "217a4b70", "873484ca", "ece42d7f", "bcb1c70a", "0b6a5bdf", "489cb29d"] for proxy 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 0, objectives: 0, executions: 0, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0xcFe66D6c615500Fb0E567D9BaBdC6E3cDcd23634.call(abi.encodeWithSelector(0x00000000, x000000000000000000000000000000000000000))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 61, objectives: 0, executions: 1, exec/sec: 0.000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m Voted for 0 because of CMP
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 61, objectives: 0, executions: 1, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xcFe66D6c615500Fb0E567D9BaBdC6E3cDcd23634.call(abi.encodeWithSelector(0x3ca4226e, 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd))
+   │  └─ ← 0x08c379a00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000341746b0000000000000000000000000000000000000000000000000000000000
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 62, objectives: 0, executions: 10, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-6s, clients: 1, corpus: 62, objectives: 0, executions: 10, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0xcFe66D6c615500Fb0E567D9BaBdC6E3cDcd23634.call{value: 1625.5764 ether}(abi.encodeWithSelector(0x3ca4226e, 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024))
+
+[32m INFO[0m ==========================================
+[34mDEBUG[0m Voted for 0
+[32m INFO[0m [Testcase #0] run time: 0h-0m-6s, clients: 1, corpus: 63, objectives: 0, executions: 18, exec/sec: 0.000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m onchain balance for 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 245 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (60 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m balance of 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c at 0x36043c5 is 1350357390273542765976044
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (39 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 316 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 245 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (40 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m balance of 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 at 0x36043c5 is 0
+[32m INFO[0m fetching code from 0000000000000000000000000000000000000000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (39 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 253 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (103 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching code from 55d398326f99059ff775485246999027b3197955
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (8865 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m fetching abi 0x55d398326f99059ff775485246999027b3197955
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x55d398326f99059ff775485246999027b3197955&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

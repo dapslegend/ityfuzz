@@ -619,3 +619,120 @@ Vulnerabilities found: 0
 
 📄 Report: mev/fuzzing_logs/proven_mev_scan_1754477303.json
 ✅ All MEV data saved!
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   🚨 VULNERABILITY FOUND!
+✅ Confirmed! Profit: 0.0 ETH
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56638355
+  Block 56638355...
+  Block 56638356...
+  Block 56638357...
+  Block 56638358...
+  Block 56638359...
+  Block 56638360...
+  Block 56638361...
+  Block 56638362...
+  Block 56638363...
+  Block 56638364...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 1
+
+💰 Total profit potential: 0.0000 ETH
+
+🚨 Vulnerable contracts:
+  0x68Cc9035... at block 22315679
+    Profit: 0.0000 ETH
+    Work dir: mev/work_dirs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_22315679_1754477693
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754477726.json
+✅ All MEV data saved!
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   🚨 VULNERABILITY FOUND!
+✅ Confirmed! Profit: 5.595 ETH
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56638930
+  Block 56638930...
+  Block 56638931...
+  Block 56638932...
+  Block 56638933...
+  Block 56638934...
+  Block 56638935...
+  Block 56638936...
+  Block 56638937...
+  Block 56638938...
+  Block 56638939...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 1
+
+💰 Total profit potential: 5.5950 ETH
+
+🚨 Vulnerable contracts:
+  0x68Cc9035... at block 22315679
+    Profit: 5.5950 ETH
+    Work dir: mev/work_dirs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_22315679_1754478116
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754478157.json
+✅ All MEV data saved!
+=== Proven MEV Scanner ===
+Focused on ERC20 vulnerabilities
+
+🧪 Confirming BEGO vulnerability...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679
+   🚨 VULNERABILITY FOUND!
+✅ Confirmed! Profit: 0.064 ETH
+
+📡 Scanning recent blocks for similar patterns...
+📡 Scanning 10 blocks from 56639483
+  Block 56639483...
+  Block 56639484...
+  Block 56639485...
+  Block 56639486...
+  Block 56639487...
+  Block 56639488...
+  Block 56639489...
+  Block 56639490...
+  Block 56639491...
+  Block 56639492...
+
+Found 0 new contracts
+
+============================================================
+📊 SCAN COMPLETE
+============================================================
+Contracts tested: 1
+Vulnerabilities found: 1
+
+💰 Total profit potential: 0.0640 ETH
+
+🚨 Vulnerable contracts:
+  0x68Cc9035... at block 22315679
+    Profit: 0.0640 ETH
+    Work dir: mev/work_dirs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_22315679_1754478547
+
+📄 Report: mev/fuzzing_logs/proven_mev_scan_1754478572.json
+✅ All MEV data saved!

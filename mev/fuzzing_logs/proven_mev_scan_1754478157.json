@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-08-06T11:02:37.141369",
+  "current_block": 56640130,
+  "contracts_tested": 1,
+  "vulnerabilities_found": 1,
+  "total_profit_eth": 5.595,
+  "vulnerabilities": [
+    {
+      "address": "0x68Cc90351a79A4c10078FE021bE430b7a12aaA09",
+      "block": 22315679,
+      "work_dir": "mev/work_dirs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_22315679_1754478116",
+      "timestamp": "2025-08-06T11:01:56.460794",
+      "status": "VULNERABLE",
+      "profit": 5.595,
+      "log_file": "mev/vulnerability_logs/0x68Cc90351a79A4c10078FE021bE430b7a12aaA09_erc20_1754478156.log"
+    }
+  ]
+}

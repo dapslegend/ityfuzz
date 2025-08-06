@@ -397,3 +397,66 @@ Vulnerabilities found: 0
 
 📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754477393.json
 ✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56639677)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754477816.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56640251)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754478247.json
+✅ All data saved in mev/ directory!
+=== Individual Contract Fuzzer ===
+Running each contract in isolation to avoid ABI conflicts
+
+🧪 Testing known vulnerable contract...
+
+🎯 Fuzzing 0x68Cc9035... at block 22315679 with erc20
+   ⏱️ Timeout
+
+📡 Scanning recent contracts...
+📡 Scanning last 5 blocks (from 56640805)
+✅ Found 0 unique contracts
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 0.0 seconds
+Contracts tested: 0
+Vulnerabilities found: 0
+
+📄 Report saved to: mev/fuzzing_logs/individual_fuzz_report_1754478663.json
+✅ All data saved in mev/ directory!

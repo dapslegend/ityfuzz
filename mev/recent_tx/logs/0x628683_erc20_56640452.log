@@ -1,0 +1,73 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 211 bytes
+[34mDEBUG[0m parsed 11 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0xF78 (3960 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1000 (4096 bytes)
+[34mDEBUG[0m incoming chunked header: 0x879 (2169 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x628683c3c54ec4a22217d0022d0d442b391e9a4f&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[34mDEBUG[0m resolving host="api.etherscan.io"
+[34mDEBUG[0m connecting to 217.79.243.34:443
+[34mDEBUG[0m connected to 217.79.243.34:443
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (77 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 628683c3c54ec4a22217d0022d0d442b391e9a4f
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (26859 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0x6286…9a4f, we'll decompile
+Contract loaded: 0x628683c3c54ec4a22217d0022d0d442b391e9a4f
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 10 headers
+[34mDEBUG[0m incoming body is content-length (160 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[34mDEBUG[0m ABI not found for 0xbb4c…095c, we'll decompile
+Contract loaded: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0xe9e7cea3dedca5984780bafc599bd69add087d56&format=json&apikey=SCVG9V74WV6VBZN583QZ9D3AW9VF45IMZP
+[32m INFO[0m fetching code from e9e7cea3dedca5984780bafc599bd69add087d56
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (8865 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+Contract loaded: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[34mDEBUG[0m onchain middleware enabled
+[34mDEBUG[0m Adding 3 contracts to flashloan middleware
+[34mDEBUG[0m Adding target: 0x628683c3c54ec4a22217d0022d0d442b391e9a4f (0x628683c3c54ec4a22217d0022d0d442b391e9a4f)
+[34mDEBUG[0m Added target address to flashloan middleware: 0x628683c3c54ec4a22217d0022d0d442b391e9a4f
+[34mDEBUG[0m Adding target: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c (0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[34mDEBUG[0m Adding target: 0xe9e7cea3dedca5984780bafc599bd69add087d56 (0xe9e7cea3dedca5984780bafc599bd69add087d56)
+[34mDEBUG[0m Added target address to flashloan middleware: 0xe9e7cea3dedca5984780bafc599bd69add087d56
+[32m INFO[0m Deploying contract: 0x628683c3c54ec4a22217d0022d0d442b391e9a4f
+[34mDEBUG[0m Contract 0x628683c3c54ec4a22217d0022d0d442b391e9a4f is already deployed
+thread 'main' panicked at src/evm/bytecode_iterator.rs:71:15:
+attempt to subtract with overflow
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

@@ -1,0 +1,52 @@
+[
+  {
+    "address": "0x1a0a18ac4becddbd6389559687d1a73d8927e416",
+    "block": 56640453,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634",
+    "block": 56640453,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xba53da030f3504db8cf0309bb89791950d0ce5e6",
+    "block": 56640453,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xb300000b72deaeb607a12d5f54773d1c19c7028d",
+    "block": 56640453,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xd17f20b0c7e7294affe15b2129450dbe34d5ce1b",
+    "block": 56640452,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0x628683c3c54ec4a22217d0022d0d442b391e9a4f",
+    "block": 56640452,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0x802b65b5d9016621e66003aed0b16615093f328b",
+    "block": 56640452,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xd17f20b0c7e7294affe15b2129450dbe34d5ce1b",
+    "block": 56640451,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0x628683c3c54ec4a22217d0022d0d442b391e9a4f",
+    "block": 56640451,
+    "vulnerabilities": []
+  },
+  {
+    "address": "0xcec5053537f34fcc11824dfbd1ac823b244828ad",
+    "block": 56640450,
+    "vulnerabilities": []
+  }
+]
