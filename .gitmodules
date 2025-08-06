@@ -8,3 +8,6 @@
 [submodule "tests/evm_manual/foundry/lib/forge-std"]
 	path = tests/evm_manual/foundry/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/forge-std"]
+	path = lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
