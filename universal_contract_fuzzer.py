@@ -113,34 +113,51 @@ class UniversalContractFuzzer:
                 block_data = json.loads(result.stdout)
                 
                 # Check each transaction
-                for tx_hash in block_data.get("transactions", [])[:20]:  # Limit per block
+                tx_count = 0
+                for tx in block_data.get("transactions", []):
+                    if tx_count >= 50:  # Process more transactions
+                        break
+                    tx_count += 1
+                    
                     try:
-                        # Get transaction
-                        tx_cmd = ["cast", "tx", tx_hash, "--json", "--rpc-url", self.historical_rpc]
-                        tx_result = subprocess.run(tx_cmd, capture_output=True, text=True)
-                        
-                        if tx_result.returncode == 0:
+                        # Transaction data might already be parsed
+                        if isinstance(tx, dict):
+                            tx_data = tx
+                            tx_hash = tx_data.get("hash", "unknown")
+                        else:
+                            tx_hash = tx
+                            # Get transaction
+                            tx_cmd = ["cast", "tx", tx_hash, "--json", "--rpc-url", self.historical_rpc]
+                            tx_result = subprocess.run(tx_cmd, capture_output=True, text=True, timeout=5)
+                            
+                            if tx_result.returncode != 0:
+                                continue
                             tx_data = json.loads(tx_result.stdout)
-                            
-                            # Add 'to' address if it's a contract
-                            to_addr = tx_data.get("to")
-                            if to_addr and self.is_contract(to_addr):
+                        
+                        # Add 'to' address if it exists
+                        to_addr = tx_data.get("to")
+                        if to_addr and to_addr != "0x0000000000000000000000000000000000000000":
+                            # Check if it's a contract
+                            if self.is_contract(to_addr):
                                 contracts.add(to_addr)
+                                print(f"    Found contract: {to_addr[:10]}...")
+                        
+                        # Check for contract creation
+                        if not to_addr or to_addr == "0x0000000000000000000000000000000000000000":
+                            receipt_cmd = ["cast", "receipt", tx_hash, "--json", "--rpc-url", self.historical_rpc]
+                            receipt_result = subprocess.run(receipt_cmd, capture_output=True, text=True, timeout=5)
                             
-                            # Check for contract creation
-                            if not to_addr:
-                                receipt_cmd = ["cast", "receipt", tx_hash, "--json", "--rpc-url", self.historical_rpc]
-                                receipt_result = subprocess.run(receipt_cmd, capture_output=True, text=True)
-                                
-                                if receipt_result.returncode == 0:
-                                    receipt = json.loads(receipt_result.stdout)
-                                    if receipt.get("contractAddress"):
-                                        contracts.add(receipt["contractAddress"])
-                    except:
+                            if receipt_result.returncode == 0:
+                                receipt = json.loads(receipt_result.stdout)
+                                contract_addr = receipt.get("contractAddress")
+                                if contract_addr and contract_addr != "0x0000000000000000000000000000000000000000":
+                                    contracts.add(contract_addr)
+                                    print(f"    New contract: {contract_addr[:10]}...")
+                    except Exception as e:
                         pass
                         
-        except:
-            pass
+        except Exception as e:
+            print(f"  Error scanning block {block_num}: {e}")
         
         return contracts
     
@@ -344,8 +361,9 @@ def main():
     
     # Source 1: Recent blocks from historical RPC
     print("📡 Source 1: Scanning recent blocks...")
-    # Scan only last 10 blocks but more thoroughly
-    block_range = range(hist_block - 10, hist_block + 1)
+    print(f"  Scanning blocks {hist_block - 20} to {hist_block}")
+    # Scan last 20 blocks
+    block_range = range(hist_block - 20, hist_block + 1)
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(fuzzer.get_contracts_from_block, block): block 
@@ -367,10 +385,15 @@ def main():
     
     print(f"\n📊 Total unique contracts found: {len(all_contracts)}")
     
-    # If no contracts found, add some known ones for testing
+    # Only add default contracts if really needed
     if len(all_contracts) == 0:
-        print("\n⚠️  No contracts found from scanning. Adding known BSC contracts...")
-        # Add some active BSC contracts
+        print("\n⚠️  No contracts found from scanning.")
+        print("Possible reasons:")
+        print("  - Historical RPC may not have recent transaction data")
+        print("  - Etherscan API v2 may need different parameters")
+        print("  - Network connectivity issues")
+        
+        print("\nAdding known BSC contracts for testing...")
         test_contracts = [
             "0x68Cc90351a79A4c10078FE021bE430b7a12aaA09",  # BEGO from previous tests
             "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",  # Another from previous
@@ -383,6 +406,8 @@ def main():
         ]
         all_contracts.update(test_contracts)
         print(f"  Added {len(test_contracts)} BSC contracts")
+    else:
+        print(f"\n✅ Successfully found {len(all_contracts)} contracts from blockchain!")
     
     # Find tokens for each contract
     print("\n🔍 Analyzing contracts and finding associated tokens...")
