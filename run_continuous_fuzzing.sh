@@ -6,8 +6,8 @@ echo "ItyFuzz will detect vulnerabilities automatically"
 echo
 
 # Check if ItyFuzz is built
-if [ ! -f "./target/debug/cli" ]; then
-    echo "❌ ItyFuzz not found at ./target/debug/cli"
+if [ ! -f "./target/debug/ityfuzz" ]; then
+    echo "❌ ItyFuzz not found at ./target/debug/ityfuzz"
     echo "Please build ItyFuzz first"
     exit 1
 fi

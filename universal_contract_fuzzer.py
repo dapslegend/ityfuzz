@@ -12,6 +12,7 @@ import requests
 from typing import List, Dict, Set, Tuple
 from datetime import datetime
 import concurrent.futures
+import shutil
 
 class UniversalContractFuzzer:
     """Find and fuzz ALL contracts - let ItyFuzz do the vulnerability detection"""
@@ -27,7 +28,12 @@ class UniversalContractFuzzer:
         self.chain_id = "56"
         
         # ItyFuzz path
-        self.ityfuzz_path = "./target/debug/cli"
+        self.ityfuzz_path = "./target/debug/ityfuzz"
+        
+        # Create directories
+        os.makedirs("work_dirs", exist_ok=True)
+        os.makedirs("vulnerability_logs", exist_ok=True)
+        os.makedirs("fuzzing_logs", exist_ok=True)
         
         # Common tokens to always include
         self.common_tokens = [
@@ -181,16 +187,23 @@ class UniversalContractFuzzer:
             "address": address,
             "status": "pending",
             "profit": 0,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            "work_dir": None
         }
         
-        # Build ItyFuzz command
+        # Create unique work directory for this contract
+        work_dir = f"work_dirs/{address}_{block}_{int(time.time())}"
+        os.makedirs(work_dir, exist_ok=True)
+        result["work_dir"] = work_dir
+        
+        # Build ItyFuzz command with work directory
         cmd = [
             self.ityfuzz_path,
             "-t", address,
             "-c", "BSC",
             "--onchain-block-number", str(block),
             "-f", "-i", "-p",
+            "--work-dir", work_dir,  # Save corpus and findings here
             "--run-forever", "60"  # 1 minute timeout
         ]
         
@@ -210,6 +223,7 @@ class UniversalContractFuzzer:
         
         print(f"\n🎯 Fuzzing {address}")
         print(f"   Tokens: {len(self.common_tokens) + len(tokens)}")
+        print(f"   Work dir: {work_dir}")
         
         try:
             # Run fuzzer
@@ -232,19 +246,38 @@ class UniversalContractFuzzer:
                     result["status"] = "VULNERABLE"
                     
                     # Save full log
-                    log_file = f"vuln_{address}_{int(time.time())}.log"
+                    log_file = f"vulnerability_logs/vuln_{address}_{int(time.time())}.log"
                     with open(log_file, "w") as f:
                         f.write(output)
                     result["log_file"] = log_file
                     
+                    # Also save metadata for MEV
+                    metadata = {
+                        "address": address,
+                        "block": block,
+                        "profit": result["profit"],
+                        "work_dir": work_dir,
+                        "log_file": log_file,
+                        "tokens": self.common_tokens + tokens,
+                        "timestamp": result["timestamp"]
+                    }
+                    
+                    metadata_file = os.path.join(work_dir, "vulnerability_metadata.json")
+                    with open(metadata_file, "w") as f:
+                        json.dump(metadata, f, indent=2)
+                    
                     print(f"   🚨 VULNERABLE! Profit: {result['profit']} ETH")
                     print(f"   📄 Log: {log_file}")
+                    print(f"   📁 Work dir: {work_dir}")
                 else:
                     result["status"] = "found_issue"
                     print(f"   ⚠️  Found issue but couldn't parse profit")
             else:
                 result["status"] = "clean"
                 print(f"   ✅ Clean")
+                # Remove work dir if clean to save space
+                shutil.rmtree(work_dir, ignore_errors=True)
+                result["work_dir"] = None
                 
         except subprocess.TimeoutExpired:
             process.kill()
@@ -260,7 +293,8 @@ class UniversalContractFuzzer:
 def main():
     """Main execution"""
     print("=== Universal Contract Fuzzer ===")
-    print("Finding ALL contracts and letting ItyFuzz detect vulnerabilities\n")
+    print("Finding ALL contracts and letting ItyFuzz detect vulnerabilities")
+    print("Each project saves its work_dir for MEV exploitation\n")
     
     fuzzer = UniversalContractFuzzer()
     
@@ -304,6 +338,17 @@ def main():
     
     print(f"\n📊 Total unique contracts found: {len(all_contracts)}")
     
+    # If no contracts found, add some known ones for testing
+    if len(all_contracts) == 0:
+        print("\n⚠️  No contracts found from scanning. Adding known test contracts...")
+        test_contracts = [
+            "0x68Cc90351a79A4c10078FE021bE430b7a12aaA09",  # BEGO from previous tests
+            "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",  # Another from previous
+            "0xc342774492b54ce5F8ac662113ED702Fc1b34972",  # Another from previous
+        ]
+        all_contracts.update(test_contracts)
+        print(f"  Added {len(test_contracts)} test contracts")
+    
     # Find tokens for each contract
     print("\n🔍 Analyzing contracts and finding associated tokens...")
     contracts_with_tokens = []
@@ -317,21 +362,32 @@ def main():
         })
         print(f" - {len(tokens)} tokens found")
     
-    # Start fuzzing
-    print(f"\n🚀 Starting fuzzing campaign on {len(contracts_with_tokens)} contracts...")
-    print("Each contract will be fuzzed for 1 minute\n")
+    # Start fuzzing - run for 20 minutes total
+    print(f"\n🚀 Starting 20-minute fuzzing campaign...")
+    print(f"Will fuzz as many contracts as possible in 20 minutes\n")
     
     vulnerabilities = []
     start_time = time.time()
+    max_duration = 20 * 60  # 20 minutes in seconds
+    contracts_fuzzed = 0
     
-    for i, contract_info in enumerate(contracts_with_tokens[:20]):  # Limit to 20 for demo
-        print(f"[{i+1}/20] Contract {i+1} of 20")
+    for i, contract_info in enumerate(contracts_with_tokens):
+        # Check if we've exceeded 20 minutes
+        elapsed = time.time() - start_time
+        if elapsed >= max_duration:
+            print(f"\n⏰ 20 minutes reached! Stopping fuzzing.")
+            break
+        
+        remaining = max_duration - elapsed
+        print(f"\n[{i+1}] Time remaining: {remaining/60:.1f} minutes")
         
         result = fuzzer.fuzz_contract(
             contract_info["address"],
             contract_info["tokens"],
             pub_block - 1
         )
+        
+        contracts_fuzzed = i + 1
         
         if result["status"] == "VULNERABLE":
             vulnerabilities.append(result)
@@ -349,7 +405,7 @@ def main():
         "contracts": {
             "total_found": len(all_contracts),
             "analyzed": len(contracts_with_tokens),
-            "fuzzed": min(20, len(contracts_with_tokens))
+            "fuzzed": contracts_fuzzed
         },
         "vulnerabilities_found": len(vulnerabilities),
         "total_profit_eth": sum(v["profit"] for v in vulnerabilities),
@@ -357,7 +413,7 @@ def main():
     }
     
     # Save report
-    report_file = f"universal_fuzz_report_{int(time.time())}.json"
+    report_file = f"fuzzing_logs/universal_fuzz_report_{int(time.time())}.json"
     with open(report_file, "w") as f:
         json.dump(report, f, indent=2)
     
@@ -368,18 +424,21 @@ def main():
     print(f"Duration: {elapsed/60:.1f} minutes")
     print(f"Contracts found: {len(all_contracts)}")
     print(f"Contracts analyzed: {len(contracts_with_tokens)}")
-    print(f"Contracts fuzzed: {min(20, len(contracts_with_tokens))}")
+    print(f"Contracts fuzzed: {contracts_fuzzed}")
     print(f"Vulnerabilities found: {len(vulnerabilities)}")
     
     if vulnerabilities:
         print(f"\n💰 Total potential profit: {report['total_profit_eth']:.4f} ETH")
-        print(f"\n🚨 Vulnerable contracts:")
+        print(f"\n🚨 Vulnerable contracts with work directories:")
         for vuln in vulnerabilities:
-            print(f"  {vuln['address']}: {vuln['profit']:.4f} ETH")
-            print(f"    Log: {vuln['log_file']}")
+            print(f"\n  Contract: {vuln['address']}")
+            print(f"  Profit: {vuln['profit']:.4f} ETH")
+            print(f"  Work dir: {vuln['work_dir']}")
+            print(f"  Log: {vuln.get('log_file', 'N/A')}")
     
     print(f"\n📄 Full report saved to: {report_file}")
-    print("\n✅ ItyFuzz has completed vulnerability detection!")
+    print(f"📁 Work directories saved in: work_dirs/")
+    print("\n✅ Work directories preserved for MEV exploitation!")
 
 if __name__ == "__main__":
     main()
