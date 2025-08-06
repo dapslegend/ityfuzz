@@ -919,3 +919,3835 @@ Error: contract 0x0000000000000000000000000000000000000000 does not have any cod
 Error: contract 0x0000000000000000000000000000000000000000 does not have any code
 Error: contract 0x0000000000000000000000000000000000000000 does not have any code
 Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000001000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: could not decode output; did you specify the wrong function return data type?
+
+Context:
+- ABI decoding failed: buffer overrun while deserializing
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000024b2d28b650476050626000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xa8acdd81...
+    Found contract: 0x6aba0315...
+    Found contract: 0xb300000b...
+    Found contract: 0x10ed43c7...
+    Found contract: 0x0fa0f96f...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xf57ef95f...
+    Found contract: 0x802b65b5...
+    Found contract: 0x00000047...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x3986f744...
+    Found contract: 0x57baeebe...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x69f08d3e...
+    Found contract: 0x1b81d678...
+    Found contract: 0x278e81a0...
+    Found contract: 0xb300000b...
+    Found contract: 0x317cd61f...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xbf4f2e1d...
+    Found contract: 0xb300000b...
+    Found contract: 0x47ebcf27...
+    Found contract: 0x6fa9ed95...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x7b8a01b3...
+    Found contract: 0xb300000b...
+    Found contract: 0x59f4f336...
+    Found contract: 0xb300000b...
+    Found contract: 0x2d3b5ca3...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xbb4cdb9c...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x1b81d678...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x5ddaf283...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xedbe4ede...
+    Found contract: 0x47ebcf27...
+    Found contract: 0x802b65b5...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x10ed43c7...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x131ee81c...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x79a62304...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb22f8e2a...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0x3e80a0fe...
+    Found contract: 0x29141750...
+    Found contract: 0x9b9efa5e...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x00000000...
+    Found contract: 0xb300000b...
+    Found contract: 0x5692db81...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x60ffd33c...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x481bb72e...
+    Found contract: 0x10ed43c7...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x59b53dd6...
+    Found contract: 0xb300000b...
+    Found contract: 0xad56fdbe...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xc75aabd3...
+    Found contract: 0xc0766d1b...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0x194b302a...
+    Found contract: 0xb300000b...
+    Found contract: 0x743cb7d6...
+    Found contract: 0x40f90625...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0xee6ead66...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+    Found contract: 0xe4fcc51a...
+    Found contract: 0xb300000b...
+    Found contract: 0x00000047...
+    Found contract: 0x52bca77f...
+    Found contract: 0xb300000b...
+    Found contract: 0x8fef07b8...
+    Found contract: 0xfafb7581...
+    Found contract: 0xb300000b...
+  Found 16 contracts in block 55442451
+    Found contract: 0x55d39832...
+    Found contract: 0xb300000b...
+  Found 10 contracts in block 55442455
+    Found contract: 0xf2c921a4...
+  Found 23 contracts in block 55442453
+    Found contract: 0xd9c500df...
+  Found 19 contracts in block 55442452
+    Found contract: 0xdcaaaea0...
+  Found 18 contracts in block 55442454
+    Found contract: 0x0fa0f96f...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+  Found 11 contracts in block 55442457
+    Found contract: 0x55d39832...
+  Found 16 contracts in block 55442456
+    Found contract: 0x1b81d678...
+  Found 18 contracts in block 55442459
+    Found contract: 0x26c98b27...
+  Found 23 contracts in block 55442458
+    Found contract: 0x09015538...
+    Found contract: 0x9e88995d...
+    Found contract: 0xf57ef95f...
+    Found contract: 0xac175d67...
+    Found contract: 0xd615eb3e...
+    Found contract: 0x55d39832...
+    Found contract: 0x802b65b5...
+    Found contract: 0x77f37407...
+    Found contract: 0x60ffd33c...
+    Found contract: 0x50b1325d...
+    Found contract: 0x2e813805...
+    Found contract: 0x9767324c...
+    Found contract: 0xd597b1f6...
+    Found contract: 0xb300000b...
+    Found contract: 0xb300000b...
+    Found contract: 0x55d39832...
+    Found contract: 0xd9c500df...
+    Found contract: 0xd9c500df...
+    Found contract: 0xb300000b...
+    Found contract: 0xc14ede79...
+    Found contract: 0x1b81d678...
+    Found contract: 0xc70d9712...
+    Found contract: 0x46a15b0b...
+  Found 26 contracts in block 55442460
+  Total from blocks: 155 contracts
+
+📡 Source 2: Getting verified contracts from Etherscan...
+  Found 0 verified contracts
+
+📊 Total unique contracts found: 155
+
+✅ Successfully found 155 contracts from blockchain!
+
+🔍 Analyzing contracts and finding associated tokens...
+  [1/50] 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 - 1 tokens found
+  [2/50] 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b - 5 tokens found
+  [3/50] 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d - 5 tokens found
+  [4/50] 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 - 5 tokens found
+  [5/50] 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a - 1 tokens found
+  [6/50] 0x55d398326f99059ff775485246999027b3197955 - 4 tokens found
+  [7/50] 0x00000047bb99ea4d791bb749d970de71ee0b1a34 - 5 tokens found
+  [8/50] 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f - 2 tokens found
+  [9/50] 0xe4eab320233147681a41a0a9b49a1e755105c2ba - 5 tokens found
+  [10/50] 0x05ff2b0db69458a0750badebc4f9e13add608c7f - 3 tokens found
+  [11/50] 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa - 5 tokens found
+  [12/50] 0xc70d97129b8b3459f417b335c653c3a78a00aa8d - 3 tokens found
+  [13/50] 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd - 2 tokens found
+  [14/50] 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b - 5 tokens found
+  [15/50] 0xba53da030f3504db8cf0309bb89791950d0ce5e6 - 5 tokens found
+  [16/50] 0xac4c6e212a361c968f1725b4d055b47e63f80b75 - 5 tokens found
+  [17/50] 0xb0ce336350129b23d7735116b1e6c6c219cff253Error: contract 0x398ee312b8d772f7e4912100620702f2e005a90d does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x00000000000000000000000006f05b59d3b20000 does not have any code
+Error: contract 0x00000000000000000000021e19e0c9bab2400000 does not have any code
+Error: contract 0x0000000000000000000000000000000000015180 does not have any code
+Error: server returned an error response: error code -32000: invalid input length
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000068124cba does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x668b858a8b06f5d0683deec5d312f1ca45ae6dc4 does not have any code
+Error: contract 0x72dce162f3090113fdf1a90bf4e67b752f556d0f does not have any code
+Error: contract 0x000000000000000000000000000000000076a700 does not have any code
+Error: contract 0x000000000000000000000000000000000000a8c0 does not have any code
+Error: contract 0x00000000000000000000000000000000000003e8 does not have any code
+Error: contract 0x0000000000000000000000000000000000015180 does not have any code
+Error: contract 0x00000000000000000000000000000000000001f4 does not have any code
+Error: contract 0x000000000000000000081a16ecb31ce61ec00d50 does not have any code
+Error: contract 0x00000000000000000002c36662c7b811b27b5f7a does not have any code
+Error: contract 0x0000000000000000000000000000000000000012 does not have any code
+Error: contract 0x1184332e71166e4cc1a13caeb92f7cbe22a00000 does not have any code
+Error: contract 0x4afc43e3d45f7a3b6d5632a1e691431952eb11b8 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x65fc662940f7324169a5d70605770749e382487e does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x1dc2a05b75d3179d598b7c7ebfab9f5dc550146a does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0xcac4bef447ae5c84659ebc01b58612d9514bfacb does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000056bc75e2d63100000 does not have any code
+Error: contract 0x000000000000000000000000000000003b9aca00 does not have any code
+Error: server returned an error response: error code -32000: invalid input length
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0xae95e0f21f7872ae2b07eeed0b65ca1d73061139 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000de0b6b3a7640000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x000000000000000000000000000000000000262a does not have any code
+Error: contract 0x0000000000000000000000000000000000000384 does not have any code
+Error: contract 0x0000000000000000000000000000000000000bb8 does not have any code
+Error: contract 0x78d7cc7a90ec6c68b33e614be447d463e2348e17 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x000000000000000000000003000000000023a506 does not have any code
+Error: contract 0xc0b6f953507e94357861594bf6a4aa626d79cade does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x768de0036bab3f81584cf6033db3fbddf1cc0a03 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0xd862656ca42bf5c0f3c3a0f8d0f2ba9f7d814cda does not have any code
+Error: contract 0x000000000000000000000000000000000000001e does not have any code
+Error: contract 0x0000000000000000000000000000000002932e00 does not have any code
+Error: contract 0xd862656ca42bf5c0f3c3a0f8d0f2ba9f7d814cda does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0xd13474c3ae88e13737e331f3b1bd1e240949d0cd does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000033b2e3c9fd0803ce8000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x3850bfb8ff46189b8da6435f0bbfed3c8b2dc015 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000004e20 does not have any code
+Error: contract 0x0000000000000000000000000000000000004e20 does not have any code
+Error: contract 0x0000000000000000000000000000000000001388 does not have any code
+Error: contract 0x0000000000000000000000000000000000001388 does not have any code
+Error: contract 0x0000000000000000000000000000000000002710 does not have any code
+Error: contract 0x30e47b1d6564414c4de10ff8523fd21ee9046e96 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0xcc0c041dab32a62b512f0b2ba84b02422b5c2433 does not have any code
+Error: contract 0x2c83adb294c62e7d92369e831c5722faa2f43d08 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x00000000000000000000001b1ae4d6e2ef500000 does not have any code
+Error: contract 0x00000000000000000000005150ae84a8cdf00000 does not have any code
+Error: contract 0x0000000000000000000000a2a15d09519be00000 does not have any code
+Error: contract 0x0000000000000000000000d8d726b7177a800000 does not have any code
+Error: contract 0x00000000000000000000010f0cf064dd59200000 does not have any code
+Error: contract 0x00000000000000000000014542ba12a337c00000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x00000000000000000001a784379d99db42000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: could not decode output; did you specify the wrong function return data type?
+
+Context:
+- ABI decoding failed: buffer overrun while deserializing
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x31a77d6bc701583785a1ff2aee8a74b23e30d243 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000022e2727dfc5400 does not have any code
+Error: contract 0x00000000000000000000000000003691d6afc000 does not have any code
+Error: contract 0x00000000000000000000000000003691d6afc000 does not have any code
+Error: server returned an error response: error code -32000: bn256: coordinate exceeds modulus
+Error: contract 0x0000000000000000000000000000000067f59c60 does not have any code
+Error: could not decode output; did you specify the wrong function return data type?
+
+Context:
+- ABI decoding failed: buffer overrun while deserializing
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000001431e0fae6d7217caa0000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000012 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x00000000000000000000000014d0fa633a3a9800 does not have any code
+Error: contract 0x8b515c06e994614fdf6def693e640f33559eaf00 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x9bd8d64c0a9583a7dcea9933f7b21697ab639608 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code 3: execution reverted: Diamond: Function does not exist, data: "0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000204469616d6f6e643a2046756e6374696f6e20646f6573206e6f74206578697374"
+Error: server returned an error response: error code 3: execution reverted: Address: low-level static call failed, data: "0x08c379a000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000025416464726573733a206c6f772d6c6576656c207374617469632063616c6c206661696c6564000000000000000000000000000000000000000000000000000000"
+Error: contract 0x0000000000000000204fce5e3e25026110000000 does not have any code
+Error: contract 0x00000000000000000000000003782dace9d90000 does not have any code
+Error: contract 0x00000000000000000000000000000000034dfc0e does not have any code
+Error: contract 0x0000000000000000000000000e07d4fd8b2665ef does not have any code
+Error: contract 0x000000000000000000021766e5ee46ec45432e0d does not have any code
+Error: contract 0x00000000000000000000000397700e42fb9dd325 does not have any code
+Error: contract 0x00000000000000000000000000010e60b23a5a20 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000007080 does not have any code
+Error: contract 0xa29ecd7c108bc31d2f80b10f3c923b8a78e82f1c does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x00000000000000000000000000000d89e6f2761a does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x8ea25f34f178b8734a522cccffd8b5d17758e21e does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x5db8606f2927e7173b3cab5a4c512d9f00bbf193 does not have any code
+Error: server returned an error response: error code 3: execution reverted, data: "0x48f5c3ed"
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000033a5a796c3a4bd97c812515 does not have any code
+Error: contract 0x8a4b64162906eff0ff6ae34e2bb1cd42fef62d12 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x000000000000000000000000000000000032dcd5 does not have any code
+Error: contract 0x000000000000000000000000000000003b9ac9ff does not have any code
+Error: contract 0x466b045700dc241828787adad35cd868ec041898 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x466b045700dc241828787adad35cd868ec041898 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x3af75af6f056d4d72c1675da919aebf908a109d6 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x837b51284c72e30e0d86b97fc92098cefe3a48fc does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000de0b6b3a7640000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000e10 does not have any code
+Error: contract 0x000000000000000000000000000000006881f413 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x36e5d4a59956dbfb23aefb3f090d2b195cecaa9e does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: contract 0x000000000000000000000000001aeea1d50e31aa does not have any code
+Error: contract 0x0000000000000000000000000000000068858116 does not have any code
+Error: contract 0x000000000000000000000a08efa5a8303c2f4802 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: server returned an error response: error code -32000: invalid input length
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000001 does not have any code
+Error: server returned an error response: error code -32000: execution reverted
+Error: contract 0x00000000000000000000000000000000687c3180 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+Error: contract 0x0000000000000000000000000000000000000000 does not have any code
+ - 2 tokens found
+  [18/50] 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 - 2 tokens found
+  [19/50] 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 - 5 tokens found
+  [20/50] 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 - 5 tokens found
+  [21/50] 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 - 2 tokens found
+  [22/50] 0x061f84461977625289beb281dab99b9027482eb7 - 4 tokens found
+  [23/50] 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b - 2 tokens found
+  [24/50] 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 - 2 tokens found
+  [25/50] 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 - 1 tokens found
+  [26/50] 0x2f24c0e65fd314460d5f3735faebc59d9101d299 - 2 tokens found
+  [27/50] 0x4345a1056e614e61c877ec1cb90510afc8753123 - 1 tokens found
+  [28/50] 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 - 1 tokens found
+  [29/50] 0xadb984fbafaa601691471fc451a55d1404235196 - 5 tokens found
+  [30/50] 0xe36b660612c8d877e6986bd0deb21704e0b75eed - 1 tokens found
+  [31/50] 0xa533ca75460135885f818a6c9524ef8d1027aeed - 1 tokens found
+  [32/50] 0x1b81d678ffb9c0263b24a97847620c99d213eb14 - 1 tokens found
+  [33/50] 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 - 0 tokens found
+  [34/50] 0x7e52a123ed6db6ac872a875552935fbbd2544c86 - 5 tokens found
+  [35/50] 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 - 0 tokens found
+  [36/50] 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 - 2 tokens found
+  [37/50] 0x0c1da220d301155b87318b90692da8dc43b67340 - 3 tokens found
+  [38/50] 0xec65f537bcb76552e94abf4e4e8114ccc218a46c - 5 tokens found
+  [39/50] 0x998cd057b3a22df1a77090c49404753b21f88afe - 1 tokens found
+  [40/50] 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c - 4 tokens found
+  [41/50] 0x090155383292bc42b7e089d37a018e5fa75f5cf9 - 1 tokens found
+  [42/50] 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d - 3 tokens found
+  [43/50] 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 - 5 tokens found
+  [44/50] 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 - 4 tokens found
+  [45/50] 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 - 1 tokens found
+  [46/50] 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 - 1 tokens found
+  [47/50] 0x42407fb33b3487fd7b644d84f35818a63e22b03c - 5 tokens found
+  [48/50] 0xb300000b72deaeb607a12d5f54773d1c19c7028d - 0 tokens found
+  [49/50] 0xedbe4ede631d89edd350afab4c466f2ce869d7fa - 5 tokens found
+  [50/50] 0x6825933667389fea81a6055d19146dbf7a21f5d6 - 1 tokens found
+
+🚀 Starting 20-minute fuzzing campaign...
+Will fuzz as many contracts as possible in 20 minutes
+
+
+[1] Time remaining: 20.0 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_erc20_56628714_1754470053
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_reentrancy_56628714_1754470053
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_erc20,reentrancy_56628714_1754470054
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_arbitrary_call_56628714_1754470054
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_typed_bug_56628714_1754470054
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x69f08d3e1db67352a4b271f3ecbae81ea27ffbd3_erc20,balance_drain_56628714_1754470055
+   ✅ Clean
+
+[2] Time remaining: 20.0 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_erc20_56628714_1754470055
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_reentrancy_56628714_1754470056
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_erc20,reentrancy_56628714_1754470056
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_arbitrary_call_56628714_1754470056
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_typed_bug_56628714_1754470057
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x317cd61fa24e2e4068b4c47bd58d5fc9f4e7a12b_erc20,balance_drain_56628714_1754470057
+   ✅ Clean
+
+[3] Time remaining: 19.9 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_erc20_56628714_1754470057
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_reentrancy_56628714_1754470058
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_erc20,reentrancy_56628714_1754470058
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_arbitrary_call_56628714_1754470059
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_typed_bug_56628714_1754470059
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d_erc20,balance_drain_56628714_1754470060
+   ✅ Clean
+
+[4] Time remaining: 19.9 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_erc20_56628714_1754470060
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_reentrancy_56628714_1754470060
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_erc20,reentrancy_56628714_1754470060
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_arbitrary_call_56628714_1754470060
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_typed_bug_56628714_1754470061
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x1a1ec25dc08e98e5e93f1104b5e5cdd298707d31_erc20,balance_drain_56628714_1754470062
+   ✅ Clean
+
+[5] Time remaining: 19.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_erc20_56628714_1754470062
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_reentrancy_56628714_1754470062
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_erc20,reentrancy_56628714_1754470063
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_arbitrary_call_56628714_1754470063
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_typed_bug_56628714_1754470064
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0xc75aabd3c47b91c897c5c885ab4ae691c34cd48a_erc20,balance_drain_56628714_1754470064
+   ✅ Clean
+
+[6] Time remaining: 19.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: erc20
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_erc20_56628714_1754470065
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_reentrancy_56628714_1754470065
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: erc20,reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_erc20,reentrancy_56628714_1754470066
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: arbitrary_call
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_arbitrary_call_56628714_1754470066
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: typed_bug
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_typed_bug_56628714_1754470066
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x55d398326f99059ff775485246999027b3197955 with detector: erc20,balance_drain
+   Tokens: 9
+   Work dir: mev/work_dirs/0x55d398326f99059ff775485246999027b3197955_erc20,balance_drain_56628714_1754470066
+   ✅ Clean
+
+[7] Time remaining: 19.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_erc20_56628714_1754470066
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_reentrancy_56628714_1754470067
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_erc20,reentrancy_56628714_1754470067
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_arbitrary_call_56628714_1754470067
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_typed_bug_56628714_1754470067
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x00000047bb99ea4d791bb749d970de71ee0b1a34 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x00000047bb99ea4d791bb749d970de71ee0b1a34_erc20,balance_drain_56628714_1754470067
+   ✅ Clean
+
+[8] Time remaining: 19.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_erc20_56628714_1754470067
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_reentrancy_56628714_1754470068
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_erc20,reentrancy_56628714_1754470068
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_arbitrary_call_56628714_1754470068
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_typed_bug_56628714_1754470069
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x3986f744fc4ada5739c9a30411f9b36bfe65e32f with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3986f744fc4ada5739c9a30411f9b36bfe65e32f_erc20,balance_drain_56628714_1754470069
+   ✅ Clean
+
+[9] Time remaining: 19.7 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_erc20_56628714_1754470069
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_reentrancy_56628714_1754470070
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_erc20,reentrancy_56628714_1754470071
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_arbitrary_call_56628714_1754470071
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_typed_bug_56628714_1754470071
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xe4eab320233147681a41a0a9b49a1e755105c2ba with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xe4eab320233147681a41a0a9b49a1e755105c2ba_erc20,balance_drain_56628714_1754470071
+   ✅ Clean
+
+[10] Time remaining: 19.7 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: erc20
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_erc20_56628714_1754470072
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_reentrancy_56628714_1754470072
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: erc20,reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_erc20,reentrancy_56628714_1754470073
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: arbitrary_call
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_arbitrary_call_56628714_1754470073
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: typed_bug
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_typed_bug_56628714_1754470073
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x05ff2b0db69458a0750badebc4f9e13add608c7f with detector: erc20,balance_drain
+   Tokens: 9
+   Work dir: mev/work_dirs/0x05ff2b0db69458a0750badebc4f9e13add608c7f_erc20,balance_drain_56628714_1754470073
+   ✅ Clean
+
+[11] Time remaining: 19.7 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_erc20_56628714_1754470073
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_reentrancy_56628714_1754470074
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_erc20,reentrancy_56628714_1754470074
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_arbitrary_call_56628714_1754470075
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_typed_bug_56628714_1754470075
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xb1f23a3fcc47905cce7e7ef0deae271855e914fa with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xb1f23a3fcc47905cce7e7ef0deae271855e914fa_erc20,balance_drain_56628714_1754470075
+   ✅ Clean
+
+[12] Time remaining: 19.6 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: erc20
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_erc20_56628714_1754470076
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_reentrancy_56628714_1754470076
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: erc20,reentrancy
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_erc20,reentrancy_56628714_1754470077
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: arbitrary_call
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_arbitrary_call_56628714_1754470078
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: typed_bug
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_typed_bug_56628714_1754470078
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xc70d97129b8b3459f417b335c653c3a78a00aa8d with detector: erc20,balance_drain
+   Tokens: 9
+   Work dir: mev/work_dirs/0xc70d97129b8b3459f417b335c653c3a78a00aa8d_erc20,balance_drain_56628714_1754470079
+   ✅ Clean
+
+[13] Time remaining: 19.6 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_erc20_56628714_1754470079
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_reentrancy_56628714_1754470080
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_erc20,reentrancy_56628714_1754470080
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_arbitrary_call_56628714_1754470080
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_typed_bug_56628714_1754470081
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x3d7ab4d0fd0b1fe69b5e55d1d8ea2de29d9182cd_erc20,balance_drain_56628714_1754470081
+   ✅ Clean
+
+[14] Time remaining: 19.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_erc20_56628714_1754470081
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_reentrancy_56628714_1754470082
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_erc20,reentrancy_56628714_1754470082
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_arbitrary_call_56628714_1754470082
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_typed_bug_56628714_1754470083
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0xfafb7581a65a1f554616bf780fc8a8acd2ab8c9b_erc20,balance_drain_56628714_1754470083
+   ✅ Clean
+
+[15] Time remaining: 19.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_erc20_56628714_1754470083
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_reentrancy_56628714_1754470084
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_erc20,reentrancy_56628714_1754470084
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_arbitrary_call_56628714_1754470085
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_typed_bug_56628714_1754470085
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xba53da030f3504db8cf0309bb89791950d0ce5e6 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xba53da030f3504db8cf0309bb89791950d0ce5e6_erc20,balance_drain_56628714_1754470085
+   ✅ Clean
+
+[16] Time remaining: 19.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_erc20_56628714_1754470086
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_reentrancy_56628714_1754470086
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_erc20,reentrancy_56628714_1754470087
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_arbitrary_call_56628714_1754470087
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_typed_bug_56628714_1754470087
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xac4c6e212a361c968f1725b4d055b47e63f80b75 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xac4c6e212a361c968f1725b4d055b47e63f80b75_erc20,balance_drain_56628714_1754470088
+   ✅ Clean
+
+[17] Time remaining: 19.4 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_erc20_56628714_1754470088
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_reentrancy_56628714_1754470088
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_erc20,reentrancy_56628714_1754470089
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_arbitrary_call_56628714_1754470089
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_typed_bug_56628714_1754470090
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xb0ce336350129b23d7735116b1e6c6c219cff253 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0xb0ce336350129b23d7735116b1e6c6c219cff253_erc20,balance_drain_56628714_1754470090
+   ✅ Clean
+
+[18] Time remaining: 19.4 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_erc20_56628714_1754470091
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_reentrancy_56628714_1754470091
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_erc20,reentrancy_56628714_1754470091
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_arbitrary_call_56628714_1754470091
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_typed_bug_56628714_1754470092
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x5fa78db915aecbdfd502affda277cb9632c8d4c2 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5fa78db915aecbdfd502affda277cb9632c8d4c2_erc20,balance_drain_56628714_1754470092
+   ✅ Clean
+
+[19] Time remaining: 19.3 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_erc20_56628714_1754470092
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_reentrancy_56628714_1754470093
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_erc20,reentrancy_56628714_1754470093
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_arbitrary_call_56628714_1754470093
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_typed_bug_56628714_1754470094
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6 with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0x43ef5494ac2fc8d1a6f5e838a02cb32b1941fda6_erc20,balance_drain_56628714_1754470094
+   ✅ Clean
+
+[20] Time remaining: 19.3 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_erc20_56628714_1754470095
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_reentrancy_56628714_1754470096
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_erc20,reentrancy_56628714_1754470096
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_arbitrary_call_56628714_1754470097
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_typed_bug_56628714_1754470098
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x22ca19f13c5979d93bbe7b082e8e084a6c7b2511_erc20,balance_drain_56628714_1754470098
+   ✅ Clean
+
+[21] Time remaining: 19.2 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_erc20_56628714_1754470098
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_reentrancy_56628714_1754470098
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_erc20,reentrancy_56628714_1754470099
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_arbitrary_call_56628714_1754470099
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_typed_bug_56628714_1754470099
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0xcfe66d6c615500fb0e567d9babdc6e3cdcd23634_erc20,balance_drain_56628714_1754470099
+   ✅ Clean
+
+[22] Time remaining: 19.2 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_erc20_56628714_1754470100
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_reentrancy_56628714_1754470100
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_erc20,reentrancy_56628714_1754470101
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_arbitrary_call_56628714_1754470101
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_typed_bug_56628714_1754470101
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x061f84461977625289beb281dab99b9027482eb7 with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0x061f84461977625289beb281dab99b9027482eb7_erc20,balance_drain_56628714_1754470101
+   ✅ Clean
+
+[23] Time remaining: 19.2 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_erc20_56628714_1754470102
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_reentrancy_56628714_1754470102
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_erc20,reentrancy_56628714_1754470103
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_arbitrary_call_56628714_1754470103
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_typed_bug_56628714_1754470103
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x75bdc1bef5f5bc2cf9306eef862a13c14b56493b_erc20,balance_drain_56628714_1754470103
+   ✅ Clean
+
+[24] Time remaining: 19.2 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_erc20_56628714_1754470104
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_reentrancy_56628714_1754470104
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_erc20,reentrancy_56628714_1754470105
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_arbitrary_call_56628714_1754470105
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_typed_bug_56628714_1754470105
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x5ddaf283ecf4756dd1fef394d0a14b4837d6efe7_erc20,balance_drain_56628714_1754470105
+   ✅ Clean
+
+[25] Time remaining: 19.1 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_erc20_56628714_1754470106
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_reentrancy_56628714_1754470106
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_erc20,reentrancy_56628714_1754470106
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_arbitrary_call_56628714_1754470107
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_typed_bug_56628714_1754470107
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0xb22f8e2afde5157d8ae41183904a3a95b6d5dc38_erc20,balance_drain_56628714_1754470107
+   ✅ Clean
+
+[26] Time remaining: 19.1 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_erc20_56628714_1754470108
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_reentrancy_56628714_1754470108
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_erc20,reentrancy_56628714_1754470108
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_arbitrary_call_56628714_1754470109
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_typed_bug_56628714_1754470109
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x2f24c0e65fd314460d5f3735faebc59d9101d299 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x2f24c0e65fd314460d5f3735faebc59d9101d299_erc20,balance_drain_56628714_1754470109
+   ✅ Clean
+
+[27] Time remaining: 19.1 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: erc20
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_erc20_56628714_1754470110
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_reentrancy_56628714_1754470110
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: erc20,reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_erc20,reentrancy_56628714_1754470110
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: arbitrary_call
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_arbitrary_call_56628714_1754470111
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: typed_bug
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_typed_bug_56628714_1754470111
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x4345a1056e614e61c877ec1cb90510afc8753123 with detector: erc20,balance_drain
+   Tokens: 6
+   Work dir: mev/work_dirs/0x4345a1056e614e61c877ec1cb90510afc8753123_erc20,balance_drain_56628714_1754470111
+   ✅ Clean
+
+[28] Time remaining: 19.0 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_erc20_56628714_1754470111
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_reentrancy_56628714_1754470112
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_erc20,reentrancy_56628714_1754470112
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_arbitrary_call_56628714_1754470112
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_typed_bug_56628714_1754470112
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x8838702a3ae338f9d11ab0ab3b42d08bc738dcb0_erc20,balance_drain_56628714_1754470113
+   ✅ Clean
+
+[29] Time remaining: 19.0 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_erc20_56628714_1754470113
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_reentrancy_56628714_1754470114
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_erc20,reentrancy_56628714_1754470114
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_arbitrary_call_56628714_1754470114
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_typed_bug_56628714_1754470115
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xadb984fbafaa601691471fc451a55d1404235196 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xadb984fbafaa601691471fc451a55d1404235196_erc20,balance_drain_56628714_1754470115
+   ✅ Clean
+
+[30] Time remaining: 19.0 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_erc20_56628714_1754470115
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_reentrancy_56628714_1754470116
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_erc20,reentrancy_56628714_1754470116
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_arbitrary_call_56628714_1754470117
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_typed_bug_56628714_1754470117
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xe36b660612c8d877e6986bd0deb21704e0b75eed with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0xe36b660612c8d877e6986bd0deb21704e0b75eed_erc20,balance_drain_56628714_1754470118
+   ✅ Clean
+
+[31] Time remaining: 18.9 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_erc20_56628714_1754470118
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_reentrancy_56628714_1754470118
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_erc20,reentrancy_56628714_1754470119
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_arbitrary_call_56628714_1754470119
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_typed_bug_56628714_1754470119
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xa533ca75460135885f818a6c9524ef8d1027aeed with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0xa533ca75460135885f818a6c9524ef8d1027aeed_erc20,balance_drain_56628714_1754470119
+   ✅ Clean
+
+[32] Time remaining: 18.9 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_erc20_56628714_1754470120
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_reentrancy_56628714_1754470120
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_erc20,reentrancy_56628714_1754470120
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_arbitrary_call_56628714_1754470120
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_typed_bug_56628714_1754470120
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x1b81d678ffb9c0263b24a97847620c99d213eb14 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x1b81d678ffb9c0263b24a97847620c99d213eb14_erc20,balance_drain_56628714_1754470121
+   ✅ Clean
+
+[33] Time remaining: 18.9 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: erc20
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_erc20_56628714_1754470121
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_reentrancy_56628714_1754470121
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: erc20,reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_erc20,reentrancy_56628714_1754470121
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: arbitrary_call
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_arbitrary_call_56628714_1754470122
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: typed_bug
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_typed_bug_56628714_1754470122
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x8fef07b83a93a580ca5b0a019875cb27f3be8888 with detector: erc20,balance_drain
+   Tokens: 6
+   Work dir: mev/work_dirs/0x8fef07b83a93a580ca5b0a019875cb27f3be8888_erc20,balance_drain_56628714_1754470122
+   ✅ Clean
+
+[34] Time remaining: 18.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_erc20_56628714_1754470122
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_reentrancy_56628714_1754470123
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_erc20,reentrancy_56628714_1754470123
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_arbitrary_call_56628714_1754470123
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_typed_bug_56628714_1754470124
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x7e52a123ed6db6ac872a875552935fbbd2544c86 with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0x7e52a123ed6db6ac872a875552935fbbd2544c86_erc20,balance_drain_56628714_1754470124
+   ✅ Clean
+
+[35] Time remaining: 18.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: erc20
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_erc20_56628714_1754470124
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_reentrancy_56628714_1754470125
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: erc20,reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_erc20,reentrancy_56628714_1754470125
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: arbitrary_call
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_arbitrary_call_56628714_1754470125
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: typed_bug
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_typed_bug_56628714_1754470126
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4 with detector: erc20,balance_drain
+   Tokens: 6
+   Work dir: mev/work_dirs/0x481bb72e3a0501bce25e2f7f745cbb0b83c627c4_erc20,balance_drain_56628714_1754470126
+   ✅ Clean
+
+[36] Time remaining: 18.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_erc20_56628714_1754470126
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_reentrancy_56628714_1754470126
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_erc20,reentrancy_56628714_1754470126
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_arbitrary_call_56628714_1754470127
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_typed_bug_56628714_1754470127
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x75ca521892de7f2ecfb070cab545c250d0ceb7e3 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x75ca521892de7f2ecfb070cab545c250d0ceb7e3_erc20,balance_drain_56628714_1754470127
+   ✅ Clean
+
+[37] Time remaining: 18.8 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_erc20_56628714_1754470128
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_reentrancy_56628714_1754470128
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_erc20,reentrancy_56628714_1754470128
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_arbitrary_call_56628714_1754470129
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_typed_bug_56628714_1754470129
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x0c1da220d301155b87318b90692da8dc43b67340 with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x0c1da220d301155b87318b90692da8dc43b67340_erc20,balance_drain_56628714_1754470130
+   ✅ Clean
+
+[38] Time remaining: 18.7 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_erc20_56628714_1754470130
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_reentrancy_56628714_1754470130
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_erc20,reentrancy_56628714_1754470130
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_arbitrary_call_56628714_1754470131
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_typed_bug_56628714_1754470131
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xec65f537bcb76552e94abf4e4e8114ccc218a46c with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0xec65f537bcb76552e94abf4e4e8114ccc218a46c_erc20,balance_drain_56628714_1754470131
+   ✅ Clean
+
+[39] Time remaining: 18.7 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_erc20_56628714_1754470132
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_reentrancy_56628714_1754470132
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_erc20,reentrancy_56628714_1754470132
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_arbitrary_call_56628714_1754470133
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_typed_bug_56628714_1754470133
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x998cd057b3a22df1a77090c49404753b21f88afe with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x998cd057b3a22df1a77090c49404753b21f88afe_erc20,balance_drain_56628714_1754470134
+   ✅ Clean
+
+[40] Time remaining: 18.6 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_erc20_56628714_1754470134
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_reentrancy_56628714_1754470134
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_erc20,reentrancy_56628714_1754470135
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_arbitrary_call_56628714_1754470135
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_typed_bug_56628714_1754470136
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0x0ba6d224169bbfad4eb2d38c500d2c8e8ede696c_erc20,balance_drain_56628714_1754470137
+   ✅ Clean
+
+[41] Time remaining: 18.6 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_erc20_56628714_1754470137
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_reentrancy_56628714_1754470137
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_erc20,reentrancy_56628714_1754470138
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_arbitrary_call_56628714_1754470138
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_typed_bug_56628714_1754470138
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x090155383292bc42b7e089d37a018e5fa75f5cf9 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x090155383292bc42b7e089d37a018e5fa75f5cf9_erc20,balance_drain_56628714_1754470138
+   ✅ Clean
+
+[42] Time remaining: 18.6 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: erc20
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_erc20_56628714_1754470139
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_reentrancy_56628714_1754470139
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: erc20,reentrancy
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_erc20,reentrancy_56628714_1754470140
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: arbitrary_call
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_arbitrary_call_56628714_1754470140
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: typed_bug
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_typed_bug_56628714_1754470140
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d with detector: erc20,balance_drain
+   Tokens: 8
+   Work dir: mev/work_dirs/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d_erc20,balance_drain_56628714_1754470140
+   ✅ Clean
+
+[43] Time remaining: 18.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_erc20_56628714_1754470141
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_reentrancy_56628714_1754470141
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_erc20,reentrancy_56628714_1754470142
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_arbitrary_call_56628714_1754470142
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_typed_bug_56628714_1754470143
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x0fa0f96f676f55afd15b9af26e711b2acccb89e0 with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x0fa0f96f676f55afd15b9af26e711b2acccb89e0_erc20,balance_drain_56628714_1754470143
+   ✅ Clean
+
+[44] Time remaining: 18.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: erc20
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_erc20_56628714_1754470143
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_reentrancy_56628714_1754470144
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: erc20,reentrancy
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_erc20,reentrancy_56628714_1754470145
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: arbitrary_call
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_arbitrary_call_56628714_1754470145
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: typed_bug
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_typed_bug_56628714_1754470145
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x13f4ea83d0bd40e75c8222255bc855a974568dd4 with detector: erc20,balance_drain
+   Tokens: 10
+   Work dir: mev/work_dirs/0x13f4ea83d0bd40e75c8222255bc855a974568dd4_erc20,balance_drain_56628714_1754470145
+   ✅ Clean
+
+[45] Time remaining: 18.5 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_erc20_56628714_1754470145
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_reentrancy_56628714_1754470146
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_erc20,reentrancy_56628714_1754470146
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_arbitrary_call_56628714_1754470146
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_typed_bug_56628714_1754470147
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0xaa18f5cc8d45d6a34f81099ec6e45c5c2c566865_erc20,balance_drain_56628714_1754470147
+   ✅ Clean
+
+[46] Time remaining: 18.4 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_erc20_56628714_1754470147
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_reentrancy_56628714_1754470148
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_erc20,reentrancy_56628714_1754470148
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_arbitrary_call_56628714_1754470148
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_typed_bug_56628714_1754470149
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x665f178d9ea9fe2aef7ba210fd042c1df899e052 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x665f178d9ea9fe2aef7ba210fd042c1df899e052_erc20,balance_drain_56628714_1754470149
+   ✅ Clean
+
+[47] Time remaining: 18.4 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_erc20_56628714_1754470150
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_reentrancy_56628714_1754470150
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_erc20,reentrancy_56628714_1754470151
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_arbitrary_call_56628714_1754470151
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_typed_bug_56628714_1754470152
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x42407fb33b3487fd7b644d84f35818a63e22b03c with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0x42407fb33b3487fd7b644d84f35818a63e22b03c_erc20,balance_drain_56628714_1754470152
+   ✅ Clean
+
+[48] Time remaining: 18.3 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: erc20
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_erc20_56628714_1754470152
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_reentrancy_56628714_1754470153
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: erc20,reentrancy
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_erc20,reentrancy_56628714_1754470153
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: arbitrary_call
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_arbitrary_call_56628714_1754470154
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: typed_bug
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_typed_bug_56628714_1754470154
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xb300000b72deaeb607a12d5f54773d1c19c7028d with detector: erc20,balance_drain
+   Tokens: 6
+   Work dir: mev/work_dirs/0xb300000b72deaeb607a12d5f54773d1c19c7028d_erc20,balance_drain_56628714_1754470154
+   ✅ Clean
+
+[49] Time remaining: 18.3 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: erc20
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_erc20_56628714_1754470154
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_reentrancy_56628714_1754470155
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: erc20,reentrancy
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_erc20,reentrancy_56628714_1754470155
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: arbitrary_call
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_arbitrary_call_56628714_1754470156
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: typed_bug
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_typed_bug_56628714_1754470156
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0xedbe4ede631d89edd350afab4c466f2ce869d7fa with detector: erc20,balance_drain
+   Tokens: 11
+   Work dir: mev/work_dirs/0xedbe4ede631d89edd350afab4c466f2ce869d7fa_erc20,balance_drain_56628714_1754470156
+   ✅ Clean
+
+[50] Time remaining: 18.3 minutes
+
+============================================================
+Running detector: erc20
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: erc20
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_erc20_56628714_1754470156
+   ✅ Clean
+
+============================================================
+Running detector: reentrancy
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_reentrancy_56628714_1754470157
+   ✅ Clean
+
+============================================================
+Running detector: erc20,reentrancy
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: erc20,reentrancy
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_erc20,reentrancy_56628714_1754470157
+   ✅ Clean
+
+============================================================
+Running detector: arbitrary_call
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: arbitrary_call
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_arbitrary_call_56628714_1754470157
+   ✅ Clean
+
+============================================================
+Running detector: typed_bug
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: typed_bug
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_typed_bug_56628714_1754470158
+   ✅ Clean
+
+============================================================
+Running detector: erc20,balance_drain
+============================================================
+
+🎯 Fuzzing 0x6825933667389fea81a6055d19146dbf7a21f5d6 with detector: erc20,balance_drain
+   Tokens: 7
+   Work dir: mev/work_dirs/0x6825933667389fea81a6055d19146dbf7a21f5d6_erc20,balance_drain_56628714_1754470158
+   ✅ Clean
+
+============================================================
+📊 FUZZING COMPLETE
+============================================================
+Duration: 1.8 minutes
+Contracts found: 155
+Contracts analyzed: 50
+Contracts fuzzed: 50
+Vulnerabilities found: 0
+
+📄 Full report saved to: mev/fuzzing_logs/universal_fuzz_report_1754470159.json
+📁 Work directories saved in: mev/work_dirs/
+📊 All logs saved in: mev/logs/
+🚨 Vulnerabilities saved in: mev/vulnerability_logs/
+
+✅ All data preserved for MEV exploitation!
