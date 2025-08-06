@@ -27,8 +27,11 @@ class UniversalContractFuzzer:
         self.base_url = "https://api.etherscan.io/v2/api"
         self.chain_id = "56"
         
-        # ItyFuzz path
-        self.ityfuzz_path = "./target/debug/ityfuzz"
+        # ItyFuzz path - use release for better performance
+        self.ityfuzz_path = "./target/release/ityfuzz"
+        # Fallback to debug if release not available
+        if not os.path.exists(self.ityfuzz_path):
+            self.ityfuzz_path = "./target/debug/ityfuzz"
         
         # Create directories
         os.makedirs("work_dirs", exist_ok=True)
@@ -241,30 +244,36 @@ class UniversalContractFuzzer:
         os.makedirs(work_dir, exist_ok=True)
         result["work_dir"] = work_dir
         
+        # Build all target addresses into one comma-separated string
+        all_targets = [address] + self.common_tokens + tokens
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_targets = []
+        for t in all_targets:
+            if t not in seen:
+                seen.add(t)
+                unique_targets.append(t)
+        
+        targets_string = ",".join(unique_targets)
+        
         # Build ItyFuzz command with work directory
         cmd = [
-            self.ityfuzz_path,
-            "-t", address,
-            "-c", "BSC",
+            self.ityfuzz_path, "evm",  # Need to specify evm subcommand
+            "-t", targets_string,  # All targets in one parameter
+            "-c", "bsc",  # lowercase
             "--onchain-block-number", str(block),
-            "-f", "-i", "-p",
+            "-f",  # Fork mode
+            "--panic-on-bug",  # Stop on first bug
+            "--detectors", "all",  # Use all detectors
             "--work-dir", work_dir,  # Save corpus and findings here
-            "--run-forever"  # Keep fuzzing until timeout
+            "--onchain-url", self.public_rpc
         ]
-        
-        # Add common tokens
-        for token in self.common_tokens:
-            cmd.extend(["-t", token])
-        
-        # Add contract-specific tokens
-        for token in tokens:
-            if token not in self.common_tokens:
-                cmd.extend(["-t", token])
         
         # Set environment
         env = os.environ.copy()
         env["ETH_RPC_URL"] = self.public_rpc
-        env["RUST_LOG"] = "info"
+        env["RUST_LOG"] = "error"  # Less verbose
+        env["RAYON_NUM_THREADS"] = "32"  # Max parallelism
         
         print(f"\n🎯 Fuzzing {address}")
         print(f"   Tokens: {len(self.common_tokens) + len(tokens)}")

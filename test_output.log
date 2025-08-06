@@ -1,0 +1,33 @@
+[34mDEBUG[0m Seed: 1667840158231589000
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 211 bytes
+[34mDEBUG[0m parsed 11 headers
+[34mDEBUG[0m incoming body is chunked encoding
+[34mDEBUG[0m incoming chunked header: 0xF78 (3960 bytes)
+[34mDEBUG[0m incoming chunked header: 0x1000 (4096 bytes)
+[34mDEBUG[0m incoming chunked header: 0x750 (1872 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+[32m INFO[0m fetching abi from https://api.etherscan.io/v2/api?chainid=56&module=contract&action=getabi&address=0x68cc90351a79a4c10078fe021be430b7a12aaa09&format=json&apikey=6J26IP7U4YSMEUFVWQWJJRMIT2XNBY2VPU
+[34mDEBUG[0m resolving host="api.etherscan.io"
+[34mDEBUG[0m connecting to 217.79.243.34:443
+[34mDEBUG[0m connected to 217.79.243.34:443
+[34mDEBUG[0m flushed 847 bytes
+[34mDEBUG[0m parsed 12 headers
+[34mDEBUG[0m incoming body is content-length (72 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", api.etherscan.io)
+[32m INFO[0m fetching code from 68cc90351a79a4c10078fe021be430b7a12aaa09
+[34mDEBUG[0m resolving host="bnb.api.onfinality.io"
+[34mDEBUG[0m connecting to 142.215.53.55:443
+[34mDEBUG[0m connected to 142.215.53.55:443
+[34mDEBUG[0m flushed 242 bytes
+[34mDEBUG[0m parsed 13 headers
+[34mDEBUG[0m incoming body is content-length (39 bytes)
+[34mDEBUG[0m incoming body completed
+[34mDEBUG[0m pooling idle connection for ("https", bnb.api.onfinality.io)
+thread 'main' panicked at src/evm/contract_utils.rs:238:85:
+failed to parse abis file: Error("expected value", line: 1, column: 1)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
