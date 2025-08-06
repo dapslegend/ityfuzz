@@ -45,30 +45,58 @@ class UniversalContractFuzzer:
         ]
     
     def get_recent_contracts_etherscan(self, limit: int = 100) -> List[str]:
-        """Get recently verified contracts from Etherscan"""
+        """Get recently verified contracts from Etherscan API v2"""
         contracts = []
         
-        for page in range(1, 3):  # Get 2 pages
-            url = f"{self.base_url}?chainid={self.chain_id}&module=contract&action=getverifiedcontracts"
-            params = {
-                "page": page,
-                "offset": 50,
-                "apikey": self.api_key,
-                "sort": "desc"  # Most recent first
-            }
+        # Use the correct Etherscan API v2 endpoint structure
+        url = "https://api.etherscan.io/v2/api"
+        
+        # Get recent verified contracts for BSC (chainId 56)
+        params = {
+            "chainid": "56",
+            "module": "contract",
+            "action": "listcontracts",
+            "page": "1",
+            "offset": "100",
+            "sort": "desc",
+            "apikey": self.api_key
+        }
+        
+        try:
+            response = requests.get(url, params=params)
+            data = response.json()
             
-            try:
+            if data.get("status") == "1" and data.get("result"):
+                for contract in data.get("result", []):
+                    if contract.get("ContractAddress"):
+                        contracts.append(contract["ContractAddress"])
+                    elif contract.get("Address"):
+                        contracts.append(contract["Address"])
+                    elif contract.get("address"):
+                        contracts.append(contract["address"])
+            
+            # If first attempt doesn't work, try alternative endpoint
+            if len(contracts) == 0:
+                # Try getting recent transactions and extract contract addresses
+                params["action"] = "txlist"
+                params["address"] = "0x10ED43C718714eb63d5aA57B78B54704E256024E"  # PancakeSwap Router
+                
                 response = requests.get(url, params=params)
                 data = response.json()
                 
-                if data.get("status") == "1":
-                    for contract in data.get("result", []):
-                        if contract.get("Address"):
-                            contracts.append(contract["Address"])
+                if data.get("status") == "1" and data.get("result"):
+                    seen = set()
+                    for tx in data.get("result", []):
+                        # Get unique contract addresses
+                        if tx.get("to") and tx.get("to") not in seen:
+                            seen.add(tx["to"])
+                            contracts.append(tx["to"])
+                        if tx.get("contractAddress") and tx.get("contractAddress") not in seen:
+                            seen.add(tx["contractAddress"])
+                            contracts.append(tx["contractAddress"])
                 
-                time.sleep(0.2)  # Rate limit
-            except:
-                pass
+        except Exception as e:
+            print(f"  Etherscan API error: {e}")
         
         return contracts[:limit]
     
@@ -204,7 +232,7 @@ class UniversalContractFuzzer:
             "--onchain-block-number", str(block),
             "-f", "-i", "-p",
             "--work-dir", work_dir,  # Save corpus and findings here
-            "--run-forever", "60"  # 1 minute timeout
+            "--run-forever"  # Keep fuzzing until timeout
         ]
         
         # Add common tokens
@@ -234,7 +262,7 @@ class UniversalContractFuzzer:
                 env=env
             )
             
-            # Wait with timeout
+            # Wait with timeout (60 seconds fuzzing + 10 buffer)
             stdout, stderr = process.communicate(timeout=70)
             output = stdout.decode() + stderr.decode()
             
@@ -316,7 +344,8 @@ def main():
     
     # Source 1: Recent blocks from historical RPC
     print("📡 Source 1: Scanning recent blocks...")
-    block_range = range(hist_block - 50, hist_block + 1)
+    # Scan only last 10 blocks but more thoroughly
+    block_range = range(hist_block - 10, hist_block + 1)
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(fuzzer.get_contracts_from_block, block): block 
@@ -340,14 +369,20 @@ def main():
     
     # If no contracts found, add some known ones for testing
     if len(all_contracts) == 0:
-        print("\n⚠️  No contracts found from scanning. Adding known test contracts...")
+        print("\n⚠️  No contracts found from scanning. Adding known BSC contracts...")
+        # Add some active BSC contracts
         test_contracts = [
             "0x68Cc90351a79A4c10078FE021bE430b7a12aaA09",  # BEGO from previous tests
             "0x88503F48e437a377f1aC2892cBB3a5b09949faDd",  # Another from previous
             "0xc342774492b54ce5F8ac662113ED702Fc1b34972",  # Another from previous
+            "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",  # CAKE token
+            "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",  # ETH on BSC
+            "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",  # BTCB
+            "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",  # LINK
+            "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",  # ADA
         ]
         all_contracts.update(test_contracts)
-        print(f"  Added {len(test_contracts)} test contracts")
+        print(f"  Added {len(test_contracts)} BSC contracts")
     
     # Find tokens for each contract
     print("\n🔍 Analyzing contracts and finding associated tokens...")

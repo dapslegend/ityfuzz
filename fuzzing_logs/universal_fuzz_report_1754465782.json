@@ -1,0 +1,17 @@
+{
+  "scan_time": "2025-08-06T07:36:22.863891",
+  "duration_seconds": 0.10321736335754395,
+  "blocks": {
+    "historical_latest": 55442460,
+    "public_latest": 56623552,
+    "fuzzing_block": 56623551
+  },
+  "contracts": {
+    "total_found": 8,
+    "analyzed": 8,
+    "fuzzed": 8
+  },
+  "vulnerabilities_found": 0,
+  "total_profit_eth": 0,
+  "results": []
+}
